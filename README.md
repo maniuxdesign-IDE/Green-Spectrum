@@ -1,2 +1,2 @@
-# Green-Spectrum-
+# Green-Spectrum
 Green Spectrum WebApp
