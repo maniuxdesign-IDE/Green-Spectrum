@@ -669,6 +669,22 @@ summary small,
 .mini-icon.nodes::before { width: 8px; height: 8px; left: 12px; top: 16px; box-shadow: 20px 14px var(--gs-mid-green), 27px -3px rgba(23,32,27,0.32); }
 .mini-icon.branch::before { width: 34px; height: 1px; left: 10px; top: 27px; background: var(--gs-muted-text); transform: rotate(-25deg); }
 .mini-icon.path::before { width: 34px; height: 18px; left: 9px; top: 17px; border: 1px solid var(--gs-muted-text); background: transparent; border-top: 0; }
+.challenge-card {
+  min-height: 360px;
+  gap: clamp(14px, 1.7vw, 20px);
+}
+.challenge-icon {
+  width: clamp(74px, 7vw, 104px);
+  height: clamp(74px, 7vw, 104px);
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin-bottom: clamp(8px, 1vw, 14px);
+  mix-blend-mode: multiply;
+}
+.challenge-card h3 {
+  margin-top: 0;
+}
 .editorial-statement, .highlight-statement, .closing-copy {
   margin-top: clamp(46px, 7vw, 96px);
   font-size: clamp(2rem, 4.5vw, 5.2rem);
