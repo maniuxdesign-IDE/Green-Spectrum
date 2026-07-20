@@ -794,7 +794,7 @@ details p { margin-top: 10px; }
   --relationship-centre-y: 49%;
   --relationship-label-edge-pad: clamp(34px, 4vw, 56px);
   --relationship-label-centre-clearance: clamp(82px, 8vw, 108px);
-  --relationship-label-bottom-pad: clamp(46px, 5vw, 66px);
+  --relationship-label-bottom-pad: clamp(22px, 3vw, 38px);
 }
 .relationship-diagram button {
   position: absolute;
@@ -848,8 +848,8 @@ details p { margin-top: 10px; }
   left: var(--relationship-bottom-x);
   top: var(--relationship-bottom-y);
   transform: translate(-50%, -50%);
-  align-items: flex-end;
-  padding: 0 var(--relationship-label-edge-pad) var(--relationship-label-bottom-pad);
+  align-items: center;
+  padding: var(--relationship-label-bottom-pad) var(--relationship-label-edge-pad) 0;
 }
 .relationship-diagram span {
   position: absolute;
