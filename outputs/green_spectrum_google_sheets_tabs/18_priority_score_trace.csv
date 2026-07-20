@@ -1,0 +1,501 @@
+company_id,company,problem_id,problem_title,factor,score,weight,contribution,direction,explanation
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,impact,5,20,100,raises,Impact is very high and carries weight 20.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,influence,5,10,50,raises,Influence is very high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,confidence,5,10,50,raises,Confidence is very high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,impact,2,20,40,limits,Impact is low and carries weight 20.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,strategic,3,15,45,neutral,Strategic is moderate and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,urgency,2,10,20,limits,Urgency is low and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,influence,4,10,40,raises,Influence is high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,impact,4,20,80,raises,Impact is high and carries weight 20.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,impact,4,20,80,raises,Impact is high and carries weight 20.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,effort,5,10,-50,lowers,Effort is very high and is treated as a delivery penalty.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,impact,5,20,100,raises,Impact is very high and carries weight 20.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,impact,5,20,100,raises,Impact is very high and carries weight 20.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,influence,2,10,20,limits,Influence is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,impact,4,20,80,raises,Impact is high and carries weight 20.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,influence,5,10,50,raises,Influence is very high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,impact,4,20,80,raises,Impact is high and carries weight 20.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,influence,5,10,50,raises,Influence is very high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,impact,4,20,80,raises,Impact is high and carries weight 20.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,influence,4,10,40,raises,Influence is high and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,impact,5,20,100,raises,Impact is very high and carries weight 20.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,impact,5,20,100,raises,Impact is very high and carries weight 20.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,influence,4,10,40,raises,Influence is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,impact,4,20,80,raises,Impact is high and carries weight 20.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,influence,4,10,40,raises,Influence is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,influence,5,10,50,raises,Influence is very high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,impact,4,20,80,raises,Impact is high and carries weight 20.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,influence,2,10,20,limits,Influence is low and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,confidence,1,10,10,limits,Confidence is very low and carries weight 10.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,impact,5,20,100,raises,Impact is very high and carries weight 20.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,influence,5,10,50,raises,Influence is very high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,impact,4,20,80,raises,Impact is high and carries weight 20.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,influence,5,10,50,raises,Influence is very high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,confidence,5,10,50,raises,Confidence is very high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,impact,4,20,80,raises,Impact is high and carries weight 20.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,influence,4,10,40,raises,Influence is high and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,strategic,3,15,45,neutral,Strategic is moderate and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,impact,5,20,100,raises,Impact is very high and carries weight 20.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,influence,2,10,20,limits,Influence is low and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,impact,4,20,80,raises,Impact is high and carries weight 20.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,impact,5,20,100,raises,Impact is very high and carries weight 20.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,influence,2,10,20,limits,Influence is low and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,confidence,1,10,10,limits,Confidence is very low and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,strategic,3,15,45,neutral,Strategic is moderate and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,influence,5,10,50,raises,Influence is very high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,impact,2,20,40,limits,Impact is low and carries weight 20.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,strategic,3,15,45,neutral,Strategic is moderate and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,leverage,2,15,30,limits,Leverage is low and carries weight 15.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,influence,4,10,40,raises,Influence is high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,readiness,5,10,50,raises,Readiness is very high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,confidence,5,10,50,raises,Confidence is very high and carries weight 10.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,impact,5,20,100,raises,Impact is very high and carries weight 20.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,influence,5,10,50,raises,Influence is very high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,impact,4,20,80,raises,Impact is high and carries weight 20.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,influence,4,10,40,raises,Influence is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,impact,4,20,80,raises,Impact is high and carries weight 20.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,influence,4,10,40,raises,Influence is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,strategic,3,15,45,neutral,Strategic is moderate and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,influence,4,10,40,raises,Influence is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,impact,4,20,80,raises,Impact is high and carries weight 20.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,impact,5,20,100,raises,Impact is very high and carries weight 20.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,confidence,1,10,10,limits,Confidence is very low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,impact,4,20,80,raises,Impact is high and carries weight 20.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,influence,5,10,50,raises,Influence is very high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,influence,5,10,50,raises,Influence is very high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,influence,4,10,40,raises,Influence is high and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,confidence,1,10,10,limits,Confidence is very low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,strategic,3,15,45,neutral,Strategic is moderate and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,urgency,2,10,20,limits,Urgency is low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,impact,5,20,100,raises,Impact is very high and carries weight 20.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,confidence,1,10,10,limits,Confidence is very low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,impact,4,20,80,raises,Impact is high and carries weight 20.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,influence,4,10,40,raises,Influence is high and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,influence,4,10,40,raises,Influence is high and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,impact,4,20,80,raises,Impact is high and carries weight 20.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,influence,2,10,20,limits,Influence is low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,effort,2,10,-20,supports feasibility,Effort is low and is treated as a delivery penalty.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,impact,5,20,100,raises,Impact is very high and carries weight 20.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,influence,4,10,40,raises,Influence is high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,impact,5,20,100,raises,Impact is very high and carries weight 20.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,influence,5,10,50,raises,Influence is very high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,impact,4,20,80,raises,Impact is high and carries weight 20.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,urgency,5,10,50,raises,Urgency is very high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,impact,4,20,80,raises,Impact is high and carries weight 20.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,influence,5,10,50,raises,Influence is very high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,stakeholder,5,5,25,raises,Stakeholder is very high and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,impact,4,20,80,raises,Impact is high and carries weight 20.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,influence,2,10,20,limits,Influence is low and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,impact,5,20,100,raises,Impact is very high and carries weight 20.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,leverage,5,15,75,raises,Leverage is very high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,influence,4,10,40,raises,Influence is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,impact,4,20,80,raises,Impact is high and carries weight 20.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,influence,5,10,50,raises,Influence is very high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,readiness,4,10,40,raises,Readiness is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,confidence,5,10,50,raises,Confidence is very high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,impact,4,20,80,raises,Impact is high and carries weight 20.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,strategic,5,15,75,raises,Strategic is very high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,urgency,4,10,40,raises,Urgency is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,influence,4,10,40,raises,Influence is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,confidence,4,10,40,raises,Confidence is high and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,stakeholder,3,5,15,neutral,Stakeholder is moderate and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,impact,3,20,60,neutral,Impact is moderate and carries weight 20.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,leverage,3,15,45,neutral,Leverage is moderate and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,influence,3,10,30,neutral,Influence is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,readiness,3,10,30,neutral,Readiness is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,confidence,3,10,30,neutral,Confidence is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,stakeholder,2,5,10,limits,Stakeholder is low and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,effort,3,10,-30,neutral,Effort is moderate and is treated as a delivery penalty.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,impact,4,20,80,raises,Impact is high and carries weight 20.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,strategic,4,15,60,raises,Strategic is high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,leverage,4,15,60,raises,Leverage is high and carries weight 15.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,urgency,3,10,30,neutral,Urgency is moderate and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,influence,2,10,20,limits,Influence is low and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,readiness,2,10,20,limits,Readiness is low and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,confidence,2,10,20,limits,Confidence is low and carries weight 10.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,stakeholder,4,5,20,raises,Stakeholder is high and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,learning,3,5,15,neutral,Learning is moderate and carries weight 5.
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,effort,4,10,-40,lowers,Effort is high and is treated as a delivery penalty.

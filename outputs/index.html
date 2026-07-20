@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Spectrum Test Outputs</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17221c;
+        --muted: #5e6a62;
+        --line: #d9dfd8;
+        --panel: #ffffff;
+        --wash: #f4f7f3;
+        --green: #0f5a36;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--wash);
+        color: var(--ink);
+      }
+
+      main {
+        width: min(1120px, calc(100% - 48px));
+        margin: 0 auto;
+        padding: 48px 0 64px;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(32px, 5vw, 56px);
+        line-height: 1;
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-size: 22px;
+      }
+
+      p {
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.55;
+        max-width: 760px;
+      }
+
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        margin-top: 24px;
+      }
+
+      .quick-links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      a.card-link {
+        display: flex;
+        align-items: center;
+        min-height: 56px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        color: var(--ink);
+        text-decoration: none;
+        font-weight: 700;
+        background: #fbfdfb;
+      }
+
+      a.card-link:hover {
+        border-color: var(--green);
+        color: var(--green);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+      }
+
+      th,
+      td {
+        padding: 13px 12px;
+        text-align: left;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      th {
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      td:first-child {
+        width: 76px;
+        color: var(--muted);
+      }
+
+      td a {
+        color: var(--green);
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      td a:hover {
+        text-decoration: underline;
+      }
+
+      code {
+        background: #edf2ed;
+        border-radius: 5px;
+        padding: 2px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Green Spectrum Test Outputs</h1>
+      <p>
+        These are the automated dummy-company test results for the Green Spectrum MVP.
+        Import the numbered CSV files into Google Sheets as separate tabs, starting with
+        <code>00_summary.csv</code>.
+      </p>
+
+      <section class="panel" aria-labelledby="quick-files">
+        <h2 id="quick-files">Quick Files</h2>
+        <div class="quick-links">
+          <a class="card-link" href="green_spectrum_google_sheets_tabs.zip" download>Download all Google Sheets CSV tabs</a>
+          <a class="card-link" href="green_spectrum_dummy_test_results.csv" download>Open summary CSV</a>
+          <a class="card-link" href="green_spectrum_dummy_test_runs.json" download>Download full raw JSON</a>
+          <a class="card-link" href="google_sheets_import_README.md">Read import instructions</a>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="sheet-tabs">
+        <h2 id="sheet-tabs">Google Sheets Tabs</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Order</th>
+              <th>CSV file</th>
+              <th>Contains</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>00</td><td><a href="green_spectrum_google_sheets_tabs/00_summary.csv" download>00_summary.csv</a></td><td>One row per dummy company, with overall status, warnings, failure counts, and final output checks.</td></tr>
+            <tr><td>01</td><td><a href="green_spectrum_google_sheets_tabs/01_onboarding_context.csv" download>01_onboarding_context.csv</a></td><td>Company profile, sector, maturity, testing persona, constraints, and starting assumptions.</td></tr>
+            <tr><td>02</td><td><a href="green_spectrum_google_sheets_tabs/02_explore_responses.csv" download>02_explore_responses.csv</a></td><td>Business, human, and planetary empathy inputs captured during the Explore stage.</td></tr>
+            <tr><td>03</td><td><a href="green_spectrum_google_sheets_tabs/03_explore_outputs.csv" download>03_explore_outputs.csv</a></td><td>Explore-stage generated assets, prompts, patterns, and synthesis outputs.</td></tr>
+            <tr><td>04</td><td><a href="green_spectrum_google_sheets_tabs/04_impact_scope.csv" download>04_impact_scope.csv</a></td><td>Impact journey mapping scope, actors, boundaries, and journey framing.</td></tr>
+            <tr><td>05</td><td><a href="green_spectrum_google_sheets_tabs/05_impact_stages.csv" download>05_impact_stages.csv</a></td><td>Mapped journey stages, activity details, evidence strength, and friction points.</td></tr>
+            <tr><td>06</td><td><a href="green_spectrum_google_sheets_tabs/06_impact_relationships.csv" download>06_impact_relationships.csv</a></td><td>Relationships and dependencies identified across the mapped journey.</td></tr>
+            <tr><td>07</td><td><a href="green_spectrum_google_sheets_tabs/07_impact_problem_signals.csv" download>07_impact_problem_signals.csv</a></td><td>Problem signals emerging from the impact mapping stage.</td></tr>
+            <tr><td>08</td><td><a href="green_spectrum_google_sheets_tabs/08_impact_analysis_outputs.csv" download>08_impact_analysis_outputs.csv</a></td><td>Impact-stage analysis outputs and synthesized insights.</td></tr>
+            <tr><td>09</td><td><a href="green_spectrum_google_sheets_tabs/09_priority_problem_scores.csv" download>09_priority_problem_scores.csv</a></td><td>Prioritisation scoring for candidate problems.</td></tr>
+            <tr><td>10</td><td><a href="green_spectrum_google_sheets_tabs/10_priority_recommendations.csv" download>10_priority_recommendations.csv</a></td><td>Recommended priorities and rationale for each company.</td></tr>
+            <tr><td>11</td><td><a href="green_spectrum_google_sheets_tabs/11_priority_clusters.csv" download>11_priority_clusters.csv</a></td><td>Problem clusters and grouped priority themes.</td></tr>
+            <tr><td>12</td><td><a href="green_spectrum_google_sheets_tabs/12_prototype_pathways.csv" download>12_prototype_pathways.csv</a></td><td>Prototype pathways generated from the priority work.</td></tr>
+            <tr><td>13</td><td><a href="green_spectrum_google_sheets_tabs/13_prototype_experiments.csv" download>13_prototype_experiments.csv</a></td><td>Experiment cards, test assumptions, and intervention ideas.</td></tr>
+            <tr><td>14</td><td><a href="green_spectrum_google_sheets_tabs/14_prototype_metrics.csv" download>14_prototype_metrics.csv</a></td><td>Prototype metrics and evidence checks.</td></tr>
+            <tr><td>15</td><td><a href="green_spectrum_google_sheets_tabs/15_prototype_risks.csv" download>15_prototype_risks.csv</a></td><td>Risks, safeguards, dependencies, and failure modes.</td></tr>
+            <tr><td>16</td><td><a href="green_spectrum_google_sheets_tabs/16_generated_assets_outputs.csv" download>16_generated_assets_outputs.csv</a></td><td>Detailed generated assets and stage-by-stage outputs.</td></tr>
+            <tr><td>17</td><td><a href="green_spectrum_google_sheets_tabs/17_validation_warnings_failures.csv" download>17_validation_warnings_failures.csv</a></td><td>Warnings, validation issues, and failures captured during automated testing.</td></tr>
+            <tr><td>18</td><td><a href="green_spectrum_google_sheets_tabs/18_priority_score_trace.csv" download>18_priority_score_trace.csv</a></td><td>Factor-level scoring contributions, weights, score direction, and explanations for every priority problem.</td></tr>
+            <tr><td>19</td><td><a href="green_spectrum_google_sheets_tabs/19_three_empathies_integration.csv" download>19_three_empathies_integration.csv</a></td><td>Business, Human, and Planetary evidence coverage for every prioritised problem, including missing perspectives.</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

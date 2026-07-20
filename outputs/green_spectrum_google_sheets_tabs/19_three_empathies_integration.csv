@@ -1,0 +1,51 @@
+company_id,company,problemId,title,businessEvidence,humanEvidence,planetaryEvidence,missingPerspectives,status
+northforge,Northforge Components Ltd,northforge-problem-1,Purchased-metal emissions,"[""supplier""]",[],"[""carbon"", ""emissions"", ""material""]","[""human""]",needs explicit review
+northforge,Northforge Components Ltd,northforge-problem-2,Factory energy efficiency,"[""operations""]",[],"[""carbon"", ""energy""]","[""human""]",needs explicit review
+northforge,Northforge Components Ltd,northforge-problem-4,Supplier data quality,"[""supplier"", ""quality""]",[],"[""carbon""]","[""human""]",needs explicit review
+northforge,Northforge Components Ltd,northforge-problem-5,Product redesign constraints,[],[],"[""carbon""]","[""business"", ""human""]",needs explicit review
+northforge,Northforge Components Ltd,northforge-problem-3,Employee engagement,[],"[""employee""]","[""carbon""]","[""business""]",needs explicit review
+lumathread,LumaThread Apparel,lumathread-problem-4,Unsupported claims,"[""risk""]","[""labour""]",[],"[""planetary""]",needs explicit review
+lumathread,LumaThread Apparel,lumathread-problem-1,Supply-chain traceability,"[""risk""]","[""labour""]",[],"[""planetary""]",needs explicit review
+lumathread,LumaThread Apparel,lumathread-problem-3,Overproduction and returns,"[""risk""]","[""labour""]",[],"[""planetary""]",needs explicit review
+lumathread,LumaThread Apparel,lumathread-problem-2,Labour conditions,"[""risk""]","[""labour""]",[],"[""planetary""]",needs explicit review
+lumathread,LumaThread Apparel,lumathread-problem-5,Material selection,"[""risk""]","[""labour""]","[""material""]",[],balanced
+evergreen,Evergreen Bank,evergreen-problem-2,Climate-risk integration,"[""risk""]",[],"[""climate""]","[""human""]",needs explicit review
+evergreen,Evergreen Bank,evergreen-problem-1,Financed emissions evidence,"[""finance""]",[],"[""emissions""]","[""human""]",needs explicit review
+evergreen,Evergreen Bank,evergreen-problem-3,Fairness of green lending criteria,[],"[""fair""]",[],"[""business"", ""planetary""]",needs explicit review
+evergreen,Evergreen Bank,evergreen-problem-4,Relationship-manager capability,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+evergreen,Evergreen Bank,evergreen-problem-5,Nature-related exposure,[],[],"[""nature""]","[""business"", ""human""]",needs explicit review
+civiccare,CivicCare Health Trust,civiccare-problem-1,Anaesthetic gases,[],"[""patient""]",[],"[""business"", ""planetary""]",needs explicit review
+civiccare,CivicCare Health Trust,civiccare-problem-2,Hospital energy,[],"[""patient""]","[""energy""]","[""business""]",needs explicit review
+civiccare,CivicCare Health Trust,civiccare-problem-3,Sustainable procurement,"[""procurement""]","[""patient""]",[],"[""planetary""]",needs explicit review
+civiccare,CivicCare Health Trust,civiccare-problem-4,Clinical waste,[],"[""patient""]","[""waste""]","[""business""]",needs explicit review
+civiccare,CivicCare Health Trust,civiccare-problem-5,Patient and staff travel,[],"[""patient""]",[],"[""business"", ""planetary""]",needs explicit review
+terrabite,TerraBite Foods,terrabite-problem-1,Farm water and soil resilience,[],[],"[""water"", ""nature"", ""soil""]","[""business"", ""human""]",needs explicit review
+terrabite,TerraBite Foods,terrabite-problem-3,Deforestation traceability,[],[],"[""nature""]","[""business"", ""human""]",needs explicit review
+terrabite,TerraBite Foods,terrabite-problem-2,Fertiliser dependency,[],[],"[""nature""]","[""business"", ""human""]",needs explicit review
+terrabite,TerraBite Foods,terrabite-problem-4,Processing water efficiency,"[""operations""]",[],"[""water"", ""nature""]","[""human""]",needs explicit review
+terrabite,TerraBite Foods,terrabite-problem-5,Packaging visibility bias,[],[],"[""nature""]","[""business"", ""human""]",needs explicit review
+urbanrise,UrbanRise Developments,urbanrise-problem-1,Early design carbon lock-in,[],"[""community""]","[""carbon""]","[""business""]",needs explicit review
+urbanrise,UrbanRise Developments,urbanrise-problem-2,Community trust and planning,[],"[""community""]","[""carbon""]","[""business""]",needs explicit review
+urbanrise,UrbanRise Developments,urbanrise-problem-3,Low-carbon material adoption,[],"[""community""]","[""carbon"", ""material""]","[""business""]",needs explicit review
+urbanrise,UrbanRise Developments,urbanrise-problem-5,Biodiversity on sites,[],"[""community""]","[""carbon"", ""nature"", ""biodiversity""]","[""business""]",needs explicit review
+urbanrise,UrbanRise Developments,urbanrise-problem-4,Construction waste,[],"[""community""]","[""carbon"", ""waste""]","[""business""]",needs explicit review
+cloudspring,CloudSpring Technologies,cloudspring-problem-2,AI workload growth,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+cloudspring,CloudSpring Technologies,cloudspring-problem-1,Cloud impact evidence,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+cloudspring,CloudSpring Technologies,cloudspring-problem-3,Engineering efficiency behaviour,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+cloudspring,CloudSpring Technologies,cloudspring-problem-4,Customer environmental claims,"[""customer""]","[""customer""]",[],"[""planetary""]",needs explicit review
+cloudspring,CloudSpring Technologies,cloudspring-problem-5,Hardware lifecycle,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+loophome,LoopHome Circular Services,loophome-problem-1,Validate circular impact,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+loophome,LoopHome Circular Services,loophome-problem-2,Customer churn and transport,"[""customer""]","[""customer""]",[],"[""planetary""]",needs explicit review
+loophome,LoopHome Circular Services,loophome-problem-3,Technician capacity,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+loophome,LoopHome Circular Services,loophome-problem-4,Appliance energy performance,[],[],"[""energy""]","[""business"", ""human""]",needs explicit review
+loophome,LoopHome Circular Services,loophome-problem-5,Investor growth pressure,[],[],[],"[""business"", ""human"", ""planetary""]",needs explicit review
+citymotion,CityMotion Transit Authority,citymotion-problem-2,Accessibility safeguard,[],"[""fair"", ""access""]","[""carbon""]","[""business""]",needs explicit review
+citymotion,CityMotion Transit Authority,citymotion-problem-1,Fair fleet transition,[],"[""fair""]","[""carbon""]","[""business""]",needs explicit review
+citymotion,CityMotion Transit Authority,citymotion-problem-4,Maintenance workforce capability,[],"[""fair""]","[""carbon""]","[""business""]",needs explicit review
+citymotion,CityMotion Transit Authority,citymotion-problem-3,Charging infrastructure readiness,[],"[""fair""]","[""carbon""]","[""business""]",needs explicit review
+citymotion,CityMotion Transit Authority,citymotion-problem-5,Battery lifecycle impact,[],"[""fair""]","[""carbon""]","[""business""]",needs explicit review
+medigen,Medigen Laboratories,medigen-problem-1,Controlled solvent substitution,"[""quality""]","[""safety""]",[],"[""planetary""]",needs explicit review
+medigen,Medigen Laboratories,medigen-problem-3,Hazardous waste,"[""quality""]","[""safety""]","[""waste""]",[],balanced
+medigen,Medigen Laboratories,medigen-problem-2,Laboratory energy,"[""operations"", ""quality""]","[""safety""]","[""energy""]",[],balanced
+medigen,Medigen Laboratories,medigen-problem-5,Medicine disposal,"[""quality""]","[""safety""]",[],"[""planetary""]",needs explicit review
+medigen,Medigen Laboratories,medigen-problem-4,Cold-chain impact,"[""quality""]","[""safety""]",[],"[""planetary""]",needs explicit review

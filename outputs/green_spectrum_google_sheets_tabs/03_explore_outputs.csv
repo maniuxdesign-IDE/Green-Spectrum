@@ -1,0 +1,611 @@
+company_id,company,empathy,output_key,output_value
+northforge,Northforge Components Ltd,business,score,1.0
+northforge,Northforge Components Ltd,business,evidenceWeightedConfidence,0.72
+northforge,Northforge Components Ltd,business,answered,6
+northforge,Northforge Components Ltd,business,total,16
+northforge,Northforge Components Ltd,business,evidenceSupported,6
+northforge,Northforge Components Ltd,business,needsReview,0
+northforge,Northforge Components Ltd,business,strengths,[]
+northforge,Northforge Components Ltd,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+northforge,Northforge Components Ltd,business,evidenceGaps,[]
+northforge,Northforge Components Ltd,business,contradictions,[]
+northforge,Northforge Components Ltd,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with medium confidence."", ""source"": ""Business question 1"", ""confidence"": ""medium""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with medium confidence."", ""source"": ""Business question 2"", ""confidence"": ""medium""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with medium confidence."", ""source"": ""Business question 3"", ""confidence"": ""medium""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Business question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Business question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Business question 19"", ""confidence"": ""medium""}]"
+northforge,Northforge Components Ltd,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+northforge,Northforge Components Ltd,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+northforge,Northforge Components Ltd,business,discoveryDomainReadings,[]
+northforge,Northforge Components Ltd,business,toolRecommendations,[]
+northforge,Northforge Components Ltd,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}]"
+northforge,Northforge Components Ltd,business,systemsConnections,[]
+northforge,Northforge Components Ltd,human,score,1.0
+northforge,Northforge Components Ltd,human,evidenceWeightedConfidence,0.72
+northforge,Northforge Components Ltd,human,answered,3
+northforge,Northforge Components Ltd,human,total,5
+northforge,Northforge Components Ltd,human,evidenceSupported,3
+northforge,Northforge Components Ltd,human,needsReview,0
+northforge,Northforge Components Ltd,human,representedGroups,[]
+northforge,Northforge Components Ltd,human,underrepresentedGroups,[]
+northforge,Northforge Components Ltd,human,representationCoverage,0
+northforge,Northforge Components Ltd,human,directEvidenceCoverage,0
+northforge,Northforge Components Ltd,human,indirectEvidenceCoverage,0
+northforge,Northforge Components Ltd,human,strengths,[]
+northforge,Northforge Components Ltd,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+northforge,Northforge Components Ltd,human,evidenceGaps,[]
+northforge,Northforge Components Ltd,human,contradictions,[]
+northforge,Northforge Components Ltd,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Human question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Human question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Human question 19"", ""confidence"": ""medium""}]"
+northforge,Northforge Components Ltd,human,behaviouralBarriers,[]
+northforge,Northforge Components Ltd,human,capabilityGaps,[]
+northforge,Northforge Components Ltd,human,powerInfluenceInsights,[]
+northforge,Northforge Components Ltd,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+northforge,Northforge Components Ltd,human,facilitationRecommendations,[]
+northforge,Northforge Components Ltd,human,humanRiskFlags,[]
+northforge,Northforge Components Ltd,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+northforge,Northforge Components Ltd,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+northforge,Northforge Components Ltd,planetary,score,1.0
+northforge,Northforge Components Ltd,planetary,evidenceWeightedConfidence,0.72
+northforge,Northforge Components Ltd,planetary,answered,3
+northforge,Northforge Components Ltd,planetary,total,4
+northforge,Northforge Components Ltd,planetary,evidenceSupported,3
+northforge,Northforge Components Ltd,planetary,needsReview,0
+northforge,Northforge Components Ltd,planetary,strengths,[]
+northforge,Northforge Components Ltd,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+northforge,Northforge Components Ltd,planetary,evidenceGaps,[]
+northforge,Northforge Components Ltd,planetary,boundaryCoverage,[]
+northforge,Northforge Components Ltd,planetary,ecologicalDependencies,[]
+northforge,Northforge Components Ltd,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+northforge,Northforge Components Ltd,planetary,materialFlows,[]
+northforge,Northforge Components Ltd,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+northforge,Northforge Components Ltd,planetary,contradictions,[]
+northforge,Northforge Components Ltd,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with medium confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with medium confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with medium confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+northforge,Northforge Components Ltd,planetary,environmentalEvidenceTasks,[]
+northforge,Northforge Components Ltd,planetary,planetaryRiskFlags,[]
+northforge,Northforge Components Ltd,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+northforge,Northforge Components Ltd,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+lumathread,LumaThread Apparel,business,score,1.0
+lumathread,LumaThread Apparel,business,evidenceWeightedConfidence,0.72
+lumathread,LumaThread Apparel,business,answered,6
+lumathread,LumaThread Apparel,business,total,16
+lumathread,LumaThread Apparel,business,evidenceSupported,6
+lumathread,LumaThread Apparel,business,needsReview,0
+lumathread,LumaThread Apparel,business,strengths,[]
+lumathread,LumaThread Apparel,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+lumathread,LumaThread Apparel,business,evidenceGaps,[]
+lumathread,LumaThread Apparel,business,contradictions,[]
+lumathread,LumaThread Apparel,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with medium confidence."", ""source"": ""Business question 1"", ""confidence"": ""medium""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with medium confidence."", ""source"": ""Business question 2"", ""confidence"": ""medium""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with medium confidence."", ""source"": ""Business question 3"", ""confidence"": ""medium""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Business question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Business question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Business question 19"", ""confidence"": ""medium""}]"
+lumathread,LumaThread Apparel,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+lumathread,LumaThread Apparel,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+lumathread,LumaThread Apparel,business,discoveryDomainReadings,[]
+lumathread,LumaThread Apparel,business,toolRecommendations,[]
+lumathread,LumaThread Apparel,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}]"
+lumathread,LumaThread Apparel,business,systemsConnections,[]
+lumathread,LumaThread Apparel,human,score,1.0
+lumathread,LumaThread Apparel,human,evidenceWeightedConfidence,0.72
+lumathread,LumaThread Apparel,human,answered,3
+lumathread,LumaThread Apparel,human,total,5
+lumathread,LumaThread Apparel,human,evidenceSupported,3
+lumathread,LumaThread Apparel,human,needsReview,0
+lumathread,LumaThread Apparel,human,representedGroups,[]
+lumathread,LumaThread Apparel,human,underrepresentedGroups,[]
+lumathread,LumaThread Apparel,human,representationCoverage,0
+lumathread,LumaThread Apparel,human,directEvidenceCoverage,0
+lumathread,LumaThread Apparel,human,indirectEvidenceCoverage,0
+lumathread,LumaThread Apparel,human,strengths,[]
+lumathread,LumaThread Apparel,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+lumathread,LumaThread Apparel,human,evidenceGaps,[]
+lumathread,LumaThread Apparel,human,contradictions,[]
+lumathread,LumaThread Apparel,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Human question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Human question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Human question 19"", ""confidence"": ""medium""}]"
+lumathread,LumaThread Apparel,human,behaviouralBarriers,[]
+lumathread,LumaThread Apparel,human,capabilityGaps,[]
+lumathread,LumaThread Apparel,human,powerInfluenceInsights,[]
+lumathread,LumaThread Apparel,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+lumathread,LumaThread Apparel,human,facilitationRecommendations,[]
+lumathread,LumaThread Apparel,human,humanRiskFlags,[]
+lumathread,LumaThread Apparel,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+lumathread,LumaThread Apparel,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+lumathread,LumaThread Apparel,planetary,score,1.0
+lumathread,LumaThread Apparel,planetary,evidenceWeightedConfidence,0.72
+lumathread,LumaThread Apparel,planetary,answered,3
+lumathread,LumaThread Apparel,planetary,total,4
+lumathread,LumaThread Apparel,planetary,evidenceSupported,3
+lumathread,LumaThread Apparel,planetary,needsReview,0
+lumathread,LumaThread Apparel,planetary,strengths,[]
+lumathread,LumaThread Apparel,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+lumathread,LumaThread Apparel,planetary,evidenceGaps,[]
+lumathread,LumaThread Apparel,planetary,boundaryCoverage,[]
+lumathread,LumaThread Apparel,planetary,ecologicalDependencies,[]
+lumathread,LumaThread Apparel,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+lumathread,LumaThread Apparel,planetary,materialFlows,[]
+lumathread,LumaThread Apparel,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+lumathread,LumaThread Apparel,planetary,contradictions,[]
+lumathread,LumaThread Apparel,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with medium confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with medium confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with medium confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+lumathread,LumaThread Apparel,planetary,environmentalEvidenceTasks,[]
+lumathread,LumaThread Apparel,planetary,planetaryRiskFlags,[]
+lumathread,LumaThread Apparel,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+lumathread,LumaThread Apparel,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+evergreen,Evergreen Bank,business,score,2.0
+evergreen,Evergreen Bank,business,evidenceWeightedConfidence,1.0
+evergreen,Evergreen Bank,business,answered,6
+evergreen,Evergreen Bank,business,total,16
+evergreen,Evergreen Bank,business,evidenceSupported,6
+evergreen,Evergreen Bank,business,needsReview,0
+evergreen,Evergreen Bank,business,strengths,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+evergreen,Evergreen Bank,business,weakAreas,[]
+evergreen,Evergreen Bank,business,evidenceGaps,[]
+evergreen,Evergreen Bank,business,contradictions,[]
+evergreen,Evergreen Bank,business,problemSignals,[]
+evergreen,Evergreen Bank,business,impactJourneyQuestions,[]
+evergreen,Evergreen Bank,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+evergreen,Evergreen Bank,business,discoveryDomainReadings,[]
+evergreen,Evergreen Bank,business,toolRecommendations,[]
+evergreen,Evergreen Bank,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}]"
+evergreen,Evergreen Bank,business,systemsConnections,[]
+evergreen,Evergreen Bank,human,score,2.0
+evergreen,Evergreen Bank,human,evidenceWeightedConfidence,1.0
+evergreen,Evergreen Bank,human,answered,3
+evergreen,Evergreen Bank,human,total,5
+evergreen,Evergreen Bank,human,evidenceSupported,3
+evergreen,Evergreen Bank,human,needsReview,0
+evergreen,Evergreen Bank,human,representedGroups,[]
+evergreen,Evergreen Bank,human,underrepresentedGroups,[]
+evergreen,Evergreen Bank,human,representationCoverage,0
+evergreen,Evergreen Bank,human,directEvidenceCoverage,0
+evergreen,Evergreen Bank,human,indirectEvidenceCoverage,0
+evergreen,Evergreen Bank,human,strengths,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+evergreen,Evergreen Bank,human,weakAreas,[]
+evergreen,Evergreen Bank,human,evidenceGaps,[]
+evergreen,Evergreen Bank,human,contradictions,[]
+evergreen,Evergreen Bank,human,problemSignals,[]
+evergreen,Evergreen Bank,human,behaviouralBarriers,[]
+evergreen,Evergreen Bank,human,capabilityGaps,[]
+evergreen,Evergreen Bank,human,powerInfluenceInsights,[]
+evergreen,Evergreen Bank,human,participationTasks,"[""Confirm that represented stakeholder groups are broad enough for the journey scope.""]"
+evergreen,Evergreen Bank,human,facilitationRecommendations,[]
+evergreen,Evergreen Bank,human,humanRiskFlags,[]
+evergreen,Evergreen Bank,human,impactJourneyQuestions,[]
+evergreen,Evergreen Bank,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+evergreen,Evergreen Bank,planetary,score,2.0
+evergreen,Evergreen Bank,planetary,evidenceWeightedConfidence,1.0
+evergreen,Evergreen Bank,planetary,answered,3
+evergreen,Evergreen Bank,planetary,total,4
+evergreen,Evergreen Bank,planetary,evidenceSupported,3
+evergreen,Evergreen Bank,planetary,needsReview,0
+evergreen,Evergreen Bank,planetary,strengths,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+evergreen,Evergreen Bank,planetary,weakAreas,[]
+evergreen,Evergreen Bank,planetary,evidenceGaps,[]
+evergreen,Evergreen Bank,planetary,boundaryCoverage,[]
+evergreen,Evergreen Bank,planetary,ecologicalDependencies,[]
+evergreen,Evergreen Bank,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+evergreen,Evergreen Bank,planetary,materialFlows,[]
+evergreen,Evergreen Bank,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""high""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""high""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""high""}]"
+evergreen,Evergreen Bank,planetary,contradictions,[]
+evergreen,Evergreen Bank,planetary,problemSignals,[]
+evergreen,Evergreen Bank,planetary,environmentalEvidenceTasks,[]
+evergreen,Evergreen Bank,planetary,planetaryRiskFlags,[]
+evergreen,Evergreen Bank,planetary,impactJourneyQuestions,[]
+evergreen,Evergreen Bank,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+civiccare,CivicCare Health Trust,business,score,1.0
+civiccare,CivicCare Health Trust,business,evidenceWeightedConfidence,0.72
+civiccare,CivicCare Health Trust,business,answered,6
+civiccare,CivicCare Health Trust,business,total,16
+civiccare,CivicCare Health Trust,business,evidenceSupported,6
+civiccare,CivicCare Health Trust,business,needsReview,0
+civiccare,CivicCare Health Trust,business,strengths,[]
+civiccare,CivicCare Health Trust,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+civiccare,CivicCare Health Trust,business,evidenceGaps,[]
+civiccare,CivicCare Health Trust,business,contradictions,[]
+civiccare,CivicCare Health Trust,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with medium confidence."", ""source"": ""Business question 1"", ""confidence"": ""medium""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with medium confidence."", ""source"": ""Business question 2"", ""confidence"": ""medium""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with medium confidence."", ""source"": ""Business question 3"", ""confidence"": ""medium""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Business question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Business question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Business question 19"", ""confidence"": ""medium""}]"
+civiccare,CivicCare Health Trust,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+civiccare,CivicCare Health Trust,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+civiccare,CivicCare Health Trust,business,discoveryDomainReadings,[]
+civiccare,CivicCare Health Trust,business,toolRecommendations,[]
+civiccare,CivicCare Health Trust,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}]"
+civiccare,CivicCare Health Trust,business,systemsConnections,[]
+civiccare,CivicCare Health Trust,human,score,1.0
+civiccare,CivicCare Health Trust,human,evidenceWeightedConfidence,0.72
+civiccare,CivicCare Health Trust,human,answered,3
+civiccare,CivicCare Health Trust,human,total,5
+civiccare,CivicCare Health Trust,human,evidenceSupported,3
+civiccare,CivicCare Health Trust,human,needsReview,0
+civiccare,CivicCare Health Trust,human,representedGroups,[]
+civiccare,CivicCare Health Trust,human,underrepresentedGroups,[]
+civiccare,CivicCare Health Trust,human,representationCoverage,0
+civiccare,CivicCare Health Trust,human,directEvidenceCoverage,0
+civiccare,CivicCare Health Trust,human,indirectEvidenceCoverage,0
+civiccare,CivicCare Health Trust,human,strengths,[]
+civiccare,CivicCare Health Trust,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+civiccare,CivicCare Health Trust,human,evidenceGaps,[]
+civiccare,CivicCare Health Trust,human,contradictions,[]
+civiccare,CivicCare Health Trust,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Human question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Human question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Human question 19"", ""confidence"": ""medium""}]"
+civiccare,CivicCare Health Trust,human,behaviouralBarriers,[]
+civiccare,CivicCare Health Trust,human,capabilityGaps,[]
+civiccare,CivicCare Health Trust,human,powerInfluenceInsights,[]
+civiccare,CivicCare Health Trust,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+civiccare,CivicCare Health Trust,human,facilitationRecommendations,[]
+civiccare,CivicCare Health Trust,human,humanRiskFlags,[]
+civiccare,CivicCare Health Trust,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+civiccare,CivicCare Health Trust,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+civiccare,CivicCare Health Trust,planetary,score,1.0
+civiccare,CivicCare Health Trust,planetary,evidenceWeightedConfidence,0.72
+civiccare,CivicCare Health Trust,planetary,answered,3
+civiccare,CivicCare Health Trust,planetary,total,4
+civiccare,CivicCare Health Trust,planetary,evidenceSupported,3
+civiccare,CivicCare Health Trust,planetary,needsReview,0
+civiccare,CivicCare Health Trust,planetary,strengths,[]
+civiccare,CivicCare Health Trust,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+civiccare,CivicCare Health Trust,planetary,evidenceGaps,[]
+civiccare,CivicCare Health Trust,planetary,boundaryCoverage,[]
+civiccare,CivicCare Health Trust,planetary,ecologicalDependencies,[]
+civiccare,CivicCare Health Trust,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+civiccare,CivicCare Health Trust,planetary,materialFlows,[]
+civiccare,CivicCare Health Trust,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+civiccare,CivicCare Health Trust,planetary,contradictions,[]
+civiccare,CivicCare Health Trust,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with medium confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with medium confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with medium confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+civiccare,CivicCare Health Trust,planetary,environmentalEvidenceTasks,[]
+civiccare,CivicCare Health Trust,planetary,planetaryRiskFlags,[]
+civiccare,CivicCare Health Trust,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+civiccare,CivicCare Health Trust,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+terrabite,TerraBite Foods,business,score,1.0
+terrabite,TerraBite Foods,business,evidenceWeightedConfidence,0.72
+terrabite,TerraBite Foods,business,answered,6
+terrabite,TerraBite Foods,business,total,16
+terrabite,TerraBite Foods,business,evidenceSupported,6
+terrabite,TerraBite Foods,business,needsReview,0
+terrabite,TerraBite Foods,business,strengths,[]
+terrabite,TerraBite Foods,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+terrabite,TerraBite Foods,business,evidenceGaps,[]
+terrabite,TerraBite Foods,business,contradictions,[]
+terrabite,TerraBite Foods,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with medium confidence."", ""source"": ""Business question 1"", ""confidence"": ""medium""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with medium confidence."", ""source"": ""Business question 2"", ""confidence"": ""medium""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with medium confidence."", ""source"": ""Business question 3"", ""confidence"": ""medium""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Business question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Business question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Business question 19"", ""confidence"": ""medium""}]"
+terrabite,TerraBite Foods,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+terrabite,TerraBite Foods,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+terrabite,TerraBite Foods,business,discoveryDomainReadings,[]
+terrabite,TerraBite Foods,business,toolRecommendations,[]
+terrabite,TerraBite Foods,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}]"
+terrabite,TerraBite Foods,business,systemsConnections,[]
+terrabite,TerraBite Foods,human,score,1.0
+terrabite,TerraBite Foods,human,evidenceWeightedConfidence,0.72
+terrabite,TerraBite Foods,human,answered,3
+terrabite,TerraBite Foods,human,total,5
+terrabite,TerraBite Foods,human,evidenceSupported,3
+terrabite,TerraBite Foods,human,needsReview,0
+terrabite,TerraBite Foods,human,representedGroups,[]
+terrabite,TerraBite Foods,human,underrepresentedGroups,[]
+terrabite,TerraBite Foods,human,representationCoverage,0
+terrabite,TerraBite Foods,human,directEvidenceCoverage,0
+terrabite,TerraBite Foods,human,indirectEvidenceCoverage,0
+terrabite,TerraBite Foods,human,strengths,[]
+terrabite,TerraBite Foods,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+terrabite,TerraBite Foods,human,evidenceGaps,[]
+terrabite,TerraBite Foods,human,contradictions,[]
+terrabite,TerraBite Foods,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Human question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Human question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Human question 19"", ""confidence"": ""medium""}]"
+terrabite,TerraBite Foods,human,behaviouralBarriers,[]
+terrabite,TerraBite Foods,human,capabilityGaps,[]
+terrabite,TerraBite Foods,human,powerInfluenceInsights,[]
+terrabite,TerraBite Foods,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+terrabite,TerraBite Foods,human,facilitationRecommendations,[]
+terrabite,TerraBite Foods,human,humanRiskFlags,[]
+terrabite,TerraBite Foods,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+terrabite,TerraBite Foods,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+terrabite,TerraBite Foods,planetary,score,1.0
+terrabite,TerraBite Foods,planetary,evidenceWeightedConfidence,0.72
+terrabite,TerraBite Foods,planetary,answered,3
+terrabite,TerraBite Foods,planetary,total,4
+terrabite,TerraBite Foods,planetary,evidenceSupported,3
+terrabite,TerraBite Foods,planetary,needsReview,0
+terrabite,TerraBite Foods,planetary,strengths,[]
+terrabite,TerraBite Foods,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+terrabite,TerraBite Foods,planetary,evidenceGaps,[]
+terrabite,TerraBite Foods,planetary,boundaryCoverage,[]
+terrabite,TerraBite Foods,planetary,ecologicalDependencies,[]
+terrabite,TerraBite Foods,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+terrabite,TerraBite Foods,planetary,materialFlows,[]
+terrabite,TerraBite Foods,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+terrabite,TerraBite Foods,planetary,contradictions,[]
+terrabite,TerraBite Foods,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with medium confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with medium confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with medium confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+terrabite,TerraBite Foods,planetary,environmentalEvidenceTasks,[]
+terrabite,TerraBite Foods,planetary,planetaryRiskFlags,[]
+terrabite,TerraBite Foods,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+terrabite,TerraBite Foods,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+urbanrise,UrbanRise Developments,business,score,1.0
+urbanrise,UrbanRise Developments,business,evidenceWeightedConfidence,0.72
+urbanrise,UrbanRise Developments,business,answered,6
+urbanrise,UrbanRise Developments,business,total,16
+urbanrise,UrbanRise Developments,business,evidenceSupported,6
+urbanrise,UrbanRise Developments,business,needsReview,0
+urbanrise,UrbanRise Developments,business,strengths,[]
+urbanrise,UrbanRise Developments,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+urbanrise,UrbanRise Developments,business,evidenceGaps,[]
+urbanrise,UrbanRise Developments,business,contradictions,[]
+urbanrise,UrbanRise Developments,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with medium confidence."", ""source"": ""Business question 1"", ""confidence"": ""medium""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with medium confidence."", ""source"": ""Business question 2"", ""confidence"": ""medium""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with medium confidence."", ""source"": ""Business question 3"", ""confidence"": ""medium""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Business question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Business question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Business question 19"", ""confidence"": ""medium""}]"
+urbanrise,UrbanRise Developments,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+urbanrise,UrbanRise Developments,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+urbanrise,UrbanRise Developments,business,discoveryDomainReadings,[]
+urbanrise,UrbanRise Developments,business,toolRecommendations,[]
+urbanrise,UrbanRise Developments,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""medium"", ""note"": """"}]"
+urbanrise,UrbanRise Developments,business,systemsConnections,[]
+urbanrise,UrbanRise Developments,human,score,1.0
+urbanrise,UrbanRise Developments,human,evidenceWeightedConfidence,0.72
+urbanrise,UrbanRise Developments,human,answered,3
+urbanrise,UrbanRise Developments,human,total,5
+urbanrise,UrbanRise Developments,human,evidenceSupported,3
+urbanrise,UrbanRise Developments,human,needsReview,0
+urbanrise,UrbanRise Developments,human,representedGroups,[]
+urbanrise,UrbanRise Developments,human,underrepresentedGroups,[]
+urbanrise,UrbanRise Developments,human,representationCoverage,0
+urbanrise,UrbanRise Developments,human,directEvidenceCoverage,0
+urbanrise,UrbanRise Developments,human,indirectEvidenceCoverage,0
+urbanrise,UrbanRise Developments,human,strengths,[]
+urbanrise,UrbanRise Developments,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+urbanrise,UrbanRise Developments,human,evidenceGaps,[]
+urbanrise,UrbanRise Developments,human,contradictions,[]
+urbanrise,UrbanRise Developments,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with medium confidence."", ""source"": ""Human question 17"", ""confidence"": ""medium""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with medium confidence."", ""source"": ""Human question 18"", ""confidence"": ""medium""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with medium confidence."", ""source"": ""Human question 19"", ""confidence"": ""medium""}]"
+urbanrise,UrbanRise Developments,human,behaviouralBarriers,[]
+urbanrise,UrbanRise Developments,human,capabilityGaps,[]
+urbanrise,UrbanRise Developments,human,powerInfluenceInsights,[]
+urbanrise,UrbanRise Developments,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+urbanrise,UrbanRise Developments,human,facilitationRecommendations,[]
+urbanrise,UrbanRise Developments,human,humanRiskFlags,[]
+urbanrise,UrbanRise Developments,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+urbanrise,UrbanRise Developments,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+urbanrise,UrbanRise Developments,planetary,score,1.0
+urbanrise,UrbanRise Developments,planetary,evidenceWeightedConfidence,0.72
+urbanrise,UrbanRise Developments,planetary,answered,3
+urbanrise,UrbanRise Developments,planetary,total,4
+urbanrise,UrbanRise Developments,planetary,evidenceSupported,3
+urbanrise,UrbanRise Developments,planetary,needsReview,0
+urbanrise,UrbanRise Developments,planetary,strengths,[]
+urbanrise,UrbanRise Developments,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+urbanrise,UrbanRise Developments,planetary,evidenceGaps,[]
+urbanrise,UrbanRise Developments,planetary,boundaryCoverage,[]
+urbanrise,UrbanRise Developments,planetary,ecologicalDependencies,[]
+urbanrise,UrbanRise Developments,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+urbanrise,UrbanRise Developments,planetary,materialFlows,[]
+urbanrise,UrbanRise Developments,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+urbanrise,UrbanRise Developments,planetary,contradictions,[]
+urbanrise,UrbanRise Developments,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with medium confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""medium""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with medium confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""medium""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with medium confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""medium""}]"
+urbanrise,UrbanRise Developments,planetary,environmentalEvidenceTasks,[]
+urbanrise,UrbanRise Developments,planetary,planetaryRiskFlags,[]
+urbanrise,UrbanRise Developments,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+urbanrise,UrbanRise Developments,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+cloudspring,CloudSpring Technologies,business,score,1.0
+cloudspring,CloudSpring Technologies,business,evidenceWeightedConfidence,0.42
+cloudspring,CloudSpring Technologies,business,answered,6
+cloudspring,CloudSpring Technologies,business,total,16
+cloudspring,CloudSpring Technologies,business,evidenceSupported,6
+cloudspring,CloudSpring Technologies,business,needsReview,6
+cloudspring,CloudSpring Technologies,business,strengths,[]
+cloudspring,CloudSpring Technologies,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+cloudspring,CloudSpring Technologies,business,evidenceGaps,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+cloudspring,CloudSpring Technologies,business,contradictions,[]
+cloudspring,CloudSpring Technologies,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with low confidence."", ""source"": ""Business question 1"", ""confidence"": ""low""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with low confidence."", ""source"": ""Business question 2"", ""confidence"": ""low""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with low confidence."", ""source"": ""Business question 3"", ""confidence"": ""low""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with low confidence."", ""source"": ""Business question 17"", ""confidence"": ""low""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with low confidence."", ""source"": ""Business question 18"", ""confidence"": ""low""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with low confidence."", ""source"": ""Business question 19"", ""confidence"": ""low""}]"
+cloudspring,CloudSpring Technologies,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+cloudspring,CloudSpring Technologies,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+cloudspring,CloudSpring Technologies,business,discoveryDomainReadings,[]
+cloudspring,CloudSpring Technologies,business,toolRecommendations,[]
+cloudspring,CloudSpring Technologies,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}]"
+cloudspring,CloudSpring Technologies,business,systemsConnections,[]
+cloudspring,CloudSpring Technologies,human,score,1.0
+cloudspring,CloudSpring Technologies,human,evidenceWeightedConfidence,0.42
+cloudspring,CloudSpring Technologies,human,answered,3
+cloudspring,CloudSpring Technologies,human,total,5
+cloudspring,CloudSpring Technologies,human,evidenceSupported,3
+cloudspring,CloudSpring Technologies,human,needsReview,3
+cloudspring,CloudSpring Technologies,human,representedGroups,[]
+cloudspring,CloudSpring Technologies,human,underrepresentedGroups,[]
+cloudspring,CloudSpring Technologies,human,representationCoverage,0
+cloudspring,CloudSpring Technologies,human,directEvidenceCoverage,0
+cloudspring,CloudSpring Technologies,human,indirectEvidenceCoverage,0
+cloudspring,CloudSpring Technologies,human,strengths,[]
+cloudspring,CloudSpring Technologies,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+cloudspring,CloudSpring Technologies,human,evidenceGaps,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+cloudspring,CloudSpring Technologies,human,contradictions,[]
+cloudspring,CloudSpring Technologies,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with low confidence."", ""source"": ""Human question 17"", ""confidence"": ""low""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with low confidence."", ""source"": ""Human question 18"", ""confidence"": ""low""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with low confidence."", ""source"": ""Human question 19"", ""confidence"": ""low""}]"
+cloudspring,CloudSpring Technologies,human,behaviouralBarriers,[]
+cloudspring,CloudSpring Technologies,human,capabilityGaps,[]
+cloudspring,CloudSpring Technologies,human,powerInfluenceInsights,[]
+cloudspring,CloudSpring Technologies,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+cloudspring,CloudSpring Technologies,human,facilitationRecommendations,[]
+cloudspring,CloudSpring Technologies,human,humanRiskFlags,[]
+cloudspring,CloudSpring Technologies,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+cloudspring,CloudSpring Technologies,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+cloudspring,CloudSpring Technologies,planetary,score,1.0
+cloudspring,CloudSpring Technologies,planetary,evidenceWeightedConfidence,0.42
+cloudspring,CloudSpring Technologies,planetary,answered,3
+cloudspring,CloudSpring Technologies,planetary,total,4
+cloudspring,CloudSpring Technologies,planetary,evidenceSupported,3
+cloudspring,CloudSpring Technologies,planetary,needsReview,3
+cloudspring,CloudSpring Technologies,planetary,strengths,[]
+cloudspring,CloudSpring Technologies,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+cloudspring,CloudSpring Technologies,planetary,evidenceGaps,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+cloudspring,CloudSpring Technologies,planetary,boundaryCoverage,[]
+cloudspring,CloudSpring Technologies,planetary,ecologicalDependencies,[]
+cloudspring,CloudSpring Technologies,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+cloudspring,CloudSpring Technologies,planetary,materialFlows,[]
+cloudspring,CloudSpring Technologies,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""low""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""low""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""low""}]"
+cloudspring,CloudSpring Technologies,planetary,contradictions,[]
+cloudspring,CloudSpring Technologies,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with low confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""low""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with low confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""low""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with low confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""low""}]"
+cloudspring,CloudSpring Technologies,planetary,environmentalEvidenceTasks,[]
+cloudspring,CloudSpring Technologies,planetary,planetaryRiskFlags,[]
+cloudspring,CloudSpring Technologies,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+cloudspring,CloudSpring Technologies,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+loophome,LoopHome Circular Services,business,score,1.0
+loophome,LoopHome Circular Services,business,evidenceWeightedConfidence,0.42
+loophome,LoopHome Circular Services,business,answered,6
+loophome,LoopHome Circular Services,business,total,16
+loophome,LoopHome Circular Services,business,evidenceSupported,6
+loophome,LoopHome Circular Services,business,needsReview,6
+loophome,LoopHome Circular Services,business,strengths,[]
+loophome,LoopHome Circular Services,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+loophome,LoopHome Circular Services,business,evidenceGaps,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+loophome,LoopHome Circular Services,business,contradictions,[]
+loophome,LoopHome Circular Services,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with low confidence."", ""source"": ""Business question 1"", ""confidence"": ""low""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with low confidence."", ""source"": ""Business question 2"", ""confidence"": ""low""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with low confidence."", ""source"": ""Business question 3"", ""confidence"": ""low""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with low confidence."", ""source"": ""Business question 17"", ""confidence"": ""low""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with low confidence."", ""source"": ""Business question 18"", ""confidence"": ""low""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with low confidence."", ""source"": ""Business question 19"", ""confidence"": ""low""}]"
+loophome,LoopHome Circular Services,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+loophome,LoopHome Circular Services,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+loophome,LoopHome Circular Services,business,discoveryDomainReadings,[]
+loophome,LoopHome Circular Services,business,toolRecommendations,[]
+loophome,LoopHome Circular Services,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""low"", ""note"": """"}]"
+loophome,LoopHome Circular Services,business,systemsConnections,[]
+loophome,LoopHome Circular Services,human,score,1.0
+loophome,LoopHome Circular Services,human,evidenceWeightedConfidence,0.42
+loophome,LoopHome Circular Services,human,answered,3
+loophome,LoopHome Circular Services,human,total,5
+loophome,LoopHome Circular Services,human,evidenceSupported,3
+loophome,LoopHome Circular Services,human,needsReview,3
+loophome,LoopHome Circular Services,human,representedGroups,[]
+loophome,LoopHome Circular Services,human,underrepresentedGroups,[]
+loophome,LoopHome Circular Services,human,representationCoverage,0
+loophome,LoopHome Circular Services,human,directEvidenceCoverage,0
+loophome,LoopHome Circular Services,human,indirectEvidenceCoverage,0
+loophome,LoopHome Circular Services,human,strengths,[]
+loophome,LoopHome Circular Services,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+loophome,LoopHome Circular Services,human,evidenceGaps,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+loophome,LoopHome Circular Services,human,contradictions,[]
+loophome,LoopHome Circular Services,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with low confidence."", ""source"": ""Human question 17"", ""confidence"": ""low""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with low confidence."", ""source"": ""Human question 18"", ""confidence"": ""low""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with low confidence."", ""source"": ""Human question 19"", ""confidence"": ""low""}]"
+loophome,LoopHome Circular Services,human,behaviouralBarriers,[]
+loophome,LoopHome Circular Services,human,capabilityGaps,[]
+loophome,LoopHome Circular Services,human,powerInfluenceInsights,[]
+loophome,LoopHome Circular Services,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+loophome,LoopHome Circular Services,human,facilitationRecommendations,[]
+loophome,LoopHome Circular Services,human,humanRiskFlags,[]
+loophome,LoopHome Circular Services,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+loophome,LoopHome Circular Services,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+loophome,LoopHome Circular Services,planetary,score,1.0
+loophome,LoopHome Circular Services,planetary,evidenceWeightedConfidence,0.42
+loophome,LoopHome Circular Services,planetary,answered,3
+loophome,LoopHome Circular Services,planetary,total,4
+loophome,LoopHome Circular Services,planetary,evidenceSupported,3
+loophome,LoopHome Circular Services,planetary,needsReview,3
+loophome,LoopHome Circular Services,planetary,strengths,[]
+loophome,LoopHome Circular Services,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+loophome,LoopHome Circular Services,planetary,evidenceGaps,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+loophome,LoopHome Circular Services,planetary,boundaryCoverage,[]
+loophome,LoopHome Circular Services,planetary,ecologicalDependencies,[]
+loophome,LoopHome Circular Services,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+loophome,LoopHome Circular Services,planetary,materialFlows,[]
+loophome,LoopHome Circular Services,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""low""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""low""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""low""}]"
+loophome,LoopHome Circular Services,planetary,contradictions,[]
+loophome,LoopHome Circular Services,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with low confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""low""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with low confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""low""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with low confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""low""}]"
+loophome,LoopHome Circular Services,planetary,environmentalEvidenceTasks,[]
+loophome,LoopHome Circular Services,planetary,planetaryRiskFlags,[]
+loophome,LoopHome Circular Services,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+loophome,LoopHome Circular Services,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+citymotion,CityMotion Transit Authority,business,score,1.0
+citymotion,CityMotion Transit Authority,business,evidenceWeightedConfidence,1.0
+citymotion,CityMotion Transit Authority,business,answered,6
+citymotion,CityMotion Transit Authority,business,total,16
+citymotion,CityMotion Transit Authority,business,evidenceSupported,6
+citymotion,CityMotion Transit Authority,business,needsReview,0
+citymotion,CityMotion Transit Authority,business,strengths,[]
+citymotion,CityMotion Transit Authority,business,weakAreas,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+citymotion,CityMotion Transit Authority,business,evidenceGaps,[]
+citymotion,CityMotion Transit Authority,business,contradictions,[]
+citymotion,CityMotion Transit Authority,business,problemSignals,"[{""title"": ""Strategy and Purpose may need deeper mapping"", ""description"": ""Strategy and Purpose is marked as light with high confidence."", ""source"": ""Business question 1"", ""confidence"": ""high""}, {""title"": ""Finance and Investment may need deeper mapping"", ""description"": ""Finance and Investment is marked as light with high confidence."", ""source"": ""Business question 2"", ""confidence"": ""high""}, {""title"": ""Operations and Delivery may need deeper mapping"", ""description"": ""Operations and Delivery is marked as light with high confidence."", ""source"": ""Business question 3"", ""confidence"": ""high""}, {""title"": ""Stakeholder Power may need deeper mapping"", ""description"": ""Stakeholder Power is marked as light with high confidence."", ""source"": ""Business question 17"", ""confidence"": ""high""}, {""title"": ""Capability and Behaviour may need deeper mapping"", ""description"": ""Capability and Behaviour is marked as light with high confidence."", ""source"": ""Business question 18"", ""confidence"": ""high""}, {""title"": ""Equity and Wellbeing may need deeper mapping"", ""description"": ""Equity and Wellbeing is marked as light with high confidence."", ""source"": ""Business question 19"", ""confidence"": ""high""}]"
+citymotion,CityMotion Transit Authority,business,impactJourneyQuestions,"[""Where does strategy and purpose show up across the value chain, process or service journey?"", ""Where does finance and investment show up across the value chain, process or service journey?"", ""Where does operations and delivery show up across the value chain, process or service journey?"", ""Where does stakeholder power show up across the value chain, process or service journey?""]"
+citymotion,CityMotion Transit Authority,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+citymotion,CityMotion Transit Authority,business,discoveryDomainReadings,[]
+citymotion,CityMotion Transit Authority,business,toolRecommendations,[]
+citymotion,CityMotion Transit Authority,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""light"", ""confidence"": ""high"", ""note"": """"}]"
+citymotion,CityMotion Transit Authority,business,systemsConnections,[]
+citymotion,CityMotion Transit Authority,human,score,1.0
+citymotion,CityMotion Transit Authority,human,evidenceWeightedConfidence,1.0
+citymotion,CityMotion Transit Authority,human,answered,3
+citymotion,CityMotion Transit Authority,human,total,5
+citymotion,CityMotion Transit Authority,human,evidenceSupported,3
+citymotion,CityMotion Transit Authority,human,needsReview,0
+citymotion,CityMotion Transit Authority,human,representedGroups,[]
+citymotion,CityMotion Transit Authority,human,underrepresentedGroups,[]
+citymotion,CityMotion Transit Authority,human,representationCoverage,0
+citymotion,CityMotion Transit Authority,human,directEvidenceCoverage,0
+citymotion,CityMotion Transit Authority,human,indirectEvidenceCoverage,0
+citymotion,CityMotion Transit Authority,human,strengths,[]
+citymotion,CityMotion Transit Authority,human,weakAreas,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+citymotion,CityMotion Transit Authority,human,evidenceGaps,[]
+citymotion,CityMotion Transit Authority,human,contradictions,[]
+citymotion,CityMotion Transit Authority,human,problemSignals,"[{""title"": ""Stakeholder Power may need deeper human enquiry"", ""description"": ""Stakeholder Power is marked as light with high confidence."", ""source"": ""Human question 17"", ""confidence"": ""high""}, {""title"": ""Capability and Behaviour may need deeper human enquiry"", ""description"": ""Capability and Behaviour is marked as light with high confidence."", ""source"": ""Human question 18"", ""confidence"": ""high""}, {""title"": ""Equity and Wellbeing may need deeper human enquiry"", ""description"": ""Equity and Wellbeing is marked as light with high confidence."", ""source"": ""Human question 19"", ""confidence"": ""high""}]"
+citymotion,CityMotion Transit Authority,human,behaviouralBarriers,[]
+citymotion,CityMotion Transit Authority,human,capabilityGaps,[]
+citymotion,CityMotion Transit Authority,human,powerInfluenceInsights,[]
+citymotion,CityMotion Transit Authority,human,participationTasks,"[""Review who has authority, influence and lived experience for weak Human Empathy areas.""]"
+citymotion,CityMotion Transit Authority,human,facilitationRecommendations,[]
+citymotion,CityMotion Transit Authority,human,humanRiskFlags,[]
+citymotion,CityMotion Transit Authority,human,impactJourneyQuestions,"[""Where do people experience the effects of stakeholder power across the journey or value chain?"", ""Where do people experience the effects of capability and behaviour across the journey or value chain?"", ""Where do people experience the effects of equity and wellbeing across the journey or value chain?""]"
+citymotion,CityMotion Transit Authority,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+citymotion,CityMotion Transit Authority,planetary,score,1.0
+citymotion,CityMotion Transit Authority,planetary,evidenceWeightedConfidence,1.0
+citymotion,CityMotion Transit Authority,planetary,answered,3
+citymotion,CityMotion Transit Authority,planetary,total,4
+citymotion,CityMotion Transit Authority,planetary,evidenceSupported,3
+citymotion,CityMotion Transit Authority,planetary,needsReview,0
+citymotion,CityMotion Transit Authority,planetary,strengths,[]
+citymotion,CityMotion Transit Authority,planetary,weakAreas,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+citymotion,CityMotion Transit Authority,planetary,evidenceGaps,[]
+citymotion,CityMotion Transit Authority,planetary,boundaryCoverage,[]
+citymotion,CityMotion Transit Authority,planetary,ecologicalDependencies,[]
+citymotion,CityMotion Transit Authority,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+citymotion,CityMotion Transit Authority,planetary,materialFlows,[]
+citymotion,CityMotion Transit Authority,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""high""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""high""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""high""}]"
+citymotion,CityMotion Transit Authority,planetary,contradictions,[]
+citymotion,CityMotion Transit Authority,planetary,problemSignals,"[{""title"": ""Environmental Impact may need ecological systems mapping"", ""description"": ""Environmental Impact is marked as light with high confidence."", ""source"": ""Planetary question 30"", ""confidence"": ""high""}, {""title"": ""Natural Dependencies may need ecological systems mapping"", ""description"": ""Natural Dependencies is marked as light with high confidence."", ""source"": ""Planetary question 31"", ""confidence"": ""high""}, {""title"": ""Evidence and Limits may need ecological systems mapping"", ""description"": ""Evidence and Limits is marked as light with high confidence."", ""source"": ""Planetary question 32"", ""confidence"": ""high""}]"
+citymotion,CityMotion Transit Authority,planetary,environmentalEvidenceTasks,[]
+citymotion,CityMotion Transit Authority,planetary,planetaryRiskFlags,[]
+citymotion,CityMotion Transit Authority,planetary,impactJourneyQuestions,"[""Where does environmental impact appear across lifecycle stages, places, suppliers or material flows?"", ""Where does natural dependencies appear across lifecycle stages, places, suppliers or material flows?"", ""Where does evidence and limits appear across lifecycle stages, places, suppliers or material flows?""]"
+citymotion,CityMotion Transit Authority,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"
+medigen,Medigen Laboratories,business,score,2.0
+medigen,Medigen Laboratories,business,evidenceWeightedConfidence,1.0
+medigen,Medigen Laboratories,business,answered,6
+medigen,Medigen Laboratories,business,total,16
+medigen,Medigen Laboratories,business,evidenceSupported,6
+medigen,Medigen Laboratories,business,needsReview,0
+medigen,Medigen Laboratories,business,strengths,"[""Strategy and Purpose"", ""Finance and Investment"", ""Operations and Delivery"", ""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+medigen,Medigen Laboratories,business,weakAreas,[]
+medigen,Medigen Laboratories,business,evidenceGaps,[]
+medigen,Medigen Laboratories,business,contradictions,[]
+medigen,Medigen Laboratories,business,problemSignals,[]
+medigen,Medigen Laboratories,business,impactJourneyQuestions,[]
+medigen,Medigen Laboratories,business,humanEmpathyRecommendations,"[""Use Human Empathy to test whether business maturity is experienced consistently by staff and stakeholders.""]"
+medigen,Medigen Laboratories,business,discoveryDomainReadings,[]
+medigen,Medigen Laboratories,business,toolRecommendations,[]
+medigen,Medigen Laboratories,business,carryForwardItems,"[{""action"": ""problem-signal"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 1, ""area"": ""Strategy and Purpose"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 2, ""area"": ""Finance and Investment"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 3, ""area"": ""Operations and Delivery"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 17, ""area"": ""Stakeholder Power"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 18, ""area"": ""Capability and Behaviour"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""problem-signal"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}, {""action"": ""impact-journey"", ""questionId"": 19, ""area"": ""Equity and Wellbeing"", ""maturity"": ""mid"", ""confidence"": ""high"", ""note"": """"}]"
+medigen,Medigen Laboratories,business,systemsConnections,[]
+medigen,Medigen Laboratories,human,score,2.0
+medigen,Medigen Laboratories,human,evidenceWeightedConfidence,1.0
+medigen,Medigen Laboratories,human,answered,3
+medigen,Medigen Laboratories,human,total,5
+medigen,Medigen Laboratories,human,evidenceSupported,3
+medigen,Medigen Laboratories,human,needsReview,0
+medigen,Medigen Laboratories,human,representedGroups,[]
+medigen,Medigen Laboratories,human,underrepresentedGroups,[]
+medigen,Medigen Laboratories,human,representationCoverage,0
+medigen,Medigen Laboratories,human,directEvidenceCoverage,0
+medigen,Medigen Laboratories,human,indirectEvidenceCoverage,0
+medigen,Medigen Laboratories,human,strengths,"[""Stakeholder Power"", ""Capability and Behaviour"", ""Equity and Wellbeing""]"
+medigen,Medigen Laboratories,human,weakAreas,[]
+medigen,Medigen Laboratories,human,evidenceGaps,[]
+medigen,Medigen Laboratories,human,contradictions,[]
+medigen,Medigen Laboratories,human,problemSignals,[]
+medigen,Medigen Laboratories,human,behaviouralBarriers,[]
+medigen,Medigen Laboratories,human,capabilityGaps,[]
+medigen,Medigen Laboratories,human,powerInfluenceInsights,[]
+medigen,Medigen Laboratories,human,participationTasks,"[""Confirm that represented stakeholder groups are broad enough for the journey scope.""]"
+medigen,Medigen Laboratories,human,facilitationRecommendations,[]
+medigen,Medigen Laboratories,human,humanRiskFlags,[]
+medigen,Medigen Laboratories,human,impactJourneyQuestions,[]
+medigen,Medigen Laboratories,human,planetaryEmpathyRecommendations,"[""Use Planetary Empathy to test whether human concerns connect to climate, nature, materials or place-based impacts.""]"
+medigen,Medigen Laboratories,planetary,score,2.0
+medigen,Medigen Laboratories,planetary,evidenceWeightedConfidence,1.0
+medigen,Medigen Laboratories,planetary,answered,3
+medigen,Medigen Laboratories,planetary,total,4
+medigen,Medigen Laboratories,planetary,evidenceSupported,3
+medigen,Medigen Laboratories,planetary,needsReview,0
+medigen,Medigen Laboratories,planetary,strengths,"[""Environmental Impact"", ""Natural Dependencies"", ""Evidence and Limits""]"
+medigen,Medigen Laboratories,planetary,weakAreas,[]
+medigen,Medigen Laboratories,planetary,evidenceGaps,[]
+medigen,Medigen Laboratories,planetary,boundaryCoverage,[]
+medigen,Medigen Laboratories,planetary,ecologicalDependencies,[]
+medigen,Medigen Laboratories,planetary,impactSignals,"[""Material environmental impact"", ""Dependency risk"", ""Evidence gap""]"
+medigen,Medigen Laboratories,planetary,materialFlows,[]
+medigen,Medigen Laboratories,planetary,hotspotCandidates,"[{""title"": ""Environmental Impact hotspot candidate"", ""description"": ""Material environmental impact"", ""source"": ""Planetary question 30"", ""confidence"": ""high""}, {""title"": ""Natural Dependencies hotspot candidate"", ""description"": ""Dependency risk"", ""source"": ""Planetary question 31"", ""confidence"": ""high""}, {""title"": ""Evidence and Limits hotspot candidate"", ""description"": ""Evidence gap"", ""source"": ""Planetary question 32"", ""confidence"": ""high""}]"
+medigen,Medigen Laboratories,planetary,contradictions,[]
+medigen,Medigen Laboratories,planetary,problemSignals,[]
+medigen,Medigen Laboratories,planetary,environmentalEvidenceTasks,[]
+medigen,Medigen Laboratories,planetary,planetaryRiskFlags,[]
+medigen,Medigen Laboratories,planetary,impactJourneyQuestions,[]
+medigen,Medigen Laboratories,planetary,synthesisHandover,"[""Connect Business, Human and Planetary findings before selecting interventions."", ""Review whether ecological hotspots also create human or strategic consequences.""]"

@@ -1,0 +1,72 @@
+company_id,company,id,title,stageId,description,severity,confidence,control
+northforge,Northforge Components Ltd,northforge-signal-1,High embodied carbon and mining impacts,northforge-stage-1,High embodied carbon and mining impacts during Steel and aluminium production.,4,low,low
+northforge,Northforge Components Ltd,northforge-signal-2,Material source and data quality,northforge-stage-2,Material source and data quality during Supplier contracting.,4,medium,medium
+northforge,Northforge Components Ltd,northforge-signal-3,Fuel use and emissions,northforge-stage-3,Fuel use and emissions during European freight.,4,low,medium
+northforge,Northforge Components Ltd,northforge-signal-4,"Energy use, scrap and lubricants",northforge-stage-4,"Energy use, scrap and lubricants during Machining and heat processes.",3,high,high
+northforge,Northforge Components Ltd,northforge-signal-5,Material substitution constraints,northforge-stage-5,Material substitution constraints during Testing and certification.,3,high,high
+northforge,Northforge Components Ltd,northforge-signal-6,Efficiency implications,northforge-stage-6,Efficiency implications during Components in machinery.,3,low,low
+northforge,Northforge Components Ltd,northforge-signal-7,Recovery potential,northforge-stage-7,Recovery potential during Metal recycling.,3,medium,low
+lumathread,LumaThread Apparel,lumathread-signal-1,"Water, land and fossil materials",lumathread-stage-1,"Water, land and fossil materials during Cotton and synthetic fibre sourcing.",4,low,low
+lumathread,LumaThread Apparel,lumathread-signal-2,"Chemical, water and energy impacts",lumathread-stage-2,"Chemical, water and energy impacts during Dyeing and finishing.",4,low,medium
+lumathread,LumaThread Apparel,lumathread-signal-3,Labour conditions and wages,lumathread-stage-3,Labour conditions and wages during Cut-make-trim production.,4,medium,medium
+lumathread,LumaThread Apparel,lumathread-signal-4,Overproduction and supplier pressure,lumathread-stage-4,Overproduction and supplier pressure during Collection planning.,3,medium,high
+lumathread,LumaThread Apparel,lumathread-signal-5,Air freight emissions,lumathread-stage-5,Air freight emissions during Freight recovery.,3,low,medium
+lumathread,LumaThread Apparel,lumathread-signal-6,"Packaging, unsold goods and returns",lumathread-stage-6,"Packaging, unsold goods and returns during Sales and reverse logistics.",3,medium,high
+lumathread,LumaThread Apparel,lumathread-signal-7,Durability and poor recycling,lumathread-stage-7,Durability and poor recycling during Washing and disposal.,3,low,low
+evergreen,Evergreen Bank,evergreen-signal-1,Transition finance and exclusion risk,evergreen-stage-1,Transition finance and exclusion risk during Lending criteria.,4,high,high
+evergreen,Evergreen Bank,evergreen-signal-2,Fairness and evidence burden,evergreen-stage-2,Fairness and evidence burden during Data request and affordability review.,4,medium,high
+evergreen,Evergreen Bank,evergreen-signal-3,Financed emissions and risk,evergreen-stage-3,Financed emissions and risk during Capital allocation.,4,high,high
+evergreen,Evergreen Bank,evergreen-signal-4,Transition support quality,evergreen-stage-4,Transition support quality during Covenants and support.,3,medium,medium
+evergreen,Evergreen Bank,evergreen-signal-5,Data quality and accountability,evergreen-stage-5,Data quality and accountability during Progress and data review.,3,medium,medium
+evergreen,Evergreen Bank,evergreen-signal-6,Opportunity to improve terms,evergreen-stage-6,Opportunity to improve terms during Terms adjustment.,3,medium,medium
+evergreen,Evergreen Bank,evergreen-signal-7,Investor and regulatory scrutiny,evergreen-stage-7,Investor and regulatory scrutiny during Regulatory disclosure.,3,high,high
+civiccare,CivicCare Health Trust,civiccare-signal-1,Upstream product impacts,civiccare-stage-1,"Upstream product impacts during Medicines, devices and consumables.",4,medium,medium
+civiccare,CivicCare Health Trust,civiccare-signal-2,Transport emissions and equity,civiccare-stage-2,Transport emissions and equity during Access to care.,4,medium,medium
+civiccare,CivicCare Health Trust,civiccare-signal-3,High climate impact and safety constraints,civiccare-stage-3,High climate impact and safety constraints during Anaesthetic gases and single-use items.,4,medium,high
+civiccare,CivicCare Health Trust,civiccare-signal-4,Energy and water impacts,civiccare-stage-4,"Energy and water impacts during Heat, electricity and water.",3,high,high
+civiccare,CivicCare Health Trust,civiccare-signal-5,Hazardous waste,civiccare-stage-5,Hazardous waste during Clinical disposal.,3,medium,medium
+civiccare,CivicCare Health Trust,civiccare-signal-6,Travel and access trade-offs,civiccare-stage-6,Travel and access trade-offs during Decentralised care.,3,medium,medium
+civiccare,CivicCare Health Trust,civiccare-signal-7,Upstream evidence quality,civiccare-stage-7,Upstream evidence quality during Evidence requests.,3,low,low
+terrabite,TerraBite Foods,terrabite-signal-1,"Soil, water, fertiliser and biodiversity",terrabite-stage-1,"Soil, water, fertiliser and biodiversity during Ingredient production.",4,medium,low
+terrabite,TerraBite Foods,terrabite-signal-2,Loss of traceability,terrabite-stage-2,Loss of traceability during Ingredient aggregation.,4,low,medium
+terrabite,TerraBite Foods,terrabite-signal-3,"Energy, water and food loss",terrabite-stage-3,"Energy, water and food loss during Food manufacturing.",4,medium,high
+terrabite,TerraBite Foods,terrabite-signal-4,Plastic and board impacts,terrabite-stage-4,Plastic and board impacts during Pack selection.,3,high,medium
+terrabite,TerraBite Foods,terrabite-signal-5,Refrigeration and transport,terrabite-stage-5,Refrigeration and transport during Cold chain.,3,medium,medium
+terrabite,TerraBite Foods,terrabite-signal-6,Waste and buyer influence,terrabite-stage-6,Waste and buyer influence during Specifications.,3,medium,low
+terrabite,TerraBite Foods,terrabite-signal-7,Nutrition and food waste,terrabite-stage-7,Nutrition and food waste during Use and disposal.,3,low,low
+urbanrise,UrbanRise Developments,urbanrise-signal-1,Land and ecosystem impact,urbanrise-stage-1,Land and ecosystem impact during Land selection.,4,medium,medium
+urbanrise,UrbanRise Developments,urbanrise-signal-2,Highest decision leverage,urbanrise-stage-2,Highest decision leverage during Early design choices.,4,medium,high
+urbanrise,UrbanRise Developments,urbanrise-signal-3,Community and regulatory approval,urbanrise-stage-3,Community and regulatory approval during Approval process.,4,medium,medium
+urbanrise,UrbanRise Developments,urbanrise-signal-4,Embodied and operational carbon,urbanrise-stage-4,Embodied and operational carbon during Materials and performance.,3,medium,high
+urbanrise,UrbanRise Developments,urbanrise-signal-5,Specification delivery,urbanrise-stage-5,Specification delivery during Contractor selection.,3,medium,medium
+urbanrise,UrbanRise Developments,urbanrise-signal-6,"Waste, transport and safety",urbanrise-stage-6,"Waste, transport and safety during Site works.",3,medium,medium
+urbanrise,UrbanRise Developments,urbanrise-signal-7,"Energy, water and wellbeing",urbanrise-stage-7,"Energy, water and wellbeing during Building occupation.",3,low,low
+urbanrise,UrbanRise Developments,urbanrise-signal-8,Reuse and waste,urbanrise-stage-8,Reuse and waste during Adaptability and demolition.,3,low,low
+cloudspring,CloudSpring Technologies,cloudspring-signal-1,Computational demand,cloudspring-stage-1,Computational demand during Feature and architecture choices.,4,low,high
+cloudspring,CloudSpring Technologies,cloudspring-signal-2,Energy and water dependency,cloudspring-stage-2,Energy and water dependency during Provider selection.,4,low,medium
+cloudspring,CloudSpring Technologies,cloudspring-signal-3,Hardware and testing impacts,cloudspring-stage-3,Hardware and testing impacts during Testing and hardware.,4,medium,high
+cloudspring,CloudSpring Technologies,cloudspring-signal-4,Ongoing compute demand,cloudspring-stage-4,Ongoing compute demand during Data storage and processing.,3,low,high
+cloudspring,CloudSpring Technologies,cloudspring-signal-5,Customer resource use,cloudspring-stage-5,Customer resource use during Product use.,3,low,medium
+cloudspring,CloudSpring Technologies,cloudspring-signal-6,Travel and home energy,cloudspring-stage-6,Travel and home energy during Remote work.,3,low,low
+cloudspring,CloudSpring Technologies,cloudspring-signal-7,E-waste and storage,cloudspring-stage-7,E-waste and storage during Devices and data retention.,3,low,medium
+loophome,LoopHome Circular Services,loophome-signal-1,Quality uncertainty,loophome-stage-1,Quality uncertainty during Sourcing used appliances.,4,low,medium
+loophome,LoopHome Circular Services,loophome-signal-2,Product rejection,loophome-stage-2,Product rejection during Screening products.,4,medium,high
+loophome,LoopHome Circular Services,loophome-signal-3,"Labour, energy and parts",loophome-stage-3,"Labour, energy and parts during Repair workflow.",4,medium,high
+loophome,LoopHome Circular Services,loophome-signal-4,Transport emissions,loophome-stage-4,Transport emissions during Reverse logistics.,3,medium,medium
+loophome,LoopHome Circular Services,loophome-signal-5,Appliance efficiency and behaviour,loophome-stage-5,Appliance efficiency and behaviour during Subscription use.,3,low,low
+loophome,LoopHome Circular Services,loophome-signal-6,Transport and replacement impacts,loophome-stage-6,Transport and replacement impacts during Churn and replacement.,3,low,medium
+loophome,LoopHome Circular Services,loophome-signal-7,Recycling and disposal,loophome-stage-7,Recycling and disposal during Parts recovery.,3,low,medium
+citymotion,CityMotion Transit Authority,citymotion-signal-1,Accessibility and equity,citymotion-stage-1,Accessibility and equity during Route and service planning.,4,high,high
+citymotion,CityMotion Transit Authority,citymotion-signal-2,Lifecycle impact,citymotion-stage-2,Lifecycle impact during Fleet choices.,4,medium,medium
+citymotion,CityMotion Transit Authority,citymotion-signal-3,Embodied carbon and readiness,citymotion-stage-3,Embodied carbon and readiness during Depots and charging.,4,medium,medium
+citymotion,CityMotion Transit Authority,citymotion-signal-4,Direct emissions and reliability,citymotion-stage-4,Direct emissions and reliability during Fuel and service delivery.,3,high,high
+citymotion,CityMotion Transit Authority,citymotion-signal-5,Public value and emissions,citymotion-stage-5,Public value and emissions during Mode shift.,3,high,medium
+citymotion,CityMotion Transit Authority,citymotion-signal-6,Capability constraint,citymotion-stage-6,Capability constraint during Skills and parts.,3,high,high
+citymotion,CityMotion Transit Authority,citymotion-signal-7,Battery and vehicle disposal,citymotion-stage-7,Battery and vehicle disposal during Vehicles and batteries.,3,medium,medium
+medigen,Medigen Laboratories,medigen-signal-1,"Energy, chemicals and ethics",medigen-stage-1,"Energy, chemicals and ethics during Lab experimentation.",4,high,high
+medigen,Medigen Laboratories,medigen-signal-2,Materials and travel,medigen-stage-2,Materials and travel during Trials and materials.,4,medium,medium
+medigen,Medigen Laboratories,medigen-signal-3,"Water, solvents and waste",medigen-stage-3,"Water, solvents and waste during Production.",4,high,high
+medigen,Medigen Laboratories,medigen-signal-4,Safety and sterility trade-offs,medigen-stage-4,Safety and sterility trade-offs during Sterile packaging.,3,high,medium
+medigen,Medigen Laboratories,medigen-signal-5,Cold-chain energy,medigen-stage-5,Cold-chain energy during Cold chain.,3,medium,medium
+medigen,Medigen Laboratories,medigen-signal-6,Access and disposal,medigen-stage-6,Access and disposal during Medicine use.,3,medium,low
+medigen,Medigen Laboratories,medigen-signal-7,Ecosystem exposure,medigen-stage-7,Ecosystem exposure during Medicine and device disposal.,3,low,low

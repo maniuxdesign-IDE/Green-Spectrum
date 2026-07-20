@@ -1,0 +1,51 @@
+company_id,company,title,problemIds,rationale,confidence
+northforge,Northforge Components Ltd,Materials and suppliers,"[""northforge-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+northforge,Northforge Components Ltd,Operations,"[""northforge-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+northforge,Northforge Components Ltd,People,"[""northforge-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+northforge,Northforge Components Ltd,Evidence,"[""northforge-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+northforge,Northforge Components Ltd,Innovation,"[""northforge-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+lumathread,LumaThread Apparel,Traceability,"[""lumathread-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+lumathread,LumaThread Apparel,People,"[""lumathread-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+lumathread,LumaThread Apparel,Commercial model,"[""lumathread-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+lumathread,LumaThread Apparel,Governance,"[""lumathread-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+lumathread,LumaThread Apparel,Materials,"[""lumathread-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+evergreen,Evergreen Bank,Evidence,"[""evergreen-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+evergreen,Evergreen Bank,Risk,"[""evergreen-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+evergreen,Evergreen Bank,People,"[""evergreen-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+evergreen,Evergreen Bank,Capability,"[""evergreen-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+evergreen,Evergreen Bank,Nature,"[""evergreen-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+civiccare,CivicCare Health Trust,Clinical impact,"[""civiccare-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+civiccare,CivicCare Health Trust,Facilities,"[""civiccare-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+civiccare,CivicCare Health Trust,Procurement,"[""civiccare-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+civiccare,CivicCare Health Trust,Waste,"[""civiccare-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+civiccare,CivicCare Health Trust,People,"[""civiccare-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+terrabite,TerraBite Foods,Nature,"[""terrabite-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+terrabite,TerraBite Foods,Agriculture,"[""terrabite-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+terrabite,TerraBite Foods,Traceability,"[""terrabite-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+terrabite,TerraBite Foods,Operations,"[""terrabite-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+terrabite,TerraBite Foods,Packaging,"[""terrabite-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+urbanrise,UrbanRise Developments,Design,"[""urbanrise-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+urbanrise,UrbanRise Developments,People,"[""urbanrise-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+urbanrise,UrbanRise Developments,Materials,"[""urbanrise-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+urbanrise,UrbanRise Developments,Waste,"[""urbanrise-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+urbanrise,UrbanRise Developments,Nature,"[""urbanrise-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+cloudspring,CloudSpring Technologies,Evidence,"[""cloudspring-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+cloudspring,CloudSpring Technologies,Digital impact,"[""cloudspring-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+cloudspring,CloudSpring Technologies,People,"[""cloudspring-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+cloudspring,CloudSpring Technologies,Claims,"[""cloudspring-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+cloudspring,CloudSpring Technologies,Hardware,"[""cloudspring-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+loophome,LoopHome Circular Services,Circularity,"[""loophome-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+loophome,LoopHome Circular Services,Behaviour,"[""loophome-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+loophome,LoopHome Circular Services,People,"[""loophome-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+loophome,LoopHome Circular Services,Product use,"[""loophome-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+loophome,LoopHome Circular Services,Business model,"[""loophome-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+citymotion,CityMotion Transit Authority,Fleet,"[""citymotion-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+citymotion,CityMotion Transit Authority,People,"[""citymotion-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+citymotion,CityMotion Transit Authority,Infrastructure,"[""citymotion-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+citymotion,CityMotion Transit Authority,Capability,"[""citymotion-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+citymotion,CityMotion Transit Authority,Lifecycle,"[""citymotion-problem-5""]","Grouped by shared topic, stage or capability language.",medium
+medigen,Medigen Laboratories,Laboratory,"[""medigen-problem-1""]","Grouped by shared topic, stage or capability language.",medium
+medigen,Medigen Laboratories,Operations,"[""medigen-problem-2""]","Grouped by shared topic, stage or capability language.",medium
+medigen,Medigen Laboratories,Waste,"[""medigen-problem-3""]","Grouped by shared topic, stage or capability language.",medium
+medigen,Medigen Laboratories,Logistics,"[""medigen-problem-4""]","Grouped by shared topic, stage or capability language.",medium
+medigen,Medigen Laboratories,End of life,"[""medigen-problem-5""]","Grouped by shared topic, stage or capability language.",medium
