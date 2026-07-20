@@ -562,36 +562,43 @@ summary small,
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(8, minmax(105px, 1fr));
+  grid-template-columns: repeat(8, minmax(78px, 1fr));
   gap: 0;
 }
 .journey-timeline li, .compact-progress li {
   position: relative;
   display: grid;
-  grid-template-columns: 24px minmax(0, 1fr);
-  gap: 4px 10px;
-  justify-items: start;
-  align-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px auto auto;
+  gap: 4px;
+  justify-items: center;
+  align-items: start;
+  text-align: center;
   color: var(--gs-muted-text);
-  font-weight: 700;
+  font-size: 0.82rem;
+  line-height: 1.12;
+  font-weight: 760;
   min-width: 0;
 }
 .journey-timeline li::before, .compact-progress li::before {
   content: "";
-  grid-row: 1 / span 2;
-  width: 18px;
-  height: 18px;
+  grid-row: 1;
+  width: 16px;
+  height: 16px;
   border: 1.5px solid var(--gs-border-strong);
   border-radius: 999px;
   background: var(--gs-white);
   margin: 0;
+  align-self: center;
+  justify-self: center;
+  z-index: 2;
 }
 .journey-timeline li::after, .compact-progress li::after {
   content: "";
   position: absolute;
-  top: 8px;
-  left: 20px;
-  width: calc(100% - 24px);
+  top: 9px;
+  left: calc(50% + 13px);
+  width: calc(100% - 26px);
   height: 1px;
   background: var(--gs-border);
 }
@@ -610,6 +617,19 @@ summary small,
 .journey-timeline .is-current, .compact-progress .done { color: var(--gs-ink); }
 .journey-timeline .is-current::before, .compact-progress .done::before { background: var(--gs-ink); border-color: var(--gs-ink); box-shadow: 0 0 0 7px rgba(23, 32, 27, 0.08); }
 .journey-timeline .is-next::before, .compact-progress .next::before { border-color: var(--gs-mid-green); box-shadow: 0 0 0 5px rgba(132, 169, 123, 0.18); }
+.compact-progress {
+  padding: 22px clamp(18px, 3vw, 30px);
+  border: 1px solid var(--gs-border);
+  border-radius: 24px;
+  background: rgba(255,255,255,0.9);
+}
+.compact-progress li {
+  max-width: none;
+  white-space: normal;
+}
+.compact-progress li::after {
+  background: rgba(23, 32, 27, 0.14);
+}
 
 .section-header {
   display: grid;
@@ -1533,7 +1553,7 @@ details p { margin-top: 10px; }
 }
 .app-progress-band .journey-timeline li {
   grid-template-columns: 1fr;
-  grid-template-rows: 18px minmax(2em, auto) auto;
+  grid-template-rows: 18px minmax(1.25em, auto) auto;
   gap: 2px;
   justify-items: center;
   align-items: start;
@@ -1553,9 +1573,9 @@ details p { margin-top: 10px; }
 }
 .app-progress-band .journey-timeline span {
   grid-row: 2;
-  font-size: 0.76rem;
-  line-height: 1.18;
-  max-width: 15ch;
+  font-size: 0.74rem;
+  line-height: 1.12;
+  max-width: 10ch;
 }
 .app-progress-band .journey-timeline small {
   grid-row: 3;

@@ -78,7 +78,7 @@ const testModePages = [
     ]
   },
   {
-    title: "Impact Journey",
+    title: "Impact Map",
     href: "impact-journey/",
     sections: [
       ["Intro", "impact-journey/#impact-journey-intro"],
@@ -89,7 +89,7 @@ const testModePages = [
     ]
   },
   {
-    title: "Sort and Prioritise",
+    title: "Prioritise",
     href: "sort-prioritise/",
     sections: [
       ["Intro", "sort-prioritise/#prioritise-intro"],

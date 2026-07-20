@@ -3032,9 +3032,10 @@ def journey_entry(query: dict[str, list[str]]) -> dict:
         {"label": "Onboarding", "status": "next"},
         {"label": "Explore", "status": "future"},
         {"label": "Map", "status": "future"},
-        {"label": "Structure and Prioritise", "status": "future"},
-        {"label": "Decide and Experiment", "status": "future"},
-        {"label": "Reflect and Evolve", "status": "future"},
+        {"label": "Structure", "status": "future"},
+        {"label": "Prioritise", "status": "future"},
+        {"label": "Experiment", "status": "future"},
+        {"label": "Reflect", "status": "future"},
     ]
     if demo_state == "active":
         return {
