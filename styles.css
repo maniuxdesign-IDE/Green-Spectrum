@@ -356,7 +356,7 @@ summary small,
 .reference-hero {
   --hero-progress: 0;
   --hero-copy-rise: 0;
-  min-height: 245vh;
+  min-height: 218vh;
   background:
     radial-gradient(circle at 50% 22%, rgba(25, 128, 76, 0.18), transparent 34%),
     linear-gradient(180deg, #060f0b 0%, #0a1710 62%, #f7f8f4 100%);
@@ -410,8 +410,8 @@ summary small,
   gap: 16px;
   text-align: center;
   color: var(--gs-white);
-  opacity: max(0, calc((var(--hero-progress) - 0.48) * 2.65));
-  transform: translateY(calc(28px - (var(--hero-copy-rise) * 44px)));
+  opacity: max(0, calc((var(--hero-progress) - 0.32) * 3.15));
+  transform: translateY(calc(24px - (var(--hero-copy-rise) * 34px)));
 }
 .eyebrow {
   color: var(--gs-deep-green);
@@ -477,7 +477,7 @@ summary small,
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
-  opacity: max(0, calc((var(--hero-progress) - 0.68) * 2.35));
+  opacity: max(0, calc((var(--hero-progress) - 0.5) * 2.7));
 }
 .hero-scroll-caption span {
   padding: 8px 12px;
@@ -1320,7 +1320,7 @@ details p { margin-top: 10px; }
   h1 { font-size: clamp(3rem, 15vw, 4.4rem); }
   h2 { font-size: clamp(2.2rem, 10vw, 3.35rem); }
   .section-pad { padding: 76px 0; }
-  .reference-hero { min-height: 225vh; }
+  .reference-hero { min-height: 202vh; }
   .hero-sticky {
     min-height: 100vh;
     padding: calc(var(--header-height) + 18px) 20px 92px;
@@ -1336,7 +1336,7 @@ details p { margin-top: 10px; }
   .hero-scroll-copy {
     inset: auto 20px 92px;
     gap: 13px;
-    transform: translateY(calc(26px - (var(--hero-copy-rise) * 42px)));
+    transform: translateY(calc(22px - (var(--hero-copy-rise) * 32px)));
   }
   .reference-hero h1 {
     font-size: clamp(2.1rem, 9vw, 3.2rem);

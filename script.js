@@ -338,13 +338,13 @@ const delayedSmoothProgress = (progress, start, end) => {
 
 const renderHeroState = () => {
   targetHeroProgress = calculateHeroTarget();
-  currentHeroProgress += (targetHeroProgress - currentHeroProgress) * 0.14;
+  currentHeroProgress += (targetHeroProgress - currentHeroProgress) * 0.24;
   if (Math.abs(targetHeroProgress - currentHeroProgress) < 0.001) {
     currentHeroProgress = targetHeroProgress;
   }
   if (scrollHero) {
     scrollHero.style.setProperty("--hero-progress", currentHeroProgress.toFixed(3));
-    scrollHero.style.setProperty("--hero-copy-rise", delayedSmoothProgress(currentHeroProgress, 0.72, 1).toFixed(3));
+    scrollHero.style.setProperty("--hero-copy-rise", delayedSmoothProgress(currentHeroProgress, 0.66, 0.94).toFixed(3));
   }
   header?.classList.toggle("is-scrolled", scrollHero ? currentHeroProgress > 0.56 : window.scrollY > 18);
   if (Math.abs(targetHeroProgress - currentHeroProgress) >= 0.001) {
@@ -363,7 +363,7 @@ const requestHeaderState = () => {
 currentHeroProgress = calculateHeroTarget();
 if (scrollHero) {
   scrollHero.style.setProperty("--hero-progress", currentHeroProgress.toFixed(3));
-  scrollHero.style.setProperty("--hero-copy-rise", delayedSmoothProgress(currentHeroProgress, 0.72, 1).toFixed(3));
+  scrollHero.style.setProperty("--hero-copy-rise", delayedSmoothProgress(currentHeroProgress, 0.66, 0.94).toFixed(3));
 }
 header?.classList.toggle("is-scrolled", scrollHero ? currentHeroProgress > 0.56 : window.scrollY > 18);
 window.addEventListener("scroll", requestHeaderState, { passive: true });
