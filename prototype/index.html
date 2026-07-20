@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prototype Experiments | Green Spectrum</title>
+    <meta name="description" content="Turn selected sustainability priorities into simple prototype experiments for MVP testing.">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="app-page prototype-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header is-scrolled app-header" data-header>
+      <a class="brand" href="../" aria-label="Green Spectrum home">
+        <img class="brand-logo" src="/assets/green-spectrum-logo.png" alt="Green Spectrum">
+      </a>
+      <span class="workspace-label" data-prototype-organisation>New journey</span>
+      <nav class="desktop-nav" aria-label="Application navigation">
+        <a href="../">Journey</a>
+        <a href="../resources/" data-analytics="prototype_resources_clicked">Resources and Downloads</a>
+        <a href="#prototype-faq">Help</a>
+        <a href="#profile">Profile</a>
+      </nav>
+      <span class="autosave header-save" aria-live="polite" data-prototype-autosave>Saved just now</span>
+      <button class="button button-secondary header-cta" type="button" data-prototype-save-exit>Save and Exit</button>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+      <nav aria-label="Mobile navigation">
+        <a href="../">Journey</a>
+        <a href="../resources/">Resources and Downloads</a>
+        <a href="#prototype-faq">Help</a>
+        <a href="../">Save and Exit</a>
+      </nav>
+    </div>
+
+    <main id="main">
+      <section class="section-pad onboarding-hero" id="prototype-intro">
+        <div class="container onboarding-intro-grid">
+          <div class="section-header reveal is-visible">
+            <p class="eyebrow">Stage 4 / Prototype</p>
+            <h1>Prototype one practical experiment.</h1>
+            <p>For this MVP, keep this stage focused: choose a priority, select a possible intervention, design a small prototype experiment and decide what evidence would make the next decision clearer.</p>
+            <p class="time-pill">15–35 minutes</p>
+            <p><strong>Objective:</strong> create a usable prototype experiment card that can be tested with real users or stakeholders.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#selected-pathways">Start prototype</a>
+              <button class="button button-secondary" type="button" data-review-priority>Review priority portfolio</button>
+              <button class="text-link button-reset" type="button" data-prototype-resource-toggle>Prototype resources</button>
+            </div>
+            <div class="inline-help" data-prototype-resource-panel hidden>
+              <p><strong>Prototype resources:</strong> use the Prototyping Wheel and Experiment Card for the active MVP test. The Opportunity Mapping Tree is kept here as a reference placeholder.</p>
+              <p><a class="text-link" href="../downloads/prototyping-wheel.pdf" download>Download Prototyping Wheel</a></p>
+              <p><a class="text-link" href="../downloads/prototype-experiment-card.pdf" download>Download Prototype Experiment Card</a></p>
+              <p><a class="text-link" href="../downloads/opportunity-mapping-tree.pdf" download>Opportunity Mapping Tree</a></p>
+            </div>
+          </div>
+          <aside class="ifo-panel reveal is-visible" aria-label="Input function output">
+            <article><span>Input</span><p>Selected priority problems, evidence, complexity, maturity, readiness, risks and tool recommendations</p></article>
+            <article><span>Function</span><p>Green Spectrum helps choose a prototype route and turn the riskiest assumption into a small test</p></article>
+            <article><span>Output</span><p>Prototype type, experiment card, owner, measure, review date and learning threshold</p></article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="app-progress-band" aria-label="Prototype progress">
+        <div class="container">
+          <ol class="journey-timeline app-timeline explore-timeline">
+            <li class="is-complete"><span>Welcome</span><small>Complete</small></li>
+            <li class="is-complete"><span>Onboarding</span><small>Complete</small></li>
+            <li class="is-complete"><span>Explore and Map</span><small>Complete</small></li>
+            <li class="is-complete"><span>Impact Journey</span><small>Complete</small></li>
+            <li class="is-complete"><span>Sort and Prioritise</span><small>Complete</small></li>
+            <li class="is-current"><span>Prototype</span><small>Current</small></li>
+            <li class="is-next"><span>Reflect and Evolve</span><small>Placeholder</small></li>
+          </ol>
+          <div class="page-progress explore-progress">
+            <div>
+              <strong data-prototype-progress-label>Prototype Experiment · 0 of 5 sections complete</strong>
+              <span data-prototype-progress-detail>0 pathways active · 0 prototype cards ready</span>
+            </div>
+            <div class="progress-track" aria-hidden="true"><span data-prototype-progress-fill></span></div>
+            <p class="autosave" aria-live="polite" data-prototype-time>Approximately 35 minutes remaining</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad portfolio-orientation" id="selected-pathways">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Prototype starting point</p>
+            <h2>Choose one priority to prototype first.</h2>
+            <p>Each selected problem can become a prototype experiment. For user testing, develop one clearly enough to learn from it before expanding the rest of the portfolio.</p>
+          </div>
+          <div class="pathway-card-row" data-selected-pathway-cards></div>
+        </div>
+      </section>
+
+      <form class="section-pad prototype-workspace" data-prototype-form>
+        <div class="container impact-grid">
+          <div class="impact-main">
+            <div class="pathway-selector" data-pathway-selector aria-label="Pathway selector"></div>
+
+            <details class="onboarding-section" data-prototype-section="review" open>
+              <summary><span>01</span><b>Review Problem and Evidence</b><small>What are we testing? · <em data-prototype-state>Not started</em></small></summary>
+              <div class="section-body" data-section-body="review"></div>
+            </details>
+
+            <details class="onboarding-section" data-prototype-section="outcome">
+              <summary><span>02</span><b>Define Prototype Aim</b><small>Outcome and learning purpose · <em data-prototype-state>Not started</em></small></summary>
+              <div class="section-body" data-section-body="outcome"></div>
+            </details>
+
+            <details class="onboarding-section" data-prototype-section="interventions">
+              <summary><span>03</span><b>Select Intervention Option</b><small>Choose what to test · <em data-prototype-state>Not started</em></small></summary>
+              <div class="section-body" data-section-body="interventions"></div>
+            </details>
+
+            <details class="onboarding-section" data-prototype-section="prototype">
+              <summary><span>04</span><b>Design Prototype Experiment</b><small>Smallest useful learning activity · <em data-prototype-state>Not started</em></small></summary>
+              <div class="section-body" data-section-body="prototype"></div>
+            </details>
+
+            <details class="onboarding-section" data-prototype-section="ownership">
+              <summary><span>05</span><b>Owner, Measure and Review</b><small>Enough structure to run the test · <em data-prototype-state>Not started</em></small></summary>
+              <div class="section-body" data-section-body="ownership"></div>
+            </details>
+          </div>
+
+          <aside class="live-summary live-insight-panel" aria-labelledby="prototype-panel-heading">
+            <p class="eyebrow">Live pathway panel</p>
+            <h2 id="prototype-panel-heading">Pathway state</h2>
+            <dl data-prototype-panel></dl>
+            <div class="generated-insight">
+              <span class="confidence-badge">Prototype insight · medium confidence</span>
+              <p data-prototype-insight>Select a pathway to begin converting priority into a decision and experiment.</p>
+              <button type="button" data-dismiss-prototype-insight>Dismiss</button>
+            </div>
+          </aside>
+        </div>
+      </form>
+
+      <section class="section-pad explore-synthesis" id="pathway-portfolio">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Prototype cards</p>
+            <h2>Your draft prototype experiments.</h2>
+            <p>Use this view to compare which prototype cards are ready enough for user testing. Larger strategy and portfolio tools stay as placeholders for later build phases.</p>
+          </div>
+          <div class="pathway-portfolio-grid" data-pathway-portfolio></div>
+          <div class="portfolio-warnings" data-prototype-warnings></div>
+        </div>
+      </section>
+
+      <section class="section-pad prototype-placeholder-section" id="reflect-learn">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Later placeholder</p>
+            <h2>Reflect, Learn and Evolve.</h2>
+            <p>This will become the next-stage learning loop after prototype testing. For now it remains visible as a placeholder so the full journey direction is clear.</p>
+          </div>
+          <div class="card-grid three">
+            <article class="info-card reveal"><h3>Proceed or scale</h3><p>Placeholder for evidence-led scale decisions.</p></article>
+            <article class="info-card reveal"><h3>Iterate or return</h3><p>Placeholder for returning to mapping or prioritisation.</p></article>
+            <article class="info-card reveal"><h3>Archive and learn</h3><p>Placeholder for learning records and closure notes.</p></article>
+          </div>
+          <div class="hero-actions placeholder-actions">
+            <button class="button button-secondary" type="button" disabled aria-disabled="true">Learning loop placeholder</button>
+            <button class="button button-secondary" type="button" disabled aria-disabled="true">Scale decision placeholder</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad resources-band prototype-placeholder-section" id="final-outputs">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Later output placeholders</p>
+            <h2>Strategy and reporting outputs are reserved for later.</h2>
+            <p>The active MVP output is the prototype experiment card. These larger exports remain as visible placeholders for the future version.</p>
+          </div>
+          <div class="card-grid four resource-cards">
+            <article class="info-card reveal"><h3>Strategy Summary</h3><p>Placeholder for later reporting.</p></article>
+            <article class="info-card reveal"><h3>Experiment Pack</h3><p>Prototype card export remains active below.</p></article>
+            <article class="info-card reveal"><h3>Three Horizons Roadmap</h3><p>Placeholder for later roadmap work.</p></article>
+            <article class="info-card reveal"><h3>Complete Journey Report</h3><p>Placeholder for later full journey export.</p></article>
+          </div>
+          <div class="hero-actions">
+            <button class="button button-light" type="button" data-prototype-download="experiments">Download Experiment Pack</button>
+            <a class="button button-light" href="../downloads/prototyping-wheel.pdf" download>Prototyping Wheel</a>
+            <a class="button button-light" href="../downloads/prototype-experiment-card.pdf" download>Experiment Card</a>
+            <a class="button button-light" href="../resources/">Open Resources and Downloads</a>
+            <button class="button button-light" type="button" disabled aria-disabled="true">Complete Journey placeholder</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad final-cta" id="journey-complete">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Prototype ready</p>
+            <h2>You have a draft prototype experiment.</h2>
+            <p>The next step is to test the prototype, collect evidence and decide whether to iterate, pause or build the next part of the Green Spectrum journey.</p>
+          </div>
+          <div class="completion-summary" data-completion-summary></div>
+          <label class="check-row"><input type="checkbox" name="prototypeReviewed"> I have reviewed the prototype card and understand what will be tested.</label>
+          <label class="check-row"><input type="checkbox" name="carryLearningGaps"> I want unresolved evidence gaps carried forward as test notes.</label>
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" data-prototype-complete>Confirm Prototype Card</button>
+            <a class="button button-primary" href="#pathway-portfolio">Open Prototype Cards</a>
+            <button class="button button-secondary" type="button" data-prototype-download="experiments">Download Experiment Pack</button>
+            <a class="button button-secondary" href="../">Return to Welcome</a>
+            <button class="text-link button-reset" type="button" disabled aria-disabled="true">New cycle placeholder</button>
+          </div>
+          <ol class="compact-progress learning-loop" aria-label="Completed Green Spectrum journey">
+            <li class="done">Explore</li><li class="done">Map</li><li class="done">Structure and Prioritise</li><li class="done">Decide and Experiment</li><li class="next">Reflect and Evolve</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section-pad" id="prototype-faq">
+        <div class="container narrow">
+          <div class="section-header reveal"><h2>Questions about interventions and experiments</h2></div>
+          <div class="accordion">
+            <details open><summary>What is the difference between an intervention and an experiment?</summary><p>An intervention is the intended change. An experiment is a structured way to test an assumption about that intervention before larger implementation.</p></details>
+            <details><summary>Do I need three pathways?</summary><p>Three pathways are recommended because they create a balanced portfolio, but one well-developed pathway is better than three weak ones.</p></details>
+            <details><summary>What is backcasting?</summary><p>Backcasting starts with a desired future outcome and works backwards to identify the conditions, capabilities, decisions and actions required to reach it.</p></details>
+            <details><summary>Where did the larger roadmap work go?</summary><p>Roadmaps, learning loops and complete journey reporting are kept as placeholders for later. The active MVP task is the prototype experiment card.</p></details>
+            <details><summary>How small should an experiment be?</summary><p>It should be the smallest credible activity that reduces an important uncertainty without creating unacceptable risk.</p></details>
+            <details><summary>What if the problem is Complex?</summary><p>Use safe-to-fail experiments, monitor patterns and adapt. Avoid assuming one intervention will create a predictable result.</p></details>
+            <details><summary>Should failure end the pathway?</summary><p>Not necessarily. A well-designed experiment can generate valuable learning even when the hypothesis is not supported.</p></details>
+            <details><summary>Can I return to an earlier Green Spectrum stage?</summary><p>Yes. New evidence may require a return to Explore, Impact Journey Mapping or Prioritisation.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad soft-band mvp-support-sections" id="profile">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">MVP workspace</p>
+            <h2>Profile, privacy and access for this test journey.</h2>
+            <p>This version is designed for user testing without accounts. Your journey is held as a local guest session so testers can get straight to the workflow.</p>
+          </div>
+          <div class="card-grid three">
+            <article class="info-card reveal">
+              <h3>Profile</h3>
+              <p>Your working profile includes selected pathways, decisions, experiment plans, owners and learning records created during this test journey.</p>
+            </article>
+            <article class="info-card reveal" id="privacy">
+              <h3>Privacy</h3>
+              <p>Prototype and experiment details are saved for continuity across the MVP flow. Avoid entering confidential implementation details during user testing.</p>
+            </article>
+            <article class="info-card reveal" id="accessibility">
+              <h3>Accessibility</h3>
+              <p>Experiment planning uses editable fields, checkboxes and structured summaries so testers can navigate and review plans without custom controls only.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <a href="../sort-prioritise/">Previous: Sort and Prioritise</a>
+        <strong>Current: Prototype Experiment</strong>
+        <a href="#reflect-learn">Next: Reflect, Learn and Evolve</a>
+        <a href="../resources/">Resources and Downloads</a>
+        <a href="#prototype-faq">Help</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#accessibility">Accessibility</a>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="prototype.js"></script>
+  </body>
+</html>
