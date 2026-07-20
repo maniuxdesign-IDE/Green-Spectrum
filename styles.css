@@ -378,7 +378,7 @@ summary small,
   border-radius: 999px;
   background-image:
     linear-gradient(180deg, rgba(255,255,255,0.02), rgba(3, 15, 8, 0.34)),
-    url("/assets/green-spectrum-landscape-hero.png");
+    url("./assets/green-spectrum-landscape-hero.png");
   background-size: cover;
   background-position: center calc(50% + (var(--hero-progress) * 32px));
   box-shadow:
@@ -777,36 +777,82 @@ details p { margin-top: 10px; }
 }
 .relationship-diagram {
   position: relative;
-  min-height: 470px;
+  width: min(100%, 720px);
+  min-height: 560px;
+  margin-inline: auto;
   display: grid;
   place-items: center;
   overflow: visible;
+  --relationship-circle-size: clamp(230px, 21vw, 286px);
+  --relationship-centre-size: clamp(138px, 12vw, 168px);
+  --relationship-left-x: 25%;
+  --relationship-right-x: 75%;
+  --relationship-side-y: 39%;
+  --relationship-bottom-x: 50%;
+  --relationship-bottom-y: 72%;
+  --relationship-centre-x: 50%;
+  --relationship-centre-y: 49%;
 }
 .relationship-diagram button {
   position: absolute;
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
-  border: 1.5px solid rgba(49, 93, 70, 0.28);
+  inline-size: var(--relationship-circle-size);
+  block-size: var(--relationship-circle-size);
+  width: var(--relationship-circle-size);
+  height: var(--relationship-circle-size);
+  min-width: 0;
+  min-height: 0;
+  max-width: var(--relationship-circle-size);
+  max-height: var(--relationship-circle-size);
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  border: 1.5px solid rgba(49, 93, 70, 0.3);
   background: rgba(231, 239, 226, 0.54);
   color: var(--gs-dark-green);
-  font-size: 0.98rem;
+  font-size: clamp(0.95rem, 1.18vw, 1.08rem);
   font-weight: 820;
   line-height: 1.16;
   text-align: center;
-  padding: 42px 36px;
+  display: grid;
+  place-items: center;
+  padding: 34px;
   cursor: pointer;
+  white-space: normal;
+  overflow-wrap: normal;
   transition: transform 180ms ease, background 180ms ease;
 }
-.relationship-diagram button:hover { transform: scale(1.02); background: rgba(213, 228, 204, 0.76); }
-.relationship-diagram button:nth-child(1) { left: 0; top: 18%; }
-.relationship-diagram button:nth-child(2) { right: 0; top: 18%; }
-.relationship-diagram button:nth-child(3) { left: calc(50% - 115px); bottom: 0; }
+.relationship-diagram button:hover {
+  transform: translate(-50%, -50%) scale(1.02);
+  background: rgba(213, 228, 204, 0.76);
+}
+.relationship-diagram button:nth-child(1) {
+  left: var(--relationship-left-x);
+  top: var(--relationship-side-y);
+  transform: translate(-50%, -50%);
+}
+.relationship-diagram button:nth-child(2) {
+  left: var(--relationship-right-x);
+  top: var(--relationship-side-y);
+  transform: translate(-50%, -50%);
+}
+.relationship-diagram button:nth-child(3) {
+  left: var(--relationship-bottom-x);
+  top: var(--relationship-bottom-y);
+  transform: translate(-50%, -50%);
+}
 .relationship-diagram span {
+  position: absolute;
+  left: var(--relationship-centre-x);
+  top: var(--relationship-centre-y);
+  transform: translate(-50%, -50%);
   z-index: 2;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  inline-size: var(--relationship-centre-size);
+  block-size: var(--relationship-centre-size);
+  width: var(--relationship-centre-size);
+  height: var(--relationship-centre-size);
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
   display: grid;
   place-items: center;
   text-align: center;
@@ -818,6 +864,7 @@ details p { margin-top: 10px; }
   font-weight: 850;
   box-shadow: 0 0 0 10px rgba(247, 248, 244, 0.72);
 }
+
 
 .resources-band {
   background: linear-gradient(135deg, var(--gs-dark-green), #102820);
@@ -1158,8 +1205,10 @@ details p { margin-top: 10px; }
     gap: 36px;
   }
   .relationship-diagram {
-    width: min(100%, 700px);
-    margin-inline: auto;
+    width: min(100%, 660px);
+    min-height: 520px;
+    --relationship-circle-size: 250px;
+    --relationship-centre-size: 140px;
   }
   .footer-grid { grid-template-columns: repeat(2, 1fr); }
   .consent-banner {
@@ -1247,7 +1296,17 @@ details p { margin-top: 10px; }
   .process-symbol-image { width: min(100%, 220px); }
   .stage-step-image { width: min(100%, 230px); max-height: 240px; }
   .stage-card { min-height: auto; }
-  .relationship-diagram { min-height: 390px; transform: scale(.86); transform-origin: center; }
+  .relationship-diagram {
+    min-height: 430px;
+    --relationship-circle-size: 214px;
+    --relationship-centre-size: 124px;
+    --relationship-left-x: 23%;
+    --relationship-right-x: 77%;
+    --relationship-side-y: 39%;
+    --relationship-bottom-y: 72%;
+    transform: scale(.86);
+    transform-origin: center;
+  }
   .compact-progress {
     grid-template-columns: 1fr;
     gap: 14px;
@@ -2766,44 +2825,66 @@ textarea[rows="4"] {
 }
 .empathy-diagram {
   position: relative;
-  min-height: 390px;
+  width: min(100%, 680px);
+  min-height: 520px;
+  margin-inline: auto;
   display: grid;
   place-items: center;
+  --empathy-circle-size: clamp(210px, 22vw, 270px);
+  --empathy-centre-size: clamp(128px, 12vw, 158px);
+  --empathy-top-y: 34%;
+  --empathy-bottom-y: 70%;
+  --empathy-left-x: 24%;
+  --empathy-right-x: 76%;
+  --empathy-centre-x: 50%;
+  --empathy-centre-y: 48%;
 }
 .empathy-diagram button {
   position: absolute;
-  width: 210px;
-  height: 210px;
+  width: var(--empathy-circle-size);
+  height: var(--empathy-circle-size);
   border-radius: 50%;
   border: 1.5px solid var(--gs-border-strong);
   background: rgba(255,255,255,.66);
   color: var(--gs-ink);
   font-weight: 850;
+  display: grid;
+  place-items: center;
+  padding: 20%;
+  text-align: center;
   cursor: pointer;
   transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
 }
 .empathy-diagram button:hover,
 .empathy-diagram button.active {
-  transform: scale(1.025);
+  transform: translate(-50%, -50%) scale(1.025);
   background: rgba(231, 239, 226, .82);
   border-color: var(--gs-deep-green);
 }
 .empathy-diagram button:nth-child(1) {
-  left: 10%;
-  top: 15%;
+  left: var(--empathy-left-x);
+  top: var(--empathy-top-y);
+  transform: translate(-50%, -50%);
 }
 .empathy-diagram button:nth-child(2) {
-  right: 10%;
-  top: 15%;
+  left: var(--empathy-right-x);
+  top: var(--empathy-top-y);
+  transform: translate(-50%, -50%);
 }
 .empathy-diagram button:nth-child(3) {
-  left: 32%;
-  bottom: 8%;
+  left: var(--empathy-centre-x);
+  top: var(--empathy-bottom-y);
+  transform: translate(-50%, -50%);
+  padding: 52% 20% 16%;
 }
 .empathy-diagram span {
+  position: absolute;
+  left: var(--empathy-centre-x);
+  top: var(--empathy-centre-y);
+  transform: translate(-50%, -50%);
   z-index: 2;
-  width: 136px;
-  height: 136px;
+  width: var(--empathy-centre-size);
+  height: var(--empathy-centre-size);
   display: grid;
   place-items: center;
   padding: 20px;
@@ -3333,7 +3414,13 @@ textarea[rows="4"] {
     grid-template-columns: 1fr;
   }
   .empathy-diagram {
-    min-height: 360px;
+    min-height: 430px;
+    --empathy-circle-size: 204px;
+    --empathy-centre-size: 120px;
+    --empathy-left-x: 22%;
+    --empathy-right-x: 78%;
+    --empathy-top-y: 35%;
+    --empathy-bottom-y: 71%;
     transform: scale(.84);
     transform-origin: center;
   }

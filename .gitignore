@@ -1,0 +1,18 @@
+# macOS and editor noise
+.DS_Store
+
+# Python cache/runtime artifacts
+__pycache__/
+*.py[cod]
+
+# Local runtime database
+data/*.sqlite3
+data/*.sqlite3-*
+
+# Local QA/generated outputs
+outputs/
+work/
+
+# Logs and temporary files
+*.log
+.tmp/

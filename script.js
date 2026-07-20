@@ -12,78 +12,111 @@ const testModeStorageKey = "greenSpectrum.testMode.v1";
 const anonymousSessionId = localStorage.getItem(sessionStorageKey) || (crypto.randomUUID ? crypto.randomUUID() : `anon-${Date.now()}-${Math.random().toString(16).slice(2)}`);
 localStorage.setItem(sessionStorageKey, anonymousSessionId);
 
+const appPageFolders = new Set([
+  "about",
+  "accessibility",
+  "dashboard",
+  "explore",
+  "help",
+  "impact-journey",
+  "login",
+  "onboarding",
+  "outputs",
+  "privacy",
+  "prototype",
+  "register",
+  "resources",
+  "sort-prioritise",
+  "terms"
+]);
+
+const pageRootPrefix = () => {
+  const path = window.location.pathname.endsWith("/")
+    ? window.location.pathname
+    : window.location.pathname.replace(/[^/]*$/, "");
+  const lastSegment = path.split("/").filter(Boolean).at(-1) || "";
+  return appPageFolders.has(lastSegment) ? "../" : "./";
+};
+
+const appHref = (target = "") => {
+  if (!target || target === "/") return pageRootPrefix();
+  if (/^(?:https?:|mailto:|tel:|#)/.test(target)) return target;
+  const clean = target.replace(/^\/+/, "");
+  return `${pageRootPrefix()}${clean}`;
+};
+
 const testModePages = [
   {
     title: "Welcome",
-    href: "/",
+    href: "",
     sections: [
-      ["Hero", "/#hero"],
-      ["Why Green Spectrum", "/#why-green-spectrum"],
-      ["Six-step process", "/#six-step-process"],
-      ["Outputs", "/#outputs"]
+      ["Hero", "#hero"],
+      ["Why Green Spectrum", "#why-green-spectrum"],
+      ["Six-step process", "#six-step-process"],
+      ["Outputs", "#outputs"]
     ]
   },
   {
     title: "Start Your Journey",
-    href: "/onboarding/",
+    href: "onboarding/",
     sections: [
-      ["Intro", "/onboarding/#onboarding-intro"],
-      ["Sections", "/onboarding/#onboarding-sections"],
-      ["Profile", "/onboarding/#profile"],
-      ["Help", "/onboarding/#onboarding-faq"]
+      ["Intro", "onboarding/#onboarding-intro"],
+      ["Sections", "onboarding/#onboarding-sections"],
+      ["Profile", "onboarding/#profile"],
+      ["Help", "onboarding/#onboarding-faq"]
     ]
   },
   {
     title: "Explore",
-    href: "/explore/",
+    href: "explore/",
     sections: [
-      ["Intro", "/explore/#explore-intro"],
-      ["Three Empathies", "/explore/#three-empathies"],
-      ["Business", "/explore/#business-empathy"],
-      ["Human", "/explore/#human-empathy"],
-      ["Planetary", "/explore/#planetary-empathy"]
+      ["Intro", "explore/#explore-intro"],
+      ["Three Empathies", "explore/#three-empathies"],
+      ["Business", "explore/#business-empathy"],
+      ["Human", "explore/#human-empathy"],
+      ["Planetary", "explore/#planetary-empathy"]
     ]
   },
   {
     title: "Impact Journey",
-    href: "/impact-journey/",
+    href: "impact-journey/",
     sections: [
-      ["Intro", "/impact-journey/#impact-journey-intro"],
-      ["Scope", "/impact-journey/#journey-scope"],
-      ["Map board", "/impact-journey/#journey-board"],
-      ["Relationships", "/impact-journey/#relationships"],
-      ["Review", "/impact-journey/#impact-review"]
+      ["Intro", "impact-journey/#impact-journey-intro"],
+      ["Scope", "impact-journey/#journey-scope"],
+      ["Map board", "impact-journey/#journey-board"],
+      ["Relationships", "impact-journey/#relationships"],
+      ["Review", "impact-journey/#impact-review"]
     ]
   },
   {
     title: "Sort and Prioritise",
-    href: "/sort-prioritise/",
+    href: "sort-prioritise/",
     sections: [
-      ["Intro", "/sort-prioritise/#prioritise-intro"],
-      ["Portfolio", "/sort-prioritise/#problem-portfolio"],
-      ["Classify", "/sort-prioritise/#classify-problems"],
-      ["Score", "/sort-prioritise/#score-problems"],
-      ["Recommendations", "/sort-prioritise/#recommendations"]
+      ["Intro", "sort-prioritise/#prioritise-intro"],
+      ["Portfolio", "sort-prioritise/#problem-portfolio"],
+      ["Classify", "sort-prioritise/#classify-problems"],
+      ["Score", "sort-prioritise/#score-problems"],
+      ["Recommendations", "sort-prioritise/#recommendations"]
     ]
   },
   {
     title: "Prototype",
-    href: "/prototype/",
+    href: "prototype/",
     sections: [
-      ["Intro", "/prototype/#prototype-intro"],
-      ["Selected pathways", "/prototype/#selected-pathways"],
-      ["Prototype builder", "/prototype/#prototype-builder"],
-      ["Summary", "/prototype/#prototype-summary"],
-      ["Help", "/prototype/#prototype-faq"]
+      ["Intro", "prototype/#prototype-intro"],
+      ["Selected pathways", "prototype/#selected-pathways"],
+      ["Prototype builder", "prototype/#prototype-builder"],
+      ["Summary", "prototype/#prototype-summary"],
+      ["Help", "prototype/#prototype-faq"]
     ]
   },
   {
     title: "Resources",
-    href: "/resources/",
+    href: "resources/",
     sections: [
-      ["Downloads", "/resources/#downloads"],
-      ["Canvases", "/resources/#canvases"],
-      ["Playbook", "/resources/#playbook"]
+      ["Downloads", "resources/#downloads"],
+      ["Canvases", "resources/#canvases"],
+      ["Playbook", "resources/#playbook"]
     ]
   }
 ];
@@ -100,8 +133,9 @@ const setTestMode = (enabled) => {
 
 const normaliseCurrentPath = () => {
   const path = window.location.pathname;
-  if (path === "/" || path === "") return "/";
-  return path.endsWith("/") ? path : `${path}/`;
+  const folders = path.split("/").filter(Boolean);
+  const page = folders.find((segment) => appPageFolders.has(segment)) || "";
+  return page ? `${page}/` : "";
 };
 
 const createTestModeLauncher = () => {
@@ -129,9 +163,9 @@ const createTestModeLauncher = () => {
       <nav class="test-mode-jump-list" aria-label="Test mode jump navigation">
         ${testModePages.map((page) => `
           <section class="${currentPath === page.href ? "is-current" : ""}">
-            <a class="test-mode-page-link" href="${page.href}">${page.title}</a>
+            <a class="test-mode-page-link" href="${appHref(page.href)}">${page.title}</a>
             <div>
-              ${page.sections.map(([label, href]) => `<a href="${href}">${label}</a>`).join("")}
+              ${page.sections.map(([label, href]) => `<a href="${appHref(href)}">${label}</a>`).join("")}
             </div>
           </section>
         `).join("")}
@@ -739,7 +773,7 @@ if (onboardingForm) {
     autosave && (autosave.textContent = "Creating journey records");
     saveBackend(values, "completed").then((response) => {
       analytics("onboarding_completed");
-      window.location.href = response?.nextRoute || "../explore/";
+      window.location.href = appHref(response?.nextRoute || "explore/");
     });
   });
 }
@@ -751,14 +785,14 @@ const applyJourneyEntryState = async () => {
     const state = await apiRequest("/api/session/journey-entry");
     ctas.forEach((cta) => {
       cta.textContent = state.ctaLabel || "Start Your Journey";
-      cta.setAttribute("href", state.ctaRoute || "/onboarding/");
+      cta.setAttribute("href", appHref(state.ctaRoute || "onboarding/"));
       cta.dataset.authenticated = String(Boolean(state.authenticated));
       cta.dataset.activeJourney = String(Boolean(state.activeJourney));
     });
   } catch {
     ctas.forEach((cta) => {
       cta.textContent = "Start Your Journey";
-      cta.setAttribute("href", cta.getAttribute("href") || "/onboarding/");
+      cta.setAttribute("href", cta.getAttribute("href") || appHref("onboarding/"));
     });
   }
 };
@@ -785,14 +819,14 @@ const setupResourceBundleAction = () => {
       try {
         const bundle = await apiRequest("/api/public/resources/bundle/download");
         if (bundle.available && bundle.downloadUrl) {
-          window.location.href = bundle.downloadUrl;
+          window.location.href = appHref(bundle.downloadUrl);
         } else {
           const message = document.querySelector("[data-resource-status]");
           if (message) message.textContent = bundle.message || "Downloads are temporarily unavailable. Please browse the Resources library.";
-          window.setTimeout(() => { window.location.href = "resources/"; }, 700);
+          window.setTimeout(() => { window.location.href = appHref("resources/"); }, 700);
         }
       } catch {
-        window.location.href = "resources/";
+        window.location.href = appHref("resources/");
       } finally {
         button.removeAttribute("aria-busy");
       }

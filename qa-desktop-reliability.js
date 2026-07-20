@@ -24,16 +24,16 @@ const pages = [
 ];
 
 const publicRoutes = [
-  "/",
-  "/resources/",
-  "/onboarding/",
-  "/explore/",
-  "/impact-journey/",
-  "/sort-prioritise/",
-  "/prototype/",
-  "/login/",
-  "/register/",
-  "/dashboard/",
+  "./",
+  "./resources/",
+  "./onboarding/",
+  "./explore/",
+  "./impact-journey/",
+  "./sort-prioritise/",
+  "./prototype/",
+  "./login/",
+  "./register/",
+  "./dashboard/",
 ];
 
 const requiredDownloads = [
