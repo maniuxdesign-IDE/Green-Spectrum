@@ -146,6 +146,30 @@
             </div>
           </section>
 
+          <section class="resource-section" id="data-source-catalogue">
+            <div class="resource-section-heading">
+              <p class="eyebrow">Future intelligence layer</p>
+              <h2>External data source catalogue.</h2>
+              <p>This internal catalogue preserves the source universe for later backend build-out. It is currently a reference and planning layer, not a live scraping or licensed-data connection.</p>
+            </div>
+            <div class="source-catalogue-panel" data-source-catalogue>
+              <div class="source-catalogue-controls">
+                <label>
+                  <span>Stage</span>
+                  <select data-source-stage>
+                    <option value="">All stages</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Search</span>
+                  <input type="search" data-source-search placeholder="Climate, labour, finance, prototype...">
+                </label>
+              </div>
+              <div class="source-catalogue-summary" data-source-summary>Loading catalogue...</div>
+              <div class="source-catalogue-grid" data-source-results></div>
+            </div>
+          </section>
+
           <div class="final-cta-card">
             <h2>Use the resources alongside the app.</h2>
             <p>The MVP app captures the digital journey. The PDFs support workshops, reflection, facilitation and user-testing sessions.</p>

@@ -1158,6 +1158,69 @@ details p { margin-top: 10px; }
   opacity: 0.58;
   cursor: not-allowed;
 }
+
+.source-catalogue-panel {
+  display: grid;
+  gap: 18px;
+  padding: clamp(22px, 3vw, 34px);
+  border: 1px solid var(--gs-border);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.74);
+}
+.source-catalogue-controls {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.45fr) minmax(280px, 1fr);
+  gap: 14px;
+}
+.source-catalogue-controls label {
+  display: grid;
+  gap: 7px;
+  color: var(--gs-deep-green);
+  font-weight: 800;
+}
+.source-catalogue-controls select,
+.source-catalogue-controls input {
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 13px;
+  border: 1px solid var(--gs-border);
+  border-radius: 12px;
+  background: var(--gs-white);
+  color: var(--gs-ink);
+  font: inherit;
+}
+.source-catalogue-summary {
+  color: var(--gs-muted-text);
+}
+.source-catalogue-summary strong {
+  color: var(--gs-deep-green);
+}
+.source-catalogue-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.source-card {
+  display: grid;
+  gap: 10px;
+  min-height: 190px;
+  padding: 18px;
+  border: 1px solid var(--gs-border);
+  border-radius: 14px;
+  background: var(--gs-white);
+}
+.source-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.16;
+}
+.source-card p {
+  font-size: 0.92rem;
+}
+.source-card small {
+  align-self: end;
+  color: var(--gs-muted-text);
+  font-weight: 740;
+}
 .button:disabled:hover {
   transform: none;
   background: transparent;
@@ -1301,7 +1364,7 @@ details p { margin-top: 10px; }
   .journey-timeline li::before { grid-row: 1 / span 2; margin: 0; }
   .journey-timeline li::after { top: 22px; left: 8px; width: 1px; height: calc(100% + 14px); }
   .card-grid.four, .card-grid.three { grid-template-columns: 1fr; }
-  .resource-library-grid { grid-template-columns: 1fr; }
+  .resource-library-grid, .source-catalogue-grid, .source-catalogue-controls { grid-template-columns: 1fr; }
   .resource-card .button { width: 100%; }
   .info-card { min-height: auto; }
   .wide-card { grid-template-columns: 1fr; min-height: auto; }

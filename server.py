@@ -2969,6 +2969,62 @@ def featured_resources() -> dict:
     }
 
 
+def external_source_catalogue(query: dict[str, list[str]] | None = None) -> dict:
+    catalogue_path = DATA_DIR / "external_source_catalogue.json"
+    if not catalogue_path.exists():
+        return {
+            "ok": False,
+            "message": "External source catalogue has not been generated yet.",
+            "stages": [],
+            "sources": [],
+            "summary": {"totalSources": 0, "stageCount": 0},
+        }
+    catalogue = json.loads(catalogue_path.read_text(encoding="utf-8"))
+    sources = list(catalogue.get("sources", []))
+    query = query or {}
+    stage = (query.get("stage", [""])[0] or "").strip()
+    access = (query.get("accessType", [""])[0] or "").strip()
+    topic = (query.get("topic", [""])[0] or "").strip()
+    search = (query.get("q", [""])[0] or "").strip().lower()
+    try:
+        limit = max(1, min(250, int(query.get("limit", ["80"])[0] or 80)))
+    except ValueError:
+        limit = 80
+    if stage:
+        sources = [item for item in sources if item.get("stageKey") == stage or item.get("appStage") == stage]
+    if access:
+        sources = [item for item in sources if item.get("accessType") == access]
+    if topic:
+        sources = [item for item in sources if topic in item.get("topics", [])]
+    if search:
+        sources = [item for item in sources if search in item.get("name", "").lower() or search in " ".join(item.get("topics", [])).lower()]
+    source_counts = {stage_info.get("key"): 0 for stage_info in catalogue.get("stages", [])}
+    for item in catalogue.get("sources", []):
+        key = item.get("stageKey")
+        source_counts[key] = source_counts.get(key, 0) + 1
+    stages = []
+    for stage_info in catalogue.get("stages", []):
+        enriched = dict(stage_info)
+        enriched["sourceCount"] = source_counts.get(stage_info.get("key"), enriched.get("sourceCount", 0))
+        stages.append(enriched)
+    return {
+        "ok": True,
+        "catalogueVersion": catalogue.get("catalogueVersion"),
+        "methodologyVersion": catalogue.get("methodologyVersion"),
+        "implementationStatus": catalogue.get("implementationStatus"),
+        "purpose": catalogue.get("purpose"),
+        "integrationNotes": catalogue.get("integrationNotes", {}),
+        "stages": stages,
+        "sources": sources[:limit],
+        "summary": {
+            "totalSources": len(catalogue.get("sources", [])),
+            "stageCount": len(stages),
+            "returnedSources": min(len(sources), limit),
+            "filteredSources": len(sources),
+        },
+    }
+
+
 def journey_entry(query: dict[str, list[str]]) -> dict:
     demo_state = query.get("state", ["guest"])[0]
     progress_preview = [
@@ -6953,6 +7009,9 @@ class GreenSpectrumHandler(BaseHTTPRequestHandler):
             return
         if route == "/api/public/resources/featured":
             self.send_json(200, featured_resources())
+            return
+        if route == "/api/public/data-sources/catalogue":
+            self.send_json(200, external_source_catalogue(query))
             return
         if route == "/api/public/resources/bundle/download":
             data = featured_resources()

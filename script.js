@@ -834,6 +834,76 @@ const setupResourceBundleAction = () => {
   });
 };
 
+const setupExternalSourceCatalogue = async () => {
+  const panel = document.querySelector("[data-source-catalogue]");
+  if (!panel) return;
+  const stageSelect = panel.querySelector("[data-source-stage]");
+  const searchInput = panel.querySelector("[data-source-search]");
+  const summaryTarget = panel.querySelector("[data-source-summary]");
+  const resultsTarget = panel.querySelector("[data-source-results]");
+
+  const loadCatalogue = async () => {
+    const staticUrl = appHref("data/external_source_catalogue.json");
+    try {
+      const response = await fetch(staticUrl, { headers: { "Accept": "application/json" } });
+      if (response.ok) return response.json();
+    } catch {}
+    return apiRequest("/api/public/data-sources/catalogue?limit=250");
+  };
+
+  const accessLabel = {
+    open_or_public_data: "Open / public data",
+    framework_or_guidance: "Framework / guidance",
+    research_or_benchmark: "Research / benchmark",
+    licensed_or_restricted: "Licensed / restricted",
+    reference_source: "Reference source"
+  };
+
+  try {
+    const catalogue = await loadCatalogue();
+    const allSources = Array.isArray(catalogue.sources) ? catalogue.sources : [];
+    const stages = Array.isArray(catalogue.stages) ? catalogue.stages : [];
+    stages.forEach((stage) => {
+      const option = document.createElement("option");
+      option.value = stage.key;
+      option.textContent = `${stage.title} (${stage.sourceCount || 0})`;
+      stageSelect?.appendChild(option);
+    });
+
+    const render = () => {
+      const stageKey = stageSelect?.value || "";
+      const search = (searchInput?.value || "").trim().toLowerCase();
+      let filtered = allSources;
+      if (stageKey) filtered = filtered.filter((item) => item.stageKey === stageKey);
+      if (search) {
+        filtered = filtered.filter((item) =>
+          `${item.name || ""} ${item.stageTitle || ""} ${(item.topics || []).join(" ")} ${item.accessType || ""}`.toLowerCase().includes(search)
+        );
+      }
+      const visible = filtered.slice(0, 18);
+      if (summaryTarget) {
+        summaryTarget.innerHTML = `<strong>${filtered.length}</strong> matching sources from <strong>${allSources.length}</strong> catalogued records. <span>${catalogue.implementationStatus || "Reference catalogue only."}</span>`;
+      }
+      if (resultsTarget) {
+        resultsTarget.innerHTML = visible.map((item) => `
+          <article class="source-card">
+            <span class="resource-stage">${item.stageTitle || "Green Spectrum"}</span>
+            <h3>${item.name || "Unnamed source"}</h3>
+            <p>${accessLabel[item.accessType] || item.accessType || "Reference source"} · ${(item.topics || []).slice(0, 3).join(", ") || "general reference"}</p>
+            <small>${item.integrationPath || "curated_reference_link"}</small>
+          </article>
+        `).join("");
+      }
+    };
+
+    stageSelect?.addEventListener("change", render);
+    searchInput?.addEventListener("input", render);
+    render();
+  } catch (error) {
+    if (summaryTarget) summaryTarget.textContent = "The external data-source catalogue could not be loaded in this environment.";
+  }
+};
+
 const setupConsentBanner = () => {
   const consent = getConsent();
   if (consent.decided || !document.body) return;
@@ -872,4 +942,5 @@ const setupConsentBanner = () => {
 applyJourneyEntryState();
 loadLandingBackendContent();
 setupResourceBundleAction();
+setupExternalSourceCatalogue();
 setupConsentBanner();
