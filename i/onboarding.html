@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starting Your Green Spectrum Journey</title>
+    <meta
+      name="description"
+      content="Green Spectrum onboarding questions for customising the sustainability workshop app."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body data-page="onboarding">
+    <div class="progress-line" aria-hidden="true">
+      <span id="scrollProgress"></span>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Green Spectrum home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Green Spectrum</span>
+      </a>
+      <nav class="top-nav" aria-label="Process pages">
+        <a href="index.html">Welcome</a>
+        <a aria-current="page" href="onboarding.html">Onboarding</a>
+        <a href="explore-map.html">Explore and Map</a>
+        <a href="impact-journey.html">Impact Journey</a>
+        <a href="sort-prioritise.html">Sort and Prioritise</a>
+        <a href="strategy-prototyping.html">Prototype</a>
+      </nav>
+    </header>
+
+    <div class="app-topbar" aria-label="Workspace tools">
+      <label class="search-box">
+        <span aria-hidden="true">Search</span>
+        <input type="search" placeholder="Search Green Spectrum">
+      </label>
+      <div class="topbar-actions">
+        <button type="button" aria-label="Notifications">Notifications</button>
+        <button type="button">Workspace</button>
+        <button type="button">Profile</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="page-hero section-panel" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Page 2 / Onboarding / Around 5 minutes</p>
+          <h1 id="page-title">Starting Your Green Spectrum Journey</h1>
+          <p class="hero-lede">
+            Answer one question at a time so Green Spectrum can tune later prompts,
+            case studies, risk checks, strategy suggestions, and activity outputs
+            around your organisation.
+          </p>
+        </div>
+        <aside class="setup-note" aria-label="Onboarding purpose">
+          <h2>What this sets up</h2>
+          <p>
+            In the full product, these details would guide industry research, public
+            company scans, relevant standards, regulation, risk signals, specialist
+            groups, and report analysis.
+          </p>
+        </aside>
+      </section>
+
+      <form class="onboarding-flow" id="onboardingForm">
+        <section class="question-section section-panel is-active" data-step="1" id="question-industry">
+          <div class="question-copy">
+            <p class="eyebrow">Question 01</p>
+            <h2>What industry should Green Spectrum understand first?</h2>
+            <p>
+              This gives the system a starting point for standards, regulations,
+              sector risks, peer examples, and specialist sustainability groups.
+            </p>
+          </div>
+          <div class="answer-panel">
+            <label for="industry">Primary industry</label>
+            <select id="industry" name="industry" required>
+              <option value="">Select an industry</option>
+              <option>Manufacturing</option>
+              <option>Retail and consumer goods</option>
+              <option>Food and agriculture</option>
+              <option>Built environment and construction</option>
+              <option>Healthcare</option>
+              <option>Finance and insurance</option>
+              <option>Technology</option>
+              <option>Transport and logistics</option>
+              <option>Energy and utilities</option>
+              <option>Public sector or education</option>
+              <option>Other or mixed sector</option>
+            </select>
+            <button class="button button-primary" type="button" data-next-step="2">
+              Continue
+            </button>
+          </div>
+        </section>
+
+        <section class="question-section section-panel is-locked" data-step="2" id="question-mode">
+          <div class="question-copy">
+            <p class="eyebrow">Question 02</p>
+            <h2>How will you use this journey?</h2>
+            <p>
+              The journey mode changes the kind of guidance, prompts, collaboration
+              cues, and outputs Green Spectrum prepares later.
+            </p>
+          </div>
+          <div class="answer-panel">
+            <fieldset class="choice-grid">
+              <legend>Journey mode</legend>
+              <label>
+                <input type="radio" name="mode" value="Solo online" required>
+                <span>Solo online</span>
+                <small>One user working through the app independently.</small>
+              </label>
+              <label>
+                <input type="radio" name="mode" value="Hybrid">
+                <span>Hybrid</span>
+                <small>Digital work with some team review or facilitation.</small>
+              </label>
+              <label>
+                <input type="radio" name="mode" value="Cocreation facilitation">
+                <span>Cocreation facilitation</span>
+                <small>A guided workshop with stakeholders and shared outputs.</small>
+              </label>
+            </fieldset>
+            <button class="button button-primary" type="button" data-next-step="3">
+              Continue
+            </button>
+          </div>
+        </section>
+
+        <section class="question-section section-panel is-locked" data-step="3" id="question-company">
+          <div class="question-copy">
+            <p class="eyebrow">Question 03</p>
+            <h2>Which organisation are we working with?</h2>
+            <p>
+              Company details help personalise public-source research, supply chain
+              assumptions, reputation scans, sector benchmarks, and later examples.
+            </p>
+          </div>
+          <div class="answer-panel form-grid">
+            <label>
+              Company name
+              <input type="text" name="companyName" placeholder="Example: Greenfield Foods" required>
+            </label>
+            <label>
+              Company website
+              <input type="url" name="companyWebsite" placeholder="https://example.com">
+            </label>
+            <label>
+              Company size
+              <select name="companySize" required>
+                <option value="">Select company size</option>
+                <option>1-10 people</option>
+                <option>11-50 people</option>
+                <option>51-250 people</option>
+                <option>251-1000 people</option>
+                <option>1000+ people</option>
+              </select>
+            </label>
+            <label>
+              Helpful context
+              <textarea name="companyDetails" rows="5" placeholder="Locations, products, services, supply chain notes, or known sustainability concerns."></textarea>
+            </label>
+            <button class="button button-primary" type="button" data-next-step="4">
+              Continue
+            </button>
+          </div>
+        </section>
+
+        <section class="question-section section-panel is-locked" data-step="4" id="question-reports">
+          <div class="question-copy">
+            <p class="eyebrow">Question 04</p>
+            <h2>Do you have existing environmental or sustainability reports?</h2>
+            <p>
+              In the full product, uploaded reports would be analysed for targets,
+              claims, risks, gaps, maturity signals, and repeated themes.
+            </p>
+          </div>
+          <div class="answer-panel">
+            <label class="file-drop" for="reports">
+              <span>Upload previous reports</span>
+              <small>PDF, DOCX, XLSX, or CSV. This prototype stores file names only.</small>
+              <input id="reports" type="file" name="reports" multiple>
+            </label>
+            <label>
+              Report notes
+              <textarea name="reportNotes" rows="4" placeholder="Mention any recent ESG, carbon, waste, compliance, or risk reports."></textarea>
+            </label>
+            <button class="button button-primary" type="button" data-next-step="5">
+              Continue
+            </button>
+          </div>
+        </section>
+
+        <section class="question-section section-panel is-locked" data-step="5" id="question-data">
+          <div class="question-copy">
+            <p class="eyebrow">Question 05</p>
+            <h2>Which data sources could Green Spectrum connect to later?</h2>
+            <p>
+              Operational data would help the app ground future suggestions in real
+              activity, cost, logistics, insurance, and risk information.
+            </p>
+          </div>
+          <div class="answer-panel">
+            <fieldset class="check-grid">
+              <legend>Potential data sources</legend>
+              <label><input type="checkbox" name="dataSources" value="Energy bills"> Energy bills</label>
+              <label><input type="checkbox" name="dataSources" value="Water bills"> Water bills</label>
+              <label><input type="checkbox" name="dataSources" value="Waste data"> Waste data</label>
+              <label><input type="checkbox" name="dataSources" value="Logistics information"> Logistics information</label>
+              <label><input type="checkbox" name="dataSources" value="Procurement data"> Procurement data</label>
+              <label><input type="checkbox" name="dataSources" value="Insurance or risk details"> Insurance or risk details</label>
+              <label><input type="checkbox" name="dataSources" value="Existing reports"> Existing reports</label>
+              <label><input type="checkbox" name="dataSources" value="Customer or reputation data"> Customer or reputation data</label>
+            </fieldset>
+            <button class="button button-primary" type="button" data-next-step="6">
+              Continue
+            </button>
+          </div>
+        </section>
+
+        <section class="question-section section-panel is-locked" data-step="6" id="question-output">
+          <div class="question-copy">
+            <p class="eyebrow">Question 06</p>
+            <h2>What should the app prepare for later pages?</h2>
+            <p>
+              Choose the kinds of outputs you want Green Spectrum to bias toward
+              after the onboarding context has been gathered.
+            </p>
+          </div>
+          <div class="answer-panel">
+            <fieldset class="check-grid">
+              <legend>Preferred output examples</legend>
+              <label><input type="checkbox" name="outputs" value="Custom strategy"> Custom strategy</label>
+              <label><input type="checkbox" name="outputs" value="Case studies"> Case studies</label>
+              <label><input type="checkbox" name="outputs" value="Suggestions"> Suggestions</label>
+              <label><input type="checkbox" name="outputs" value="Data analysis"> Analysis of data</label>
+              <label><input type="checkbox" name="outputs" value="Risk and regulation scan"> Risk and regulation scan</label>
+              <label><input type="checkbox" name="outputs" value="Prototype ideas"> Prototype ideas</label>
+            </fieldset>
+            <button class="button button-primary" type="submit">
+              Build onboarding summary
+            </button>
+          </div>
+        </section>
+      </form>
+
+      <section class="journey-output section-panel is-locked" id="journey-output" aria-labelledby="output-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Output</p>
+          <h2 id="output-title">Your Green Spectrum knowledge setup</h2>
+          <p>
+            This mid-fi summary shows the information the app would use to load
+            more accurate guidance, examples, standards, and suggestions later.
+          </p>
+        </div>
+        <div class="output-grid">
+          <div class="output-card">
+            <h3>Organisation profile</h3>
+            <dl id="profileSummary"></dl>
+          </div>
+          <div class="output-card">
+            <h3>Research directions</h3>
+            <ul id="researchSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Later app outputs</h3>
+            <ul id="outputsSummary"></ul>
+          </div>
+        </div>
+        <div class="next-status output-actions" role="status" aria-live="polite">
+          <span id="onboardingState">Onboarding not completed yet</span>
+          <a class="button button-primary" href="explore-map.html">
+            Page 3 next: Explore and Map
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=3"></script>
+  </body>
+</html>

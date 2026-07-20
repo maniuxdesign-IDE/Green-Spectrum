@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Explore and Map</title>
+    <meta
+      name="description"
+      content="Green Spectrum Explore and Map activity using the Three Empathies process."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body data-page="explore-map">
+    <div class="progress-line" aria-hidden="true">
+      <span id="scrollProgress"></span>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Green Spectrum home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Green Spectrum</span>
+      </a>
+      <nav class="top-nav" aria-label="Process pages">
+        <a href="index.html">Welcome</a>
+        <a href="onboarding.html">Onboarding</a>
+        <a aria-current="page" href="explore-map.html">Explore and Map</a>
+        <a href="impact-journey.html">Impact Journey</a>
+        <a href="sort-prioritise.html">Sort and Prioritise</a>
+        <a href="strategy-prototyping.html">Prototype</a>
+      </nav>
+    </header>
+
+    <div class="app-topbar" aria-label="Workspace tools">
+      <label class="search-box">
+        <span aria-hidden="true">Search</span>
+        <input type="search" placeholder="Search Green Spectrum">
+      </label>
+      <div class="topbar-actions">
+        <button type="button" aria-label="Notifications">Notifications</button>
+        <button type="button">Workspace</button>
+        <button type="button">Profile</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="page-hero explore-hero section-panel" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Page 3 / Explore and Map / 25-60 minutes</p>
+          <h1 id="page-title">How do I even begin to understand my Sustainability Challenges?</h1>
+          <p class="hero-lede">
+            Work through the Three Empathies: Business, Planetary, and Human.
+            Each question helps reveal maturity, hotspots, clusters, and the kind
+            of intervention approach your challenge may need.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#business-empathy">Start Business Empathy</a>
+            <a class="button button-secondary" href="#downloads">Download canvases</a>
+          </div>
+        </div>
+        <aside class="three-empathy-map" aria-label="Three Empathies model">
+          <div class="empathy-circle business">Business</div>
+          <div class="empathy-circle planetary">Planetary</div>
+          <div class="empathy-circle human">Human</div>
+          <p>Understand the organisation through commercial, ecological, and lived human realities before choosing what to solve.</p>
+        </aside>
+      </section>
+
+      <section class="downloads section-panel" id="downloads" aria-labelledby="downloads-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Downloadable assets</p>
+          <h2 id="downloads-title">Use the Three Empathies canvases alongside the digital activity.</h2>
+          <p>
+            These PDFs are included as working source material for the activity.
+            Later, the final canvas designs can replace these downloads.
+          </p>
+        </div>
+        <div class="download-grid">
+          <a class="download-card" href="assets/three-empathy-model-green-spectrum.pdf" download>
+            <span>PDF</span>
+            <strong>Three Empathy Model with Questions and Tools</strong>
+            <small>Questions, methods, and tools across Business, Human, and Planetary empathy.</small>
+          </a>
+          <a class="download-card" href="assets/three-empathies-discovery-questions.pdf" download>
+            <span>PDF</span>
+            <strong>Three Empathies Discovery Questions</strong>
+            <small>Maturity questions with White, Light Green, Mid Green, and Dark Green options.</small>
+          </a>
+        </div>
+      </section>
+
+      <form class="empathy-flow" id="empathyForm">
+        <section class="empathy-section section-panel is-active" id="business-empathy" data-empathy="Business">
+          <div class="empathy-heading">
+            <p class="eyebrow">Empathy 01</p>
+            <h2>Business empathy</h2>
+            <p>
+              Explore strategy, finance, operations, competitive positioning, risk,
+              regulatory readiness, and value creation.
+            </p>
+          </div>
+          <div class="empathy-question-list" id="businessQuestions"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-empathy="Business" data-next-empathy="Planetary">
+              Complete Business Empathy
+            </button>
+          </div>
+        </section>
+
+        <section class="empathy-section section-panel is-locked" id="planetary-empathy" data-empathy="Planetary">
+          <div class="empathy-heading">
+            <p class="eyebrow">Empathy 02</p>
+            <h2>Planetary empathy</h2>
+            <p>
+              Explore environmental impact, planetary boundaries, material flows,
+              biodiversity, systems thinking, and regenerative potential.
+            </p>
+          </div>
+          <div class="empathy-question-list" id="planetaryQuestions"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-empathy="Planetary" data-next-empathy="Human">
+              Complete Planetary Empathy
+            </button>
+          </div>
+        </section>
+
+        <section class="empathy-section section-panel is-locked" id="human-empathy" data-empathy="Human">
+          <div class="empathy-heading">
+            <p class="eyebrow">Empathy 03</p>
+            <h2>Human empathy</h2>
+            <p>
+              Explore culture, leadership, motivation, skills, behaviour, inclusion,
+              engagement, and internal power dynamics.
+            </p>
+          </div>
+          <div class="empathy-question-list" id="humanQuestions"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="submit">
+              Generate Explore and Map output
+            </button>
+          </div>
+        </section>
+      </form>
+
+      <section class="explore-output section-panel is-locked" id="explore-output" aria-labelledby="explore-output-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Output</p>
+          <h2 id="explore-output-title">Structured understanding of your sustainability challenge landscape.</h2>
+          <p>
+            This first output organises maturity readings, problem hotspots,
+            clusters, and intervention styles. Page 4 can later use this as the
+            starting point for impact journey mapping.
+          </p>
+        </div>
+
+        <div class="output-grid explore-summary-grid">
+          <div class="output-card">
+            <h3>Sustainability maturity</h3>
+            <dl id="maturitySummary"></dl>
+          </div>
+          <div class="output-card">
+            <h3>Hotspots and clusters</h3>
+            <ul id="hotspotSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Cynefin reading</h3>
+            <ul id="cynefinSummary"></ul>
+          </div>
+        </div>
+
+        <div class="next-status output-actions" role="status" aria-live="polite">
+          <span id="exploreState">Explore and Map not completed yet</span>
+          <a class="button button-primary" href="impact-journey.html">
+            Page 4 next: Impact Journey Mapping
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=4"></script>
+  </body>
+</html>

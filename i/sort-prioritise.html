@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sort and Prioritise Problems</title>
+    <meta
+      name="description"
+      content="Green Spectrum Sort and Prioritise activity for ranking sustainability problems across impact, effort, maturity, and complexity."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body data-page="sort-prioritise">
+    <div class="progress-line" aria-hidden="true">
+      <span id="scrollProgress"></span>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Green Spectrum home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Green Spectrum</span>
+      </a>
+      <nav class="top-nav" aria-label="Process pages">
+        <a href="index.html">Welcome</a>
+        <a href="onboarding.html">Onboarding</a>
+        <a href="explore-map.html">Explore and Map</a>
+        <a href="impact-journey.html">Impact Journey</a>
+        <a aria-current="page" href="sort-prioritise.html">Sort and Prioritise</a>
+        <a href="strategy-prototyping.html">Prototype</a>
+      </nav>
+    </header>
+
+    <div class="app-topbar" aria-label="Workspace tools">
+      <label class="search-box">
+        <span aria-hidden="true">Search</span>
+        <input type="search" placeholder="Search Green Spectrum">
+      </label>
+      <div class="topbar-actions">
+        <button type="button" aria-label="Notifications">Notifications</button>
+        <button type="button">Workspace</button>
+        <button type="button">Profile</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="page-hero sort-hero section-panel" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Page 5 / Sort and Prioritise / Around 10 minutes</p>
+          <h1 id="page-title">How do I even begin to understand my sustainability challenges?</h1>
+          <p class="hero-lede">
+            Sort the problem signals from Explore and Map and Impact Journey into
+            clear priorities. Each problem is placed across impact, effort,
+            strategic importance, Green Spectrum maturity, and Cynefin complexity.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#problem-intake">Start sorting problems</a>
+            <a class="button button-secondary" href="assets/green-spectrum-canvas.pdf" download>Download Spectrum Canvas</a>
+          </div>
+        </div>
+        <aside class="sort-preview" aria-label="Sort and prioritise preview">
+          <div class="preview-spectrum">
+            <span>Light</span>
+            <span>Mid</span>
+            <span>Dark</span>
+          </div>
+          <div class="preview-matrix">
+            <span class="matrix-chip">Impact</span>
+            <span class="matrix-chip">Effort</span>
+            <span class="matrix-chip">Strategic</span>
+            <span class="matrix-chip">Urgency</span>
+          </div>
+          <div class="preview-cynefin">
+            <span>Complex</span>
+            <span>Complicated</span>
+            <span>Chaotic</span>
+            <span>Simple</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="downloads section-panel" id="sort-downloads" aria-labelledby="downloads-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Downloadable assets</p>
+          <h2 id="downloads-title">Use the Spectrum Canvas and reference maps alongside the digital sorter.</h2>
+          <p>
+            The canvas helps teams classify challenges by sustainability maturity
+            and complexity before choosing which problems to tackle.
+          </p>
+        </div>
+        <div class="download-grid">
+          <a class="download-card" href="assets/green-spectrum-canvas.pdf" download>
+            <span>PDF</span>
+            <strong>Green Spectrum Canvas</strong>
+            <small>Main spectrum and Cynefin canvas for sorting problems.</small>
+          </a>
+          <a class="download-card" href="assets/green-spectrum-light-green-cynefin.pdf" download>
+            <span>PDF</span>
+            <strong>Light Green reference</strong>
+            <small>Compliance, less harm, foundations, and clear ESG work.</small>
+          </a>
+          <a class="download-card" href="assets/green-spectrum-mid-green-cynefin.pdf" download>
+            <span>PDF</span>
+            <strong>Mid Green reference</strong>
+            <small>Circular value chain, business model, and systemic change.</small>
+          </a>
+          <a class="download-card" href="assets/green-spectrum-dark-green-cynefin.pdf" download>
+            <span>PDF</span>
+            <strong>Dark Green reference</strong>
+            <small>Regenerative, long-range, nature-based transformation.</small>
+          </a>
+          <a class="download-card" href="assets/green-spectrum-opportunity-mapping-tree.pdf" download>
+            <span>PDF</span>
+            <strong>Opportunity Mapping Tree</strong>
+            <small>Bridge canvas: Page 5 defines the problem and key opportunity; Page 6 turns it into strategy, actions, and tests.</small>
+          </a>
+        </div>
+      </section>
+
+      <form class="sort-flow" id="sortPrioritiseForm">
+        <section class="sort-section section-panel is-active" id="problem-intake" data-sort-step="1">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 01</p>
+            <h2>Capture the problem signals worth sorting.</h2>
+            <p>
+              Add or edit the problems you want to compare. These can come from
+              the journey map, ESG reports, stakeholder interviews, operational
+              data, or group discussion.
+            </p>
+          </div>
+          <div class="problem-card-list" id="problemCardList"></div>
+          <div class="section-action split-action">
+            <button class="button button-secondary" type="button" id="addProblemButton">Add problem</button>
+            <button class="button button-primary" type="button" id="sortProblemsButton">Sort problems</button>
+          </div>
+        </section>
+
+        <section class="sort-section section-panel is-locked" id="visual-priority-map" data-sort-step="2">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 02</p>
+            <h2>Read the priority landscape.</h2>
+            <p>
+              The page automatically arranges problems into a heat map, the Green
+              Spectrum, and the Cynefin framework so the team can see where effort,
+              impact, maturity, and complexity are pulling in different directions.
+            </p>
+          </div>
+
+          <div class="priority-dashboard">
+            <article class="visual-panel heatmap-panel">
+              <div class="panel-heading">
+                <h3>Impact / effort heat map</h3>
+                <p>High impact and low effort problems are flagged as low hanging fruit.</p>
+              </div>
+              <div class="heatmap-shell">
+                <span class="axis-label y-axis">Impact</span>
+                <div class="heatmap-grid" id="heatmapGrid" aria-label="Problem heat map"></div>
+                <span class="axis-label x-axis">Effort</span>
+              </div>
+            </article>
+
+            <article class="visual-panel">
+              <div class="panel-heading">
+                <h3>Green Spectrum placement</h3>
+                <p>Light, Mid, and Dark Green show the maturity ambition of each problem.</p>
+              </div>
+              <div class="spectrum-lanes" id="spectrumLanes"></div>
+            </article>
+
+            <article class="visual-panel">
+              <div class="panel-heading">
+                <h3>Cynefin complexity placement</h3>
+                <p>Simple, Complicated, Complex, and Chaotic indicate the intervention style.</p>
+              </div>
+              <div class="cynefin-board" id="cynefinBoard" aria-label="Cynefin problem map"></div>
+            </article>
+          </div>
+
+          <div class="priority-picks">
+            <div class="section-heading compact">
+              <p class="eyebrow">Suggested priority</p>
+              <h2>Choose the three to five problems to take forward.</h2>
+              <p>
+                The suggested ranking favours high impact, strategic importance,
+                urgency, and lower effort. Select the problems that are most relevant
+                to the organisation and workshop brief.
+              </p>
+            </div>
+            <div class="priority-list" id="priorityList"></div>
+          </div>
+
+          <div class="section-action">
+            <button class="button button-primary" type="button" id="buildDecisionTreesButton">
+              Build decision trees
+            </button>
+          </div>
+        </section>
+
+        <section class="sort-section section-panel is-locked" id="decision-tree-section" data-sort-step="3">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 03</p>
+            <h2>Use the decision tree cascade for each selected problem.</h2>
+            <p>
+              Each tree combines the Green Spectrum maturity path with Cynefin
+              action logic: checklist, expert analysis, prototype, or stabilise.
+            </p>
+          </div>
+          <div class="decision-tree-list" id="decisionTreeList"></div>
+          <div class="canvas-segmentation" aria-label="Opportunity Mapping Tree segmentation">
+            <article>
+              <p class="eyebrow">Canvas elements for Page 5</p>
+              <h3>Decide what is worth taking forward.</h3>
+              <ul>
+                <li>Specific problem statement.</li>
+                <li>Who and what is impacted.</li>
+                <li>Business or sustainability goal.</li>
+                <li>Where it occurs in services, systems, or the value chain.</li>
+                <li>Cynefin complexity and Green Spectrum ambition.</li>
+                <li>Realistic response options: process, product, behaviour, or system.</li>
+                <li>Most relevant key opportunity.</li>
+              </ul>
+            </article>
+            <article>
+              <p class="eyebrow">Canvas elements for Page 6</p>
+              <h3>Design the intervention and prototype plan.</h3>
+              <ul>
+                <li>Project name and chosen solution.</li>
+                <li>Immediate, mid-term, and long-term action timelines.</li>
+                <li>People involved and approval needs.</li>
+                <li>Resources needed and partnerships required.</li>
+                <li>Hypothesis for test.</li>
+                <li>Success measures and evidence of progress.</li>
+                <li>Simple next step for the prototype or strategy sprint.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="handoff-preview" id="handoffPreview" aria-live="polite"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="submit">
+              Generate prioritisation output
+            </button>
+          </div>
+        </section>
+      </form>
+
+      <section class="sort-output section-panel is-locked" id="sort-output" aria-labelledby="sort-output-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Output</p>
+          <h2 id="sort-output-title">Selected priority problems and intervention logic.</h2>
+          <p>
+            This output prepares the strategy, planning, intervention, and
+            prototyping page by naming what to tackle and how each challenge should
+            be approached.
+          </p>
+        </div>
+
+        <div class="output-grid sort-summary-grid">
+          <div class="output-card">
+            <h3>Selected problems</h3>
+            <ul id="selectedProblemSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Suggested intervention styles</h3>
+            <ul id="interventionSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Evidence and data needs</h3>
+            <ul id="sortDataNeedSummary"></ul>
+          </div>
+        </div>
+
+        <div class="next-status output-actions" role="status" aria-live="polite">
+          <span id="sortState">Sort and Prioritise not completed yet</span>
+          <a class="button button-primary" href="strategy-prototyping.html">
+            Page 6 next: Strategy and Prototyping
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=6"></script>
+  </body>
+</html>

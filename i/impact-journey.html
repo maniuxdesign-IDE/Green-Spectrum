@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impact Journey Mapping</title>
+    <meta
+      name="description"
+      content="Green Spectrum Impact Journey Mapping activity for mapping company stages, activities, impacts, opportunities, and results."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body data-page="impact-journey">
+    <div class="progress-line" aria-hidden="true">
+      <span id="scrollProgress"></span>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Green Spectrum home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Green Spectrum</span>
+      </a>
+      <nav class="top-nav" aria-label="Process pages">
+        <a href="index.html">Welcome</a>
+        <a href="onboarding.html">Onboarding</a>
+        <a href="explore-map.html">Explore and Map</a>
+        <a aria-current="page" href="impact-journey.html">Impact Journey</a>
+        <a href="sort-prioritise.html">Sort and Prioritise</a>
+        <a href="strategy-prototyping.html">Prototype</a>
+      </nav>
+    </header>
+
+    <div class="app-topbar" aria-label="Workspace tools">
+      <label class="search-box">
+        <span aria-hidden="true">Search</span>
+        <input type="search" placeholder="Search Green Spectrum">
+      </label>
+      <div class="topbar-actions">
+        <button type="button" aria-label="Notifications">Notifications</button>
+        <button type="button">Workspace</button>
+        <button type="button">Profile</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="page-hero impact-hero section-panel" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Page 4 / Impact Journey Mapping / 25-60 minutes</p>
+          <h1 id="page-title">But not all problems are equal. How do I know which ones are the most important to tackle?</h1>
+          <p class="hero-lede">
+            Build a visual map of the company journey: production, logistics,
+            value chain steps, stakeholders, system interactions, impacts,
+            opportunities, analysis, and results.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#stage-builder">Start mapping stages</a>
+            <a class="button button-secondary" href="assets/impact-mapping-journey-canvas.pdf" download>Download canvas</a>
+          </div>
+        </div>
+        <aside class="journey-mini-map" aria-label="Impact journey canvas preview">
+          <div class="mini-stage">Stage 1</div>
+          <div class="mini-stage">Stage 2</div>
+          <div class="mini-stage">Stage 3</div>
+          <div class="mini-stage">Stage 4</div>
+          <div class="mini-stage">Stage 5</div>
+          <div class="mini-row">Activities</div>
+          <div class="mini-row">System interactions</div>
+          <div class="mini-row">Environmental impact</div>
+          <div class="mini-row">Social impact</div>
+          <div class="mini-row">Governance impact</div>
+        </aside>
+      </section>
+
+      <section class="downloads section-panel" id="impact-downloads" aria-labelledby="download-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Downloadable asset</p>
+          <h2 id="download-title">Use the Impact Mapping Journey Canvas alongside the digital board.</h2>
+          <p>
+            The online board follows the canvas structure while making it easier
+            to populate, compare, and turn journey data into recommendations.
+          </p>
+        </div>
+        <div class="download-grid single">
+          <a class="download-card" href="assets/impact-mapping-journey-canvas.pdf" download>
+            <span>PDF</span>
+            <strong>Impact Mapping Journey Canvas</strong>
+            <small>Landscape canvas for stakeholders, journey stages, key activities, assumptions, system interactions, experience, and ESG impacts.</small>
+          </a>
+        </div>
+      </section>
+
+      <form class="journey-flow" id="impactJourneyForm">
+        <section class="journey-section section-panel is-active" id="stage-builder" data-journey-step="1">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 01</p>
+            <h2>Define the company journey stages.</h2>
+            <p>
+              Name the five stages of the production, logistics, service, or value-chain journey.
+              These become the columns of the impact map.
+            </p>
+          </div>
+          <div class="stage-builder-grid" id="stageBuilder"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-journey-step="1" data-next-journey-step="2">
+              Build journey board
+            </button>
+          </div>
+        </section>
+
+        <section class="journey-section section-panel is-locked" id="journey-board-section" data-journey-step="2">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 02</p>
+            <h2>Populate the journey map.</h2>
+            <p>
+              Work across the board visually. Each cell captures what is happening
+              at that stage: activities, unknowns, interdependencies, experiences,
+              and environmental, social, and governance impacts.
+            </p>
+          </div>
+          <div class="journey-board-wrap">
+            <div class="journey-board" id="journeyBoard"></div>
+          </div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-journey-step="2" data-next-journey-step="3">
+              Analyse mapped impacts
+            </button>
+          </div>
+        </section>
+
+        <section class="journey-section section-panel is-locked" id="opportunity-analysis" data-journey-step="3">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 03</p>
+            <h2>Turn the map into opportunities, analysis, and results.</h2>
+            <p>
+              Add the patterns you see across the journey. This converts the map
+              from raw information into a decision-ready understanding.
+            </p>
+          </div>
+          <div class="analysis-workspace">
+            <label>
+              Potential opportunities
+              <textarea name="opportunities" rows="6" placeholder="Where could the company reduce harm, improve resilience, create value, or redesign the journey?"></textarea>
+            </label>
+            <label>
+              Analysis
+              <textarea name="analysis" rows="6" placeholder="What do the impacts, interdependencies, assumptions, and stakeholder experiences suggest?"></textarea>
+            </label>
+            <label>
+              Results
+              <textarea name="results" rows="6" placeholder="What are the main problem areas, strengths, weaknesses, priority stages, and evidence gaps?"></textarea>
+            </label>
+          </div>
+          <div class="section-action">
+            <button class="button button-primary" type="submit">
+              Generate impact journey output
+            </button>
+          </div>
+        </section>
+      </form>
+
+      <section class="impact-output section-panel is-locked" id="impact-output" aria-labelledby="impact-output-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Output</p>
+          <h2 id="impact-output-title">Mapped system understanding and impact priorities.</h2>
+          <p>
+            This output gathers the interlocking activities, functions, problems,
+            impacts, strengths, weaknesses, opportunities, and evidence needs.
+          </p>
+        </div>
+        <div class="output-grid impact-summary-grid">
+          <div class="output-card">
+            <h3>Priority stages</h3>
+            <ul id="priorityStageSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Impact clusters</h3>
+            <ul id="impactClusterSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Data and next-step needs</h3>
+            <ul id="dataNeedSummary"></ul>
+          </div>
+        </div>
+        <div class="output-card wide-output-card">
+          <h3>Mapped opportunities, analysis, and results</h3>
+          <dl id="journeyNarrativeSummary"></dl>
+        </div>
+        <div class="next-status output-actions" role="status" aria-live="polite">
+          <span id="impactState">Impact Journey Mapping not completed yet</span>
+          <a class="button button-primary" href="sort-prioritise.html">
+            Page 5 next: Sort and Prioritise
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=5"></script>
+  </body>
+</html>

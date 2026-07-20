@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prototyping Interventions</title>
+    <meta
+      name="description"
+      content="Green Spectrum strategy, horizon planning, intervention design, and prototype experiment planning."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body data-page="strategy-prototyping">
+    <div class="progress-line" aria-hidden="true">
+      <span id="scrollProgress"></span>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Green Spectrum home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Green Spectrum</span>
+      </a>
+      <nav class="top-nav" aria-label="Process pages">
+        <a href="index.html">Welcome</a>
+        <a href="onboarding.html">Onboarding</a>
+        <a href="explore-map.html">Explore and Map</a>
+        <a href="impact-journey.html">Impact Journey</a>
+        <a href="sort-prioritise.html">Sort and Prioritise</a>
+        <a aria-current="page" href="strategy-prototyping.html">Prototype</a>
+      </nav>
+    </header>
+
+    <div class="app-topbar" aria-label="Workspace tools">
+      <label class="search-box">
+        <span aria-hidden="true">Search</span>
+        <input type="search" placeholder="Search Green Spectrum">
+      </label>
+      <div class="topbar-actions">
+        <button type="button" aria-label="Notifications">Notifications</button>
+        <button type="button">Workspace</button>
+        <button type="button">Profile</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="page-hero prototype-hero section-panel" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Page 6 / Prototyping Interventions / 25-60 minutes</p>
+          <h1 id="page-title">Now I understand my challenges. How do I make clear, confident decisions on what to do next?</h1>
+          <p class="hero-lede">
+            Turn selected problems into a strategy, three horizon pathways,
+            prototype choices, experiment cards, owners, KPIs, success measures,
+            and learning decisions.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pathway-setup">Start strategy pathway</a>
+            <a class="button button-secondary" href="#prototype-downloads">Download canvases</a>
+          </div>
+        </div>
+        <aside class="portfolio-preview" aria-label="Innovation portfolio preview">
+          <div>
+            <span>H1</span>
+            <strong>Immediate</strong>
+            <small>0-3 months. Rapid prototype.</small>
+          </div>
+          <div>
+            <span>H2</span>
+            <strong>Mid-term</strong>
+            <small>3-12 months. Mid-scale pilot.</small>
+          </div>
+          <div>
+            <span>H3</span>
+            <strong>Long-term</strong>
+            <small>12+ months. Full pilot or policy test.</small>
+          </div>
+        </aside>
+      </section>
+
+      <section class="downloads section-panel" id="prototype-downloads" aria-labelledby="downloads-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Downloadable assets</p>
+          <h2 id="downloads-title">Use the canvases while building the strategy and experiment plan.</h2>
+          <p>
+            Page 6 combines the Opportunity Mapping Tree, Prototyping Wheel,
+            and Action/Prototype Experiment Card into one guided workflow.
+          </p>
+        </div>
+        <div class="download-grid">
+          <a class="download-card" href="assets/green-spectrum-opportunity-mapping-tree.pdf" download>
+            <span>PDF</span>
+            <strong>Opportunity Mapping Tree</strong>
+            <small>Problem, key opportunity, chosen solution, and three horizon actions.</small>
+          </a>
+          <a class="download-card" href="assets/prototyping-wheel.pdf" download>
+            <span>PDF</span>
+            <strong>Prototyping Wheel</strong>
+            <small>Prototype types matched to the learning question they are designed to answer.</small>
+          </a>
+          <a class="download-card" href="assets/action-prototype-experiment-card.pdf" download>
+            <span>PDF</span>
+            <strong>Action/Prototype Experiment Card</strong>
+            <small>Experiment governance, KPIs, decision logic, evaluation, and learning pathways.</small>
+          </a>
+        </div>
+      </section>
+
+      <form class="prototype-flow" id="prototypeForm">
+        <section class="prototype-section section-panel is-active" id="pathway-setup" data-prototype-step="1">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 01</p>
+            <h2>Select the problem pathway and desired outcome.</h2>
+            <p>
+              Bring forward the selected Page 5 problems, define the end state,
+              and make the strategic ambition explicit before planning actions.
+            </p>
+          </div>
+          <div class="pathway-list" id="pathwayList"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-prototype-step="1" data-next-prototype-step="2">
+              Build three horizons
+            </button>
+          </div>
+        </section>
+
+        <section class="prototype-section section-panel is-locked" id="horizon-planning" data-prototype-step="2">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 02</p>
+            <h2>Backcast the strategy into three horizons.</h2>
+            <p>
+              Define immediate, mid-term, and long-term pathways. The page
+              autofills known Page 5 details, then asks for owners, KPIs,
+              approvals, and expected outcomes.
+            </p>
+          </div>
+          <div class="horizon-board" id="horizonBoard"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-prototype-step="2" data-next-prototype-step="3">
+              Choose prototype styles
+            </button>
+          </div>
+        </section>
+
+        <section class="prototype-section section-panel is-locked" id="prototype-selection" data-prototype-step="3">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 03</p>
+            <h2>Use the Prototyping Wheel to decide what you need to learn.</h2>
+            <p>
+              Select prototype types and learning dimensions. Different prototypes
+              test feasibility, desirability, viability, scalability, adaptability,
+              or system-level impact.
+            </p>
+          </div>
+          <div class="prototype-type-grid" id="prototypeTypeGrid"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="button" data-complete-prototype-step="3" data-next-prototype-step="4">
+              Complete experiment card
+            </button>
+          </div>
+        </section>
+
+        <section class="prototype-section section-panel is-locked" id="experiment-card-section" data-prototype-step="4">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 04</p>
+            <h2>Turn the pathway into experiment cards.</h2>
+            <p>
+              Define testing logic, stakeholders, KPIs, measurement methods,
+              resources, ownership, evaluation criteria, confidence, and review dates.
+            </p>
+          </div>
+          <div class="experiment-card-list" id="experimentCardList"></div>
+          <div class="section-action">
+            <button class="button button-primary" type="submit">
+              Generate strategy and prototype output
+            </button>
+          </div>
+        </section>
+      </form>
+
+      <section class="prototype-output section-panel is-locked" id="prototype-output" aria-labelledby="prototype-output-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Output</p>
+          <h2 id="prototype-output-title">Strategy, intervention plan, and innovation portfolio.</h2>
+          <p>
+            This output pulls together the chosen problem, three horizons,
+            prototype styles, responsibilities, KPIs, success measures, and next
+            learning decisions.
+          </p>
+        </div>
+
+        <div class="output-grid prototype-summary-grid">
+          <div class="output-card">
+            <h3>Three horizon strategy</h3>
+            <ul id="horizonSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Prototype portfolio</h3>
+            <ul id="prototypePortfolioSummary"></ul>
+          </div>
+          <div class="output-card">
+            <h3>Governance and KPIs</h3>
+            <ul id="governanceSummary"></ul>
+          </div>
+        </div>
+
+        <div class="output-card wide-output-card">
+          <h3>Learning pathway</h3>
+          <dl id="learningPathwaySummary"></dl>
+        </div>
+
+        <div class="next-status output-actions" role="status" aria-live="polite">
+          <span id="prototypeState">Prototyping Interventions not completed yet</span>
+          <a class="button button-primary" href="index.html">
+            Return to Green Spectrum start
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=7"></script>
+  </body>
+</html>
