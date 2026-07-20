@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sort and Prioritise Problems | Green Spectrum</title>
+    <meta name="description" content="Review, classify and prioritise sustainability problem signals using Green Spectrum, Cynefin and transparent decision criteria.">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="app-page priority-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header is-scrolled app-header" data-header>
+      <a class="brand" href="../" aria-label="Green Spectrum home">
+        <img class="brand-logo" src="/assets/green-spectrum-logo.png" alt="Green Spectrum">
+      </a>
+      <span class="workspace-label" data-priority-organisation>New journey</span>
+      <nav class="desktop-nav" aria-label="Application navigation">
+        <a href="../">Journey</a>
+        <a href="../resources/" data-analytics="prioritisation_resources_clicked">Resources and Downloads</a>
+        <a href="#priority-faq">Help</a>
+        <a href="#profile">Profile</a>
+      </nav>
+      <span class="autosave header-save" aria-live="polite" data-priority-autosave>Saved just now</span>
+      <button class="button button-secondary header-cta" type="button" data-priority-save-exit>Save and Exit</button>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+      <nav aria-label="Mobile navigation">
+        <a href="../">Journey</a>
+        <a href="../resources/">Resources and Downloads</a>
+        <a href="#priority-faq">Help</a>
+        <a href="../">Save and Exit</a>
+      </nav>
+    </div>
+
+    <main id="main">
+      <section class="section-pad onboarding-hero" id="prioritise-intro">
+        <div class="container onboarding-intro-grid">
+          <div class="section-header reveal is-visible">
+            <p class="eyebrow">Stage 3 / Structure and Prioritise</p>
+            <h1>How do I decide which sustainability challenges matter most?</h1>
+            <p>Review the problem signals identified across the Three Empathies and Impact Journey. Green Spectrum will help organise them by sustainability ambition, complexity, evidence, impact, effort, urgency, readiness and systems leverage.</p>
+            <p class="time-pill">Approximately 10–25 minutes</p>
+            <p><strong>Objective:</strong> move from a broad set of sustainability problems to three to five clearly justified priorities.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#problem-portfolio">Review the problem portfolio</a>
+              <button class="button button-secondary" type="button" data-review-impact>Review Impact Journey outputs</button>
+              <button class="text-link button-reset" type="button" data-priority-resource-toggle>Download stage resources</button>
+            </div>
+            <div class="inline-help" data-priority-resource-panel hidden>
+              <p><strong>Structure and Prioritise resources:</strong> use the Green Spectrum Canvas and Opportunity Mapping Tree to classify problems and open up possible response routes.</p>
+              <p><a class="text-link" href="../downloads/green-spectrum-canvas.pdf" download>Download Green Spectrum Canvas</a></p>
+              <p><a class="text-link" href="../downloads/opportunity-mapping-tree.pdf" download>Download Opportunity Mapping Tree</a></p>
+            </div>
+          </div>
+          <aside class="ifo-panel reveal is-visible" aria-label="Input function output">
+            <article><span>Input</span><p>Problem signals, journey hotspots, stakeholder impacts, maturity findings, evidence gaps, risks and relationships</p></article>
+            <article><span>Function</span><p>Green Spectrum clarifies, classifies, compares and ranks the challenge portfolio using multiple decision lenses</p></article>
+            <article><span>Output</span><p>A prioritised problem portfolio, selected focus areas and decision pathways for the next stage</p></article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="app-progress-band" aria-label="Sort and Prioritise progress">
+        <div class="container">
+          <ol class="journey-timeline app-timeline explore-timeline">
+            <li class="is-complete"><span>Welcome</span><small>Complete</small></li>
+            <li class="is-complete"><span>Onboarding</span><small>Complete</small></li>
+            <li class="is-complete"><span>Explore and Map</span><small>Complete</small></li>
+            <li class="is-complete"><span>Impact Journey Mapping</span><small>Complete</small></li>
+            <li class="is-current"><span>Sort and Prioritise</span><small>Current</small></li>
+            <li class="is-next"><span>Decide and Experiment</span><small>Next</small></li>
+            <li><span>Reflect and Evolve</span><small>Future</small></li>
+          </ol>
+          <div class="page-progress explore-progress">
+            <div>
+              <strong data-priority-progress-label>Sort and Prioritise · 0 of 8 sections complete</strong>
+              <span data-priority-progress-detail>0 problem signals reviewed · 0 selected</span>
+            </div>
+            <div class="progress-track" aria-hidden="true"><span data-priority-progress-fill></span></div>
+            <p class="autosave" aria-live="polite" data-priority-time>Approximately 25 minutes remaining</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad portfolio-orientation" id="portfolio-orientation">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Portfolio orientation</p>
+            <h2>We have identified a portfolio of problem signals</h2>
+            <p>Before prioritising, we will clean and structure the portfolio. System-generated connections remain suggestions until you confirm them.</p>
+          </div>
+          <div class="card-grid four" data-source-cards></div>
+          <div class="priority-summary-strip" data-dynamic-summary></div>
+          <a class="button button-primary reveal" href="#problem-portfolio">Begin portfolio review</a>
+        </div>
+      </section>
+
+      <form class="section-pad priority-workspace" data-priority-form>
+        <div class="container impact-grid">
+          <div class="impact-main">
+            <details class="onboarding-section" id="problem-portfolio" data-priority-section="portfolio" open>
+              <summary><span>01</span><b>Review Problem Portfolio</b><small>Imported problem signals · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Each problem should be clear, evidence-linked and specific enough to compare.</p>
+                <div class="filter-bar">
+                  <label>Search <input type="search" data-problem-search placeholder="Search problem titles, evidence and notes"></label>
+                  <label>Filter <select data-problem-filter><option value="all">All problems</option><option value="confirmed">Confirmed</option><option value="research">Further research</option><option value="archived">Archived</option><option value="selected">Selected</option></select></label>
+                  <label>Sort <select data-problem-sort><option value="score">Suggested score</option><option value="confidence-low">Lowest confidence</option><option value="impact">Highest impact</option><option value="newest">Newest</option></select></label>
+                </div>
+                <div class="problem-card-list" data-problem-list></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="refine-merge" data-priority-section="refine">
+              <summary><span>02</span><b>Refine and Merge</b><small>Duplicates and problem quality · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Reduce duplication and improve problem quality while preserving source links.</p>
+                <div class="duplicate-list" data-duplicate-list></div>
+                <div class="quality-flags" data-quality-flags></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="spectrum-classification" data-priority-section="spectrum">
+              <summary><span>03</span><b>Green Spectrum Classification</b><small>Response ambition · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>This classification describes the level of response or change implied by each problem, not the organisation’s overall maturity.</p>
+                <div class="spectrum-visual" data-spectrum-visual aria-label="Green Spectrum problem map"></div>
+                <div class="problem-classification-list" data-spectrum-list></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="complexity-classification" data-priority-section="complexity">
+              <summary><span>04</span><b>Complexity Classification</b><small>Cynefin decision approach · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Do not treat difficult as automatically complex. The domain suggests what kind of response is appropriate.</p>
+                <div class="cynefin-map" data-cynefin-map aria-label="Cynefin complexity map"></div>
+                <div class="problem-classification-list" data-complexity-list></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="evidence-readiness" data-priority-section="readiness">
+              <summary><span>05</span><b>Evidence, Influence and Readiness</b><small>Can the organisation act? · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Review suggested values. Each score is an estimate and remains editable.</p>
+                <div class="score-editor" data-score-editor></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="prioritisation-engine" data-priority-section="engine">
+              <summary><span>06</span><b>Prioritisation Engine</b><small>Criteria, weights and matrices · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <div class="criteria-panel">
+                  <h3>What should determine priority?</h3>
+                  <p>Formula: weighted positive criteria minus effort as a moderating factor. Scores are decision-support estimates, not objective truth.</p>
+                  <div data-criteria-list></div>
+                </div>
+                <div class="matrix-grid">
+                  <article><h3>Impact vs Effort</h3><div class="matrix-plot" data-matrix="impact-effort"></div></article>
+                  <article><h3>Strategic Importance vs Readiness</h3><div class="matrix-plot" data-matrix="strategy-readiness"></div></article>
+                  <article><h3>Evidence Confidence vs Urgency</h3><div class="matrix-plot" data-matrix="evidence-urgency"></div></article>
+                  <article><h3>Systems Leverage vs Difficulty</h3><div class="matrix-plot" data-matrix="leverage-difficulty"></div></article>
+                </div>
+                <div class="priority-table-wrap"><table class="priority-table" data-priority-table></table></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="recommended-priorities" data-priority-section="recommendations">
+              <summary><span>07</span><b>Recommended Priorities</b><small>Shortlist and archetypes · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <div class="synthesis-grid">
+                  <article class="synthesis-card"><h3>Business heatmap</h3><div class="portfolio-heatmap" data-business-heatmap></div></article>
+                  <article class="synthesis-card"><h3>Human heatmap</h3><div class="portfolio-heatmap" data-human-heatmap></div></article>
+                  <article class="synthesis-card"><h3>Planetary heatmap</h3><div class="portfolio-heatmap" data-planetary-heatmap></div></article>
+                  <article class="synthesis-card"><h3>Evidence-gap heatmap</h3><div class="portfolio-heatmap" data-evidence-heatmap></div></article>
+                </div>
+                <div class="recommendation-groups" data-recommendation-groups></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="select-focus" data-priority-section="selection">
+              <summary><span>08</span><b>Select Final Focus</b><small>Three to five priority problems · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Select three to five problems that together create a balanced and realistic focus portfolio. A smaller portfolio can be confirmed if needed.</p>
+                <div class="selection-panel" data-selection-panel></div>
+                <div class="portfolio-warnings" data-portfolio-warnings></div>
+                <button class="button button-primary" type="button" data-priority-next>Generate decision pathways</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="decision-pathways" data-priority-section="pathways">
+              <summary><span>09</span><b>Decision Pathways</b><small>Prepare for Decide and Experiment · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>These are preparatory routes, not final intervention choices.</p>
+                <div class="decision-pathway-list" data-decision-pathways></div>
+                <div class="tool-routing-list" data-tool-routing></div>
+                <button class="button button-primary" type="button" data-priority-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="priority-review" data-priority-section="review">
+              <summary><span>10</span><b>Review and Confirm</b><small>Final portfolio · <em data-priority-state>Not started</em></small></summary>
+              <div class="section-body">
+                <div class="portfolio-dashboard" data-portfolio-dashboard></div>
+                <div class="selected-summary" data-selected-summary></div>
+                <label class="check-row"><input type="checkbox" name="priorityReviewed"> I have reviewed the selected priorities and understand the evidence, assumptions and trade-offs.</label>
+                <label class="check-row"><input type="checkbox" name="carryPriorityGaps"> I want unresolved evidence gaps carried into the next stage.</label>
+                <div class="hero-actions output-actions">
+                  <button class="button button-secondary" type="button" data-priority-download="portfolio">Download full problem portfolio</button>
+                  <button class="button button-secondary" type="button" data-priority-download="matrices">Download matrices and heatmaps</button>
+                  <button class="button button-secondary" type="button" data-priority-download="pathways">Download decision pathways</button>
+                  <button class="button button-secondary" type="button" data-priority-download="all">Download all outputs</button>
+                  <a class="button button-secondary" href="../downloads/green-spectrum-canvas.pdf" download>Green Spectrum Canvas</a>
+                  <a class="button button-secondary" href="../downloads/opportunity-mapping-tree.pdf" download>Opportunity Mapping Tree</a>
+                  <a class="button button-secondary" href="../resources/">Open Resources and Downloads</a>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <aside class="live-summary live-insight-panel" aria-labelledby="portfolio-panel-heading">
+            <p class="eyebrow">Live portfolio panel</p>
+            <h2 id="portfolio-panel-heading">Portfolio balance</h2>
+            <dl data-portfolio-panel></dl>
+            <div class="generated-insight">
+              <span class="confidence-badge">Prototype recommendation · medium confidence</span>
+              <p data-portfolio-insight>Import and review problem signals to generate recommendations.</p>
+              <button type="button" data-dismiss-priority-insight>Dismiss</button>
+            </div>
+          </aside>
+        </div>
+      </form>
+
+      <section class="section-pad final-cta" id="next-stage">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Next stage</p>
+            <h2>You now know what matters most. Next, decide what to do.</h2>
+            <p>Decide and Experiment will evaluate selected problems, compare intervention pathways, define desired outcomes and design practical experiments.</p>
+          </div>
+          <article class="next-stage-card reveal">
+            <h3>Stage 4 and 5 — Decide and Experiment</h3>
+            <p>Turn selected priorities into decision pathways, strategic horizons, prototype choices, ownership, measures and learning plans.</p>
+            <small>25–60 minutes · intervention pathways, decisions, experiments and implementation-ready plans</small>
+          </article>
+          <div class="hero-actions">
+            <a class="button button-primary" href="../prototype/" data-priority-continue>Continue to Decide and Experiment</a>
+            <button class="button button-secondary" type="button" data-priority-save-exit>Save and return later</button>
+            <a class="text-link" href="#priority-review">Review priority outputs</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad" id="priority-faq">
+        <div class="container narrow">
+          <div class="section-header reveal"><h2>Questions about sorting and prioritising</h2></div>
+          <div class="accordion">
+            <details open><summary>Does the highest score automatically become the top priority?</summary><p>No. Scores support judgement but do not replace it. Strategic balance, risk, values, readiness and stakeholder consequences may justify a different decision.</p></details>
+            <details><summary>What is the difference between Green Spectrum classification and maturity?</summary><p>Organisational maturity describes the organisation’s current position. Problem classification describes the level of sustainability response implied by a particular challenge.</p></details>
+            <details><summary>What is the difference between a difficult problem and a complex problem?</summary><p>A difficult problem may still have an analysable cause and effect. A complex problem involves interacting actors, feedback loops and outcomes that emerge over time.</p></details>
+            <details><summary>Can one problem belong to more than one Cynefin domain?</summary><p>Yes. A broad problem may contain Clear, Complicated and Complex elements. Break it into sub-problems where that improves decision-making.</p></details>
+            <details><summary>Why does evidence confidence matter?</summary><p>A problem may appear urgent or important but still be poorly understood. Low confidence often means the next action should be research or experimentation.</p></details>
+            <details><summary>Why should I choose only three to five problems?</summary><p>A small portfolio creates focus, ownership and realistic resource allocation. Other problems remain recorded and can be revisited later.</p></details>
+            <details><summary>Should I always prioritise low-effort problems?</summary><p>No. Low-effort actions can build momentum, but high-impact strategic problems may still deserve attention even when they require more capability or investment.</p></details>
+            <details><summary>When should I return to Explore or Impact Journey Mapping?</summary><p>Return when the problem remains unclear, evidence is weak, important stakeholders are missing or system relationships are not sufficiently understood.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad soft-band mvp-support-sections" id="profile">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">MVP workspace</p>
+            <h2>Profile, privacy and access for this test journey.</h2>
+            <p>This version is designed for user testing without accounts. Your journey is held as a local guest session so testers can get straight to the workflow.</p>
+          </div>
+          <div class="card-grid three">
+            <article class="info-card reveal">
+              <h3>Profile</h3>
+              <p>Your working profile includes the imported problem portfolio, scoring choices and selected focus areas for this test journey.</p>
+            </article>
+            <article class="info-card reveal" id="privacy">
+              <h3>Privacy</h3>
+              <p>Prioritisation choices are saved to support decision pathways. Use anonymised or test-safe examples where the information is sensitive.</p>
+            </article>
+            <article class="info-card reveal" id="accessibility">
+              <h3>Accessibility</h3>
+              <p>Scores, classifications and recommendations are presented in editable text-based controls as well as visual matrices.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <a href="../impact-journey/">Previous: Impact Journey</a>
+        <strong>Current: Sort and Prioritise</strong>
+        <a href="../prototype/">Next: Decide and Experiment</a>
+        <a href="../resources/">Resources and Downloads</a>
+        <a href="#priority-faq">Help</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#accessibility">Accessibility</a>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="priority.js"></script>
+  </body>
+</html>
