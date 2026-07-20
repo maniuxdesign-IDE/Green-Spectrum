@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impact Journey Mapping | Green Spectrum</title>
+    <meta name="description" content="Map activities, stakeholders, impacts, dependencies and unknowns across the organisation's value chain or service journey.">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="app-page impact-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header is-scrolled app-header" data-header>
+      <a class="brand" href="../" aria-label="Green Spectrum home">
+        <img class="brand-logo" src="/assets/green-spectrum-logo.png" alt="Green Spectrum">
+      </a>
+      <span class="workspace-label" data-impact-organisation>New journey</span>
+      <nav class="desktop-nav" aria-label="Application navigation">
+        <a href="../">Journey</a>
+        <a href="../resources/" data-analytics="impact_journey_resources_clicked">Resources and Downloads</a>
+        <a href="#impact-faq">Help</a>
+        <a href="#profile">Profile</a>
+      </nav>
+      <span class="autosave header-save" aria-live="polite" data-impact-autosave>Saved just now</span>
+      <button class="button button-secondary header-cta" type="button" data-impact-save-exit>Save and Exit</button>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+      <nav aria-label="Mobile navigation">
+        <a href="../">Journey</a>
+        <a href="../resources/">Resources and Downloads</a>
+        <a href="#impact-faq">Help</a>
+        <a href="../">Save and Exit</a>
+      </nav>
+    </div>
+
+    <main id="main">
+      <section class="section-pad onboarding-hero" id="impact-journey-intro">
+        <div class="container onboarding-intro-grid">
+          <div class="section-header reveal is-visible">
+            <p class="eyebrow">Stage 2 / Map</p>
+            <h1>Map where impacts occur and where attention is needed.</h1>
+            <p>Build a visual map of the organisation’s production, service, logistics or value-chain journey. Add activities, stakeholders, decisions, data and impacts at each stage to reveal relationships, hotspots, dependencies and unknowns.</p>
+            <p class="time-pill">25–60 minutes</p>
+            <p><strong>Objective:</strong> create an end-to-end understanding of how sustainability impacts move through the organisation and its wider system.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#journey-scope">Define the journey</a>
+              <button class="button button-secondary" type="button" data-impact-review-explore>Review Explore outputs</button>
+              <button class="text-link button-reset" type="button" data-impact-resource-toggle>Download Impact Journey resources</button>
+            </div>
+            <div class="inline-help" data-impact-resource-panel hidden>
+              <p><strong>Map-stage resource:</strong> use the Impact Journey Mapping Canvas alongside the digital journey board.</p>
+              <p><a class="text-link" href="../downloads/impact-journey-mapping-canvas.pdf" download>Impact Journey Canvas</a></p>
+            </div>
+          </div>
+          <aside class="ifo-panel reveal is-visible" aria-label="Input function output">
+            <article><span>Input</span><p>Onboarding context, Explore outputs, organisation knowledge, reports, operational data and public evidence</p></article>
+            <article><span>Function</span><p>Green Spectrum connects stages, activities, stakeholders, decisions, impacts and system relationships</p></article>
+            <article><span>Output</span><p>A completed Impact Journey Map, hotspot summary, opportunity areas and structured problem signals</p></article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="app-progress-band" aria-label="Impact Journey progress">
+        <div class="container">
+          <ol class="journey-timeline app-timeline explore-timeline">
+            <li class="is-complete"><span>Welcome</span><small>Complete</small></li>
+            <li class="is-complete"><span>Onboarding</span><small>Complete</small></li>
+            <li class="is-complete"><span>Explore and Map</span><small>Complete</small></li>
+            <li class="is-current"><span>Impact Journey Mapping</span><small>Current</small></li>
+            <li class="is-next"><span>Sort and Prioritise</span><small>Next</small></li>
+            <li><span>Decide and Experiment</span><small>Future</small></li>
+            <li><span>Reflect and Evolve</span><small>Future</small></li>
+          </ol>
+          <div class="page-progress explore-progress">
+            <div>
+              <strong data-impact-progress-label>Impact Journey Mapping · 0 of 7 sections complete</strong>
+              <span data-impact-progress-detail>0 stages mapped · 0 impacts identified</span>
+            </div>
+            <div class="progress-track" aria-hidden="true"><span data-impact-progress-fill></span></div>
+            <p class="autosave" aria-live="polite" data-impact-time>Approximately 60 minutes remaining</p>
+          </div>
+        </div>
+      </section>
+
+      <form class="section-pad impact-workspace" id="impact-form" data-impact-form>
+        <div class="container impact-grid">
+          <div class="impact-main">
+            <details class="onboarding-section" id="journey-scope" data-impact-section="scope" open>
+              <summary><span>01</span><b>What journey are you trying to understand?</b><small>Scope and boundary · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Choose a scope that is wide enough to reveal relationships but focused enough to map meaningfully.</p>
+                <fieldset><legend>What type of journey are you mapping?</legend>
+                  <div class="selection-grid">
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="product-value-chain" required><span>Product value chain</span><small>From raw materials and production through use and end of life.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="service-journey"><span>Service journey</span><small>From initial demand through delivery, use and follow-up.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="operating-process"><span>Operating process</span><small>An internal process across departments or functions.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="supply-chain"><span>Supply chain</span><small>Suppliers, logistics, procurement, production and delivery.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="customer-journey"><span>Customer or user journey</span><small>How people experience and interact with a product or service.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="decision-journey"><span>Policy or decision journey</span><small>How decisions, approvals and governance move through the organisation.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="place-based-system"><span>Place-based system</span><small>A local ecosystem, community or infrastructure system.</small></label>
+                    <label class="select-card landscape"><input type="radio" name="journeyType" value="custom"><span>Custom journey</span><small>Define your own system.</small></label>
+                  </div>
+                </fieldset>
+                <div class="form-grid">
+                  <label class="field-label">Primary focus <select name="primaryFocus"><option>Whole organisation</option><option>One product</option><option>One service</option><option>One business unit</option><option>One location</option><option>One value chain</option><option>One identified problem</option><option>One customer or stakeholder experience</option><option>One strategic initiative</option></select></label>
+                  <label class="field-label">Timeframe <select name="timeframe"><option>Current state</option><option>Recent past</option><option>Planned future state</option><option>One operating cycle</option><option>Product lifecycle</option><option>Annual cycle</option><option>Custom period</option></select></label>
+                  <label class="field-label">Where should the journey begin? <input name="startPoint" type="text" required placeholder="Supplier input, customer need, issue identified"></label>
+                  <label class="field-label">Where should the journey end? <input name="endPoint" type="text" required placeholder="End of life, follow-up, review"></label>
+                  <label class="field-label full">What is inside the boundary? <textarea name="insideBoundary" rows="3"></textarea></label>
+                  <label class="field-label full">What is outside the boundary but still influential? <textarea name="outsideBoundary" rows="3"></textarea></label>
+                </div>
+                <div class="imported-signals" data-imported-signals></div>
+                <p class="inline-insight" data-scope-interpretation>Define the journey type, start and end points to generate suggested stages.</p>
+                <button class="button button-primary" type="button" data-impact-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="define-stages" data-impact-section="stages">
+              <summary><span>02</span><b>Define the stages of the journey</b><small>Main map columns · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Each stage represents a meaningful part of the organisation’s process, value chain or service system.</p>
+                <div class="hero-actions">
+                  <button class="button button-primary" type="button" data-generate-stages>Accept suggested stages</button>
+                  <button class="button button-secondary" type="button" data-add-stage>Add stage</button>
+                  <button class="button button-secondary" type="button" data-build-board>Build journey board</button>
+                </div>
+                <div class="stage-builder" data-stage-builder></div>
+                <p class="inline-insight">Stages remain editable. Suggested information is unconfirmed until you adjust or accept it.</p>
+                <button class="button button-primary" type="button" data-impact-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="journey-board-orientation" data-impact-section="board">
+              <summary><span>03</span><b>Build the journey one layer at a time</b><small>Activities, decisions, evidence and impacts · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>The map is organised into stages horizontally and evidence layers vertically. Complete one layer at a time to avoid overload.</p>
+                <div class="layer-navigator" data-layer-navigator></div>
+                <div class="journey-board-shell">
+                  <div class="stage-tabs" data-stage-tabs></div>
+                  <div class="journey-board" data-journey-board aria-label="Impact Journey Map board"></div>
+                </div>
+                <button class="button button-primary" type="button" data-impact-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="system-interactions" data-impact-section="relationships">
+              <summary><span>04</span><b>Dependencies and system interactions</b><small>Loops, bottlenecks and flows · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Move beyond a linear journey and reveal how stages affect one another.</p>
+                <div class="form-grid">
+                  <label class="field-label">Source node <select name="relationshipSource" data-stage-select></select></label>
+                  <label class="field-label">Relationship type <select name="relationshipType"><option>Dependency</option><option>Feedback loop</option><option>Bottleneck</option><option>Reinforcing loop</option><option>Balancing loop</option><option>Delay</option><option>Information flow</option><option>Material flow</option><option>Financial flow</option><option>Decision flow</option><option>Risk transfer</option><option>Unintended consequence</option></select></label>
+                  <label class="field-label">Target node <select name="relationshipTarget" data-stage-select></select></label>
+                  <label class="field-label">Confidence <select name="relationshipConfidence"><option>Medium</option><option>High</option><option>Low</option><option>Assumption only</option></select></label>
+                  <label class="field-label full">Description <textarea name="relationshipDescription" rows="3" placeholder="Describe how the source affects the target"></textarea></label>
+                </div>
+                <button class="button button-primary" type="button" data-add-relationship>Add relationship</button>
+                <div class="relationship-list" data-relationship-list></div>
+                <button class="button button-primary" type="button" data-impact-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="risk-problem-layer" data-impact-section="signals">
+              <summary><span>05</span><b>Risks, problem signals and opportunity areas</b><small>Traceable findings · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <p>Translate mapped findings into clear, traceable problem signals and unranked opportunity areas. Ranking happens on the next page.</p>
+                <button class="button button-primary" type="button" data-generate-signals>Generate draft problem signals</button>
+                <div class="problem-signals" data-impact-problem-signals></div>
+                <button class="button button-secondary" type="button" data-add-opportunity>Add opportunity area</button>
+                <div class="problem-signals" data-opportunity-areas></div>
+                <button class="button button-primary" type="button" data-impact-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="journey-analysis" data-impact-section="analysis">
+              <summary><span>06</span><b>What does the journey reveal?</b><small>Hotspots and system analysis · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <div class="synthesis-grid">
+                  <article class="synthesis-card"><h3>Impact hotspots</h3><ul data-impact-hotspots></ul></article>
+                  <article class="synthesis-card"><h3>System leverage areas</h3><ul data-leverage-areas></ul></article>
+                  <article class="synthesis-card"><h3>Bottlenecks and feedback loops</h3><ul data-bottlenecks></ul></article>
+                  <article class="synthesis-card"><h3>Evidence gaps</h3><ul data-impact-evidence-gaps></ul></article>
+                  <article class="synthesis-card"><h3>Stakeholder blind spots</h3><ul data-stakeholder-blindspots></ul></article>
+                  <article class="synthesis-card"><h3>Priority questions for next page</h3><ul data-priority-questions></ul></article>
+                </div>
+                <button class="button button-primary" type="button" data-impact-next>Save and continue</button>
+              </div>
+            </details>
+
+            <details class="onboarding-section" id="journey-results" data-impact-section="results">
+              <summary><span>07</span><b>Your Impact Journey Map</b><small>Review, outputs and confirmation · <em data-impact-state>Not started</em></small></summary>
+              <div class="section-body">
+                <div class="synthesis-grid">
+                  <article class="synthesis-card wide"><h3>Journey overview</h3><div class="mini-journey-map" data-mini-journey-map></div></article>
+                  <article class="synthesis-card"><h3>Impact heatmap</h3><div class="impact-heatmap" data-impact-heatmap></div></article>
+                  <article class="synthesis-card"><h3>Stakeholder summary</h3><ul data-stakeholder-summary></ul></article>
+                  <article class="synthesis-card"><h3>Analysis summary</h3><p data-analysis-summary>Complete the mapping layers to generate a concise narrative.</p></article>
+                </div>
+                <label class="check-row"><input type="checkbox" name="mapReviewed"> I have reviewed the Impact Journey Map and it is accurate enough to continue.</label>
+                <label class="check-row"><input type="checkbox" name="carryGaps"> Some evidence gaps remain and should be carried into prioritisation.</label>
+                <div class="hero-actions output-actions">
+                  <button class="button button-secondary" type="button" data-impact-download="map">Download Impact Journey Map</button>
+                  <button class="button button-secondary" type="button" data-impact-download="heatmap">Download impact heatmap</button>
+                  <button class="button button-secondary" type="button" data-impact-download="signals">Download problem-signal list</button>
+                  <button class="button button-secondary" type="button" data-impact-download="all">Download all Map-stage outputs</button>
+                  <a class="button button-secondary" href="../downloads/impact-journey-mapping-canvas.pdf" download>Impact Journey Canvas</a>
+                  <a class="button button-secondary" href="../resources/">Open Resources and Downloads</a>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <aside class="live-summary live-insight-panel" aria-labelledby="impact-analysis-heading">
+            <p class="eyebrow">Live analysis panel</p>
+            <h2 id="impact-analysis-heading">System visibility</h2>
+            <dl data-impact-summary></dl>
+            <div class="generated-insight" data-impact-insight>
+              <span class="confidence-badge">Prototype insight · medium confidence</span>
+              <p>Define scope and stages to start building the system map.</p>
+              <button type="button" data-dismiss-impact-insight>Dismiss</button>
+            </div>
+          </aside>
+        </div>
+      </form>
+
+      <section class="section-pad final-cta" id="next-stage">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Next stage</p>
+            <h2>You can now see the system. Next, decide what deserves attention first.</h2>
+            <p>Sort and Prioritise will organise mapped problem signals using Green Spectrum maturity, complexity, evidence, impact, effort, urgency and strategic relevance.</p>
+          </div>
+          <article class="next-stage-card reveal">
+            <h3>Stage 3 — Structure and Prioritise</h3>
+            <p>Classify the problem signals, compare their importance and select the most appropriate focus areas.</p>
+            <small>Approximately 10–25 minutes · ranked challenge portfolio and selected priorities</small>
+          </article>
+          <div class="hero-actions">
+            <a class="button button-primary" href="../sort-prioritise/" data-impact-continue>Continue to Sort and Prioritise</a>
+            <button class="button button-secondary" type="button" data-impact-save-exit>Save and return later</button>
+            <a class="text-link" href="#journey-results">Review Impact Journey outputs</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad" id="impact-faq">
+        <div class="container narrow">
+          <div class="section-header reveal"><h2>Questions about Impact Journey Mapping</h2></div>
+          <div class="accordion">
+            <details open><summary>How many stages should the journey contain?</summary><p>Use enough stages to reveal meaningful differences without making the map unmanageable. Three to eight primary stages is usually appropriate.</p></details>
+            <details><summary>What if our process is not linear?</summary><p>Use stages as an organising structure, then add feedback loops, dependencies and repeated flows to show how the system behaves.</p></details>
+            <details><summary>Should I map the whole organisation?</summary><p>Only if that scope is useful and manageable. A product, service, business unit, value chain or specific challenge often produces clearer insights.</p></details>
+            <details><summary>What if I do not have all the data?</summary><p>Record the gap, its importance and where evidence may be found. Unknowns are a legitimate output.</p></details>
+            <details><summary>Should I include positive impacts?</summary><p>Yes. The map should show strengths, value creation and existing capabilities as well as harm, risk and weakness.</p></details>
+            <details><summary>How is this different from a customer journey map?</summary><p>The Impact Journey Map includes activities, decisions, stakeholders, data, environmental impacts, social impacts, governance, business outcomes and system relationships.</p></details>
+            <details><summary>Should I choose solutions on this page?</summary><p>No. Record opportunity areas, but delay final solution selection until the system has been structured and priorities have been compared.</p></details>
+            <details><summary>Can a problem appear in more than one stage?</summary><p>Yes. Repeated problems often indicate a system-level issue and should be linked across all relevant stages.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad soft-band mvp-support-sections" id="profile">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">MVP workspace</p>
+            <h2>Profile, privacy and access for this test journey.</h2>
+            <p>This version is designed for user testing without accounts. Your journey is held as a local guest session so testers can get straight to the workflow.</p>
+          </div>
+          <div class="card-grid three">
+            <article class="info-card reveal">
+              <h3>Profile</h3>
+              <p>Your working profile combines onboarding, Explore signals and this journey map. It is used to keep the test flow coherent between stages.</p>
+            </article>
+            <article class="info-card reveal" id="privacy">
+              <h3>Privacy</h3>
+              <p>Use test-safe data where possible. The MVP stores mapped stages, impacts and signals to support the next prioritisation step.</p>
+            </article>
+            <article class="info-card reveal" id="accessibility">
+              <h3>Accessibility</h3>
+              <p>The map is supported by structured text fields and summaries so testers can review the content without relying only on visual layout.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <a href="../explore/">Previous: Explore and Map</a>
+        <strong>Current: Impact Journey Mapping</strong>
+        <a href="../sort-prioritise/">Next: Sort and Prioritise</a>
+        <a href="../resources/">Resources and Downloads</a>
+        <a href="#impact-faq">Help</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#accessibility">Accessibility</a>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="impact.js"></script>
+  </body>
+</html>
