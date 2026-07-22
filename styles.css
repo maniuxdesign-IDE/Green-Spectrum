@@ -3731,3 +3731,70 @@ textarea[rows="4"] {
   .relationship-diagram-rich .relationship-node small,
   .relationship-diagram-rich .relationship-node .button { display: none; }
 }
+
+
+/* Relationship diagram cleanup */
+.homepage-relationship {
+  align-items: start;
+}
+.relationship-diagram-rich {
+  min-height: clamp(560px, 56vw, 720px);
+  overflow: visible;
+}
+.relationship-diagram-rich .relationship-node {
+  gap: 0;
+  padding: clamp(34px, 5vw, 70px);
+  background: rgba(255,255,255,0.18);
+  z-index: 1;
+}
+.relationship-diagram-rich .relationship-node strong {
+  display: block;
+  max-width: 11ch;
+  font-size: clamp(1.2rem, 2.1vw, 1.85rem);
+  line-height: 1.12;
+}
+.relationship-diagram-rich .relationship-centre {
+  background: rgba(132, 169, 123, 0.62);
+  box-shadow: 0 0 0 14px rgba(255,255,255,0.72);
+  padding: 22px;
+}
+.relationship-diagram-rich .relationship-centre strong {
+  display: block;
+  max-width: 10ch;
+  font-size: clamp(1.05rem, 1.6vw, 1.35rem);
+  line-height: 1.15;
+}
+.relationship-diagram-rich .relationship-node small,
+.relationship-diagram-rich .relationship-node .button,
+.relationship-diagram-rich .relationship-centre small,
+.relationship-diagram-rich .relationship-centre span {
+  display: none;
+}
+.relationship-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: clamp(16px, 3vw, 34px);
+}
+.relationship-actions .button {
+  min-width: 0;
+  white-space: nowrap;
+}
+@media (max-width: 900px) {
+  .relationship-diagram-rich {
+    min-height: 660px;
+  }
+  .relationship-diagram-rich .relationship-node strong {
+    font-size: clamp(1rem, 4vw, 1.35rem);
+  }
+}
+@media (max-width: 760px) {
+  .relationship-diagram-rich {
+    min-height: 610px;
+  }
+  .relationship-actions .button {
+    width: 100%;
+  }
+}
