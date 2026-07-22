@@ -887,7 +887,7 @@ details p { margin-top: 10px; }
   align-items: center;
   padding: var(--relationship-label-bottom-pad) var(--relationship-label-edge-pad) 0;
 }
-.relationship-diagram span {
+.relationship-diagram > span {
   position: absolute;
   left: var(--relationship-centre-x);
   top: var(--relationship-centre-y);
@@ -3607,4 +3607,127 @@ textarea[rows="4"] {
   .section-body {
     padding: 18px;
   }
+}
+
+
+/* Simplified CSO homepage */
+.reference-hero .methodology-version {
+  display: block;
+  color: rgba(255,255,255,0.86);
+  font-weight: 760;
+  text-shadow: 0 2px 22px rgba(0,0,0,0.42);
+}
+.hero-scroll-copy::before {
+  content: "";
+  position: absolute;
+  inset: -22px clamp(4px, 7vw, 90px);
+  border-radius: 999px;
+  background: rgba(6, 38, 27, 0.32);
+  filter: blur(10px);
+  z-index: -1;
+}
+.relationship-diagram-rich .relationship-node,
+.relationship-diagram-rich .relationship-centre {
+  text-decoration: none;
+  color: var(--gs-deep-green);
+}
+.relationship-diagram-rich .relationship-node {
+  position: absolute;
+  inline-size: var(--relationship-circle-size);
+  block-size: var(--relationship-circle-size);
+  width: var(--relationship-circle-size);
+  height: var(--relationship-circle-size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid rgba(47, 82, 63, 0.28);
+  background: rgba(255,255,255,0.28);
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+  padding: clamp(28px, 4vw, 50px);
+  font-weight: 820;
+  transform: translate(-50%, -50%);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+.relationship-diagram-rich .relationship-node:hover,
+.relationship-diagram-rich .relationship-node:focus-visible,
+.relationship-diagram-rich .relationship-centre:hover,
+.relationship-diagram-rich .relationship-centre:focus-visible {
+  transform: translate(-50%, -50%) scale(1.025);
+  border-color: var(--gs-deep-green);
+  background: rgba(255,255,255,0.62);
+}
+.relationship-diagram-rich .relationship-node small {
+  max-width: 18ch;
+  color: var(--gs-muted-text);
+  font-size: clamp(0.72rem, 0.86vw, 0.88rem);
+  line-height: 1.25;
+  font-weight: 680;
+}
+.relationship-diagram-rich .relationship-node .button {
+  min-height: 0;
+  padding: 8px 12px;
+  font-size: 0.72rem;
+  white-space: normal;
+}
+.relationship-diagram-rich .relationship-node:nth-child(1) { left: var(--relationship-left-x); top: var(--relationship-side-y); }
+.relationship-diagram-rich .relationship-node:nth-child(2) { left: var(--relationship-right-x); top: var(--relationship-side-y); }
+.relationship-diagram-rich .relationship-node:nth-child(3) { left: var(--relationship-bottom-x); top: var(--relationship-bottom-y); }
+.relationship-diagram-rich .relationship-centre {
+  position: absolute;
+  left: var(--relationship-centre-x);
+  top: var(--relationship-centre-y);
+  transform: translate(-50%, -50%);
+  inline-size: var(--relationship-centre-size);
+  block-size: var(--relationship-centre-size);
+  width: var(--relationship-centre-size);
+  height: var(--relationship-centre-size);
+  border-radius: 50%;
+  background: rgba(132, 169, 123, 0.78);
+  color: var(--gs-ink);
+  box-shadow: 0 0 0 16px rgba(255,255,255,0.62);
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 6px;
+  text-align: center;
+  padding: 18px;
+  font-weight: 880;
+  z-index: 2;
+}
+.relationship-diagram-rich .relationship-centre small,
+.relationship-diagram-rich .relationship-centre span {
+  font-size: 0.68rem;
+  line-height: 1.15;
+}
+.pathway-card {
+  min-height: 360px;
+  color: inherit;
+  text-decoration: none;
+}
+.pathway-card .button,
+.pathway-card .text-link { width: fit-content; }
+.pathway-card:hover,
+.pathway-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--gs-deep-green);
+  background: var(--gs-white);
+}
+.flow-grid .info-card ul,
+.tool-card p { margin: 0; }
+.tool-card small { margin-top: auto; }
+.learning-loop-note {
+  grid-column: 1 / -1;
+  color: var(--gs-muted-text);
+  font-weight: 760;
+}
+.learning-loop-list .stage-card:last-child {
+  border-style: dashed;
+}
+@media (max-width: 760px) {
+  .relationship-diagram-rich { min-height: 760px; }
+  .relationship-diagram-rich .relationship-node small,
+  .relationship-diagram-rich .relationship-node .button { display: none; }
 }
