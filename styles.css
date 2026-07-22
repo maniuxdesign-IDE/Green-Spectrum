@@ -4179,3 +4179,122 @@ textarea[rows="4"] {
     min-width: 0;
   }
 }
+
+
+/* CSO homepage refinement */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 28px);
+}
+.landing-page section[id] {
+  scroll-margin-top: calc(var(--header-height) + 30px);
+}
+.reference-hero .hero-sticky::after {
+  content: "";
+  position: absolute;
+  width: min(92vw, 1080px);
+  height: min(34vw, 390px);
+  border-radius: 999px;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.52), rgba(0,0,0,0.28) 46%, transparent 72%);
+  opacity: max(0, calc(0.86 - (var(--hero-progress) * 1.55)));
+  filter: blur(12px);
+  z-index: 0;
+  pointer-events: none;
+}
+.reference-hero .hero-symbol-logo {
+  filter: brightness(0) invert(1) drop-shadow(0 26px 58px rgba(0,0,0,0.58)) drop-shadow(0 0 18px rgba(216,255,219,0.24));
+}
+.reference-hero .hero-scroll-copy {
+  z-index: 2;
+}
+.reference-hero .hero-lede {
+  max-width: 760px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.45);
+}
+.reference-hero .methodology-version {
+  color: rgba(255,255,255,0.86);
+  border-color: rgba(255,255,255,0.32);
+  background: rgba(0,0,0,0.18);
+  backdrop-filter: blur(10px);
+}
+.proof-strip {
+  list-style: none;
+  margin: clamp(28px, 4vw, 46px) auto 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 980px;
+}
+.proof-strip li,
+.format-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 7px 11px;
+  border: 1px solid rgba(49,93,70,0.24);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+  color: var(--gs-deep-green);
+  font-size: 0.78rem;
+  font-weight: 820;
+  line-height: 1;
+}
+.format-badge {
+  min-height: 24px;
+  margin-right: 6px;
+  padding: 5px 8px;
+  background: rgba(132,169,123,0.2);
+}
+.playbook-preview-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 18px 0 22px;
+}
+.playbook-preview-row span {
+  min-height: 92px;
+  display: grid;
+  place-items: center;
+  padding: 14px;
+  border: 1px solid rgba(49,93,70,0.22);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(231,239,226,0.6));
+  color: var(--gs-deep-green);
+  font-weight: 850;
+  text-align: center;
+}
+.commercial-section .info-card {
+  min-height: 220px;
+}
+.credibility-strip {
+  padding: 22px 0;
+  border-block: 1px solid rgba(49,93,70,0.16);
+  background: rgba(231,239,226,0.55);
+}
+.credibility-strip p {
+  margin: 0;
+  color: var(--gs-deep-green);
+  font-weight: 800;
+  text-align: center;
+}
+.landing-page .pathway-card p strong {
+  color: var(--gs-deep-green);
+}
+.landing-page .tool-stage-grid .tool-card small {
+  margin-top: 0;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
+  .reference-hero .hero-sticky::after {
+    width: 110vw;
+    height: 48vw;
+  }
+  .proof-strip {
+    justify-content: flex-start;
+  }
+  .playbook-preview-row {
+    grid-template-columns: 1fr;
+  }
+}
